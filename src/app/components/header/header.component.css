@@ -1,0 +1,383 @@
+
+/* header-top style start  */
+
+.header-top
+{
+    display: flex;
+    max-width: 1920px;
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-top .header-top-info
+{
+    width: 33%;
+    margin: .2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top .header-top-info span
+{
+    margin-top: .1rem;
+    margin-bottom: .3rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    background: #002F4E;
+    color: white;
+    padding: 2px 30px;
+    border: none;
+}
+
+.header-top .header-top-info .box
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .header-top-info .box div
+{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.header-top .header-top-info div i,
+.header-top .header-top-info .box div i
+{
+    margin: 0 3px;
+    color: #24A19C;
+}
+
+.header-top .header-top-info .box div a,
+.header-top .header-top-info div a
+{
+    color: #002F4E;
+    font-size: 15px;
+}
+
+#e_1 i,#e_2 i,#e_3 i,#e_4 i,#e_5 i,
+#e_1 a,#e_2 a,#e_3 a,#e_4 a,#e_5 a{
+    transition: all .5s ease-in-out;
+}  
+#e_1:hover i, #e_2:hover i, #e_3:hover i, #e_4:hover i, #e_5:hover i{
+    color: #002F4E;
+}
+#e_1:hover a, #e_2:hover a, #e_3:hover a, #e_4:hover a, #e_5:hover a
+{
+    color: #24A19C;
+}
+
+@media (min-width: 1050px) and (max-width: 1700px) {
+    .header-top .header-top-info .box
+    {
+         flex-direction: column;
+         align-items: start;
+    }    
+}
+ 
+@media (min-width: 200px) and (max-width: 1050px) {
+    .header-top
+     {
+         display: none;
+     }    
+}
+
+/* header-top style end  */
+
+
+/* header style start */
+
+header{
+    padding:20px 0px;
+    background: #B4E4FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+header .header-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .header-box img
+{
+    width: 30%;
+    object-fit: cover;
+    height: auto;
+    margin: 10px 0;
+}
+
+header .header-box .brand-name
+{
+    font-size: 27px;
+    font-weight: bolder;
+    color: #002F4E;
+    letter-spacing: 1px;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+header nav ul
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header nav #colapse-bar
+{
+    display: none;
+    font-size: 2.5rem;
+    color:#3C2317;
+    transition: all .5s ease-in-out;
+}
+
+header nav #colapse-bar:hover
+{
+    color: #002F4E;
+}
+
+header nav ul li
+{
+    margin: 0 .5rem;
+    position: relative;
+}
+
+header nav ul .open-drop,
+header nav ul li a
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    color: #3C2317;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+header nav ul .open-drop:hover,
+header nav ul li a:hover
+{
+    color:#B3541E;
+}
+
+header nav ul li .drop-menu
+{
+    width: 330px;
+    z-index: 1;
+    position:absolute; 
+    transform: translateY(3%);
+    transform: translateX(-25%);
+    display: none;
+    align-items: start;
+    padding: 20px 10px;
+    flex-direction: column;
+    background:#B4E4FF;
+}  
+
+header nav ul li .show{
+    display: flex;
+}
+
+header nav ul li .drop-menu a
+{
+    margin: .3rem 0;
+    text-transform: capitalize;
+}
+
+header .change-lang ul 
+{
+    display: flex;
+    align-items: center;
+}
+
+header .change-lang ul li 
+{
+    margin: 0 .5rem;
+}
+
+header .header-box {width: 15%;} 
+header .nav-box {width: 55%;}
+header .change-lang {width: 12%;}
+
+
+@media (min-width:100px) and (max-width:1504px) {
+
+    header {justify-content: center;}
+    header .header-box
+    {
+        flex-direction: row;
+        width: auto; 
+        margin: 0 10px;      
+    }
+    header .change-lang
+    {
+        width: auto;
+        margin: 0 10px;
+    }
+    header .nav-box{width: 95%; order: 3;}
+    header .header-box{order: 1;}
+    header .change-lang{order: 2;}
+    header .nav-box ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:700px) and (max-width:900px) {
+
+    header {justify-content: center;}
+    header .header-box
+    {
+        flex-direction: row;
+        width: auto;
+        margin: 0 5px;
+        order: 1;
+    }
+    header nav #collapse-menu li {margin: 3px 0;}
+    header .change-lang{width: auto; order: 2; margin: 5px;}
+    header .nav-box{width: auto; order: 3; margin: 5px;}
+    header nav #collapse-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 0; left: 0;
+        transform: translate(0,50%);
+        background: #B4E4FF;
+    }
+
+    header nav #colapse-bar{display: block;}
+}
+
+@media (min-width:500px) and (max-width:699px) {
+
+    header {justify-content: space-evenly;}
+    header .header-box
+    {
+        flex-direction: column;
+        width: auto;
+        margin:0px;
+        order: 1;
+    }
+    header nav #collapse-menu li {margin: 3px 0;}
+    header .change-lang{width: auto; order: 2; margin: 0;}
+    header .change-lang ul{flex-direction: column;}
+    header .nav-box{width: auto; order: 3; margin: 0;}
+    header nav #collapse-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        transform: translate(0,75%);
+        background: #B4E4FF;
+    }
+    header nav #colapse-bar{display: block;}
+}
+
+@media (min-width:404px) and (max-width:499px) {
+
+    header {justify-content: space-evenly;}
+    header .header-box
+    {
+        flex-direction: column;
+        width: 80%;
+        margin:0px;
+        order: 1;
+    }
+    header .change-lang{width: 100%; order: 3; margin: 0;}
+    header .change-lang ul{flex-direction: row; justify-content: space-evenly;}
+    header .nav-box{width: 10%; order: 2; margin: 0 1px;}
+    header nav #collapse-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 0; left: 0;
+        transform: translate(0,101%);
+        background: #B4E4FF;
+    }
+    
+    header nav #collapse-menu li {margin: 3px 0;}
+    header nav #colapse-bar{display: block;}
+}
+
+
+@media (min-width:315px) and (max-width:403px) {
+
+    header {justify-content: space-evenly;}
+    header .header-box
+    {
+        flex-direction: column;
+        width: 80%;
+        margin:0px;
+        order: 1;
+    }
+    header .change-lang{width: 100%; order: 3; margin: 0;}
+    header .change-lang ul{flex-direction: row; justify-content: space-evenly;}
+    header .nav-box{width: 10%; order: 2; margin: 0 1px;}
+    header nav #collapse-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 0; left: 0;
+        transform: translate(0,90%);
+        background: #B4E4FF;
+    }
+    
+    header nav #collapse-menu li {margin: 3px 0;}
+    header nav #colapse-bar{display: block;}
+}
+
+@media (min-width:250px) and (max-width:314px) {
+
+    header {justify-content: space-evenly;}
+    header .header-box
+    {
+        flex-direction: column;
+        width: 80%;
+        margin:0px;
+        order: 1;
+    }
+    header .change-lang{width: 100%; order: 3; margin: 0;}
+    header .change-lang ul{flex-direction: row; justify-content: space-evenly;}
+    header .nav-box{width: 10%; order: 2; margin: 0 1px;}
+    header nav #collapse-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 0; left: 0;
+        transform: translate(0,95%);
+        background: #B4E4FF;
+    }
+    
+    header nav #collapse-menu li {margin: 3px 0;}
+    header nav #colapse-bar{display: block;}
+}
+
+
+@media all and (max-width:900px){
+    header nav ul li .drop-menu{
+       transform: translateX(-35.3%);
+    }
+}
+/* header style end */

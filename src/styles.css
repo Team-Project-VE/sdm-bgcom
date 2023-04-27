@@ -1,1 +1,213 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Glitch&display=swap');
+
+body{
+    background:#FFFBF3;
+    font-family: 'Roboto Slab', serif;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-transform: capitalize;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+:root{
+    --goals_0:#f0ad4e;
+    --goals_1:#2f3080;
+    --goals_2:#f36f24;
+    --goals_3:#4767B0;
+    --goals_4:#cf2027;
+    --goals_5:#409fd7;
+    --goals_6:#e71e64;
+    --goals_7:#0EB4A6;
+    --goals_8:#944D9D;
+    --goals_9:#9BC241;
+}
+
+/* goals-section style start  */
+
+.goals-section{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.goals-section article
+{
+    background: #002F4E;
+    width: 15%;
+    height: 400px;
+    color: #FFFBF3;
+}
+
+.goals-section main {
+    width: 68%;
+    background: #5A7670;
+}
+
+.goals-section main .main-content:nth-child(1)
+{
+    background: white;
+}
+
+.goals-section main .main-content
+{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.goals-section main .main-content h1{margin: .5rem auto; text-align: center; font-size: 2rem; color: black;} 
+.goals-section main .main-content .bg_0{background: var(--goals_0); justify-content: end; margin: .2rem 0;}
+.goals-section main .main-content .bg_1{background: var(--goals_1); flex-direction: row-reverse; justify-content: start; margin: .2rem 0;}
+.goals-section main .main-content .bg_2{background: var(--goals_2); justify-content: end; margin: .2rem 0;}
+.goals-section main .main-content .bg_3{background: var(--goals_3); flex-direction: row-reverse; justify-content: start; margin: .2rem 0;}
+.goals-section main .main-content .bg_4{background: var(--goals_4); justify-content: end; margin: .2rem 0;}
+.goals-section main .main-content .bg_5{background: var(--goals_5); flex-direction: row-reverse; justify-content: start; margin: .2rem 0;}
+.goals-section main .main-content .bg_6{background: var(--goals_6); justify-content: end; margin: .2rem 0;}
+.goals-section main .main-content .bg_7{background: var(--goals_7); flex-direction: row-reverse; justify-content: start; margin: .2rem 0;}
+.goals-section main .main-content .bg_8{background: var(--goals_8); justify-content: end; margin: .2rem 0;}
+.goals-section main .main-content .bg_9{background: var(--goals_9); flex-direction: row-reverse; justify-content: start; margin: .2rem 0;}
+.goals-section main .main-content .mc-box { width: 50%; display: flex; align-items: center; margin: .2rem 0;}
+.goals-section main .main-content .mc-box .mc-box-info{padding: 10px;}
+.goals-section main .main-content .mc-box .mc-box-info p {color: white;}
+.goals-section main .main-content .mc-box .mc-box-info .goals-title {font-size: 1.5rem; border-bottom: 3px solid #002F4E; padding-bottom:5px;}
+.goals-section main .main-content .mc-box .mc-box-info .goals-description{font-size: 1rem;}
+.goals-section main .main-content .mc-box .mc-box-icon i{font-size: 3rem; margin: 0 1rem; color: white;}
+/* .goals-section main .main-content .mc-box{visibility: hidden;} */
+.goals-section main .main-content .bg_1,
+.goals-section main .main-content .bg_3,
+.goals-section main .main-content .bg_5,
+.goals-section main .main-content .bg_7,
+.goals-section main .main-content .bg_9
+{
+    animation-name: fadeLeft;
+    animation-duration: 1s;
+}
+
+.goals-section main .main-content .bg_0,
+.goals-section main .main-content .bg_2,
+.goals-section main .main-content .bg_4,
+.goals-section main .main-content .bg_6,
+.goals-section main .main-content .bg_8 {
+    animation-name: fadeRight;
+    animation-duration: 1s;
+}
+
+.arrL{
+    visibility: hidden;
+}
+
+.active1{
+    clip-path: polygon(100% 0, 10% 0, 0 100%, 100% 100%, 100% 50%);
+    animation-name: arrL;
+    animation-duration: 1.5s;
+    visibility: visible;
+}
+
+.active2{
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%, 0% 50%);
+    animation-name: arrL;
+    animation-duration: 1.5s;
+    visibility: visible;
+}
+
+@keyframes fadeRight {
+    
+    from {
+    opacity: .4; 
+    transform: translateX(-948px);
+} 
+    to {opacity: 1}
+}
+
+@keyframes fadeLeft {
+    
+    from {
+    opacity: .4; 
+    transform: translateX(948px);
+} 
+    to {opacity: 1}
+}
+
+@keyframes arrR {
+    
+    from {
+        opacity: .4; 
+        transform: translateX(100px);
+        transform: translateY(-50px);
+        clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+    } 
+    to {opacity: 1}
+}
+
+@keyframes arrL {
+    
+    from {
+        opacity: .4; 
+        transform: translateX(-100px);
+        transform: translateY(-50px);
+        clip-path: polygon(90% 0, 0 0, 0 100%, 90% 100%, 100% 50%);
+    } 
+    to {opacity: 1}
+}
+
+@media (min-width:1050px) and (max-width:1478px) {
+    
+    .goals-section article{width: 24%;}
+    .goals-section main{width: 50%;}
+    .goals-section main .main-content .mc-box { width: 100%; display: flex; align-items: center;}
+}
+
+@media (min-width:530px) and (max-width:1050px) {
+    
+    .goals-section article{width: 99%; margin: .5rem 0;}
+    .goals-section main{width: 99%;}
+    .goals-section main .main-content .mc-box { width: 100%; display: flex; align-items: center;}
+}
+
+@media all and (max-width:530px) {
+    
+    .goals-section article{width: 99%; margin: .5rem 0;}
+    .goals-section main{width: 99%;}
+    .goals-section main .main-content .mc-box { width: 100%; display: flex; align-items: center; flex-direction: column-reverse;}   
+    .goals-section main .main-content .mc-box .mc-box-icon i{font-size: 3rem; margin: 1rem 0;} 
+}
+
+@media all and (max-width:450px)
+{
+    .active1{
+        clip-path: polygon(100% 0, 0% 0, 0 100%, 100% 100%, 100% 50%);
+        animation-name: arrL;
+        animation-duration: 1.5s;
+        visibility: visible;
+    }
+    
+    .active2{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+        animation-name: arrL;
+        animation-duration: 1.5s;
+        visibility: visible;
+    }
+}
+
+/* goals-section style end  */

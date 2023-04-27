@@ -1,1 +1,46 @@
-<p>header works!</p>
+<ng-container *ngIf="jsonData$ | async as jsonData">
+    <header>
+        <div class="header-box">
+            <img src="../header/../../assets/images/logo/sdm_logo.webp" alt="sdm bg logo image">
+            <p class="brand-name">{{  jsonData[0]?.brandName}}</p>
+        </div>
+        <nav class="nav-box">
+          <i class="fa-solid fa-bars" id="colapse-bar"></i>
+          <ul id="collapse-menu">
+            <ng-container *ngFor="let menu of genMenus; let i = index">
+              <ng-container  *ngIf="menu==='services' || menu==='услуги' || menu==='hizmetler'">
+                <li class="open-drop">
+                  <a>{{ menu }}</a>
+                  <div class="drop-menu">
+                    <ng-container *ngFor="let dropItems of dropMenus[1]">
+                      <a [href]="dropItems.link">{{dropItems.dropMenuName}}</a>
+                    </ng-container>
+                  </div>
+                </li>
+              </ng-container>
+              <ng-container *ngIf="menu==='courses' || menu==='курсове' || menu==='dersler'">
+                  <li class="open-drop">
+                    <a>{{ menu }}</a>
+                    <div class="drop-menu">
+                      <ng-container *ngFor="let dropItems of dropMenus[0]">
+                        <a [href]="dropItems.link">{{dropItems.dropMenuName}}</a>
+                      </ng-container>
+                    </div>
+                  </li>
+              </ng-container>
+              <ng-container *ngIf="menu!='courses' && menu!='курсове' && menu!='dersler' &&  menu!=='services' && menu!=='услуги' && menu!=='hizmetler'">
+                  <li><a [href]="getGMLinks[i]">{{ menu }}</a></li>
+              </ng-container>
+            </ng-container>
+          </ul>
+        </nav>
+        <div class="change-lang">
+            <ul>
+                <li><a type="button" (click)="changeLanguage('bg')"><img src="../header/../../assets/images/flags/bg_flag.png" alt=""></a></li>
+                <li><a type="button" (click)="changeLanguage('en')"><img src="../header/../../assets/images/flags/en_flag.png" alt=""></a></li>
+                <li><a type="button" (click)="changeLanguage('tr')"><img src="../header/../../assets/images/flags/tr_flag.png" alt=""></a></li>
+            </ul>
+        </div>
+    </header>
+</ng-container>
+  
