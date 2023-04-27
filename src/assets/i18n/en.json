@@ -1,0 +1,47 @@
+[
+	{	"brandName":"SDM BG CONSULT"},
+	{	"genMenu": "HOME"	, "links":"/home"},
+	{	"genMenu": "courses"	, "links":"/courses", "dropMenu":[
+
+		{"dropMenuName": "python", "link":"/course/python" },
+		{"dropMenuName": "c+", "link":"/course/cplus" },
+		{"dropMenuName": "frond end", "link":"/course/front-end" },
+		{"dropMenuName": "back end", "link":"/course/back-end" },
+		{"dropMenuName": "full stack", "link":"/course/full-stack" },
+		{"dropMenuName": "Interior Design", "link":"/course/interior-design" }
+	]},
+	{	"genMenu": "portfolio"	, "links":"/portfolio"},
+	{	"genMenu": "services"	, "links":"/services", "dropMenu":[
+
+		{"dropMenuName": "Web design", "link":"/services/web-design" },
+		{"dropMenuName": "web development", "link":"/services/web-development" },
+		{"dropMenuName": "web support", "link":"/services/web-support" },
+		{"dropMenuName": "logo design", "link":"/services/logo-design" },
+		{"dropMenuName": "business card design", "link":"/services/business-card-design"}
+	]},
+	{	"genMenu": "offers"	, "links":"/offers"},
+	{	"genMenu": "about us"	, "links":"/aboutus"},
+	{	"genMenu": "contacts"	, "links":"/contacts"},
+	{	"goalsTittle":"our goals", "ourGoals":[
+		{"goals":"1. Simple Design", "goalsDescription":"Striving for a friendly experience", "goalsIcon":"fa fa-users"},
+		{"goals":"2. Best Impression", "goalsDescription":"aim right at the target", "goalsIcon":"fa fa-bullseye"},
+		{"goals":"3. Simple Navigation", "goalsDescription":"We make it easy for users to search", "goalsIcon":"fa fa-list-ul"},
+		{"goals":"4. A Natural Experience", "goalsDescription":"endless pages, cohesive style", "goalsIcon":"fas fa-crosshairs"},
+		{"goals":"5. Selected colors", "goalsDescription":"We appreciate colorful typography", "goalsIcon":"fas fa-palette"},
+		{"goals":"6. Responsive Design", "goalsDescription":"Many devices one design", "goalsIcon":"fas fa-expand-arrows-alt"},
+		{"goals":"7. Multiple Browsers", "goalsDescription":"Same quality in different browsers", "goalsIcon":"fa fa-safari"},
+		{"goals":"8. Zero Errors", "goalsDescription":"verification is a higher form of trust", "goalsIcon":"fas fa-bug"},
+		{"goals":"9. Ensuring Full Control", "goalsDescription":"100% author code written", "goalsIcon":"far fa-file-code"},
+		{"goals":"10. High Quality Content", "goalsDescription":"We strive for engaging content", "goalsIcon":"far fa-file-alt"}
+	]},
+	{"phone":"phone", "adress":"SHUMEN, 17 OBORISHTE Sq", "officeTitle":"OFFICE", "email":"EMAIL"},
+	{
+		"ekoForm":"contact form to - Ekrem Mehmedov", 
+		"seloForm":"contact form to - Seliha Mehmedova",
+		"firstName": "name", 
+		"surname":"surname",
+		"em":"email",
+		"mess":"message",
+		"sendBtn":"send"
+	}
+]

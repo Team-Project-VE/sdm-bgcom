@@ -1,0 +1,47 @@
+[
+	{	"brandName":"сдм бг консулт"},
+	{	"genMenu": "начало"	, "links":"/home"},
+	{	"genMenu": "курсове"	, "links":"/courses", "dropMenu":[
+
+		{"dropMenuName": "python", "link":"/course/python" },
+		{"dropMenuName": "c+", "link":"/course/cplus" },
+		{"dropMenuName": "frond end", "link":"/course/front-end" },
+		{"dropMenuName": "back end", "link":"/course/back-end" },
+		{"dropMenuName": "full stack", "link":"/course/full-stack" },
+		{"dropMenuName": "интериорен дизайн", "link":"/course/interior-design" }
+	]},
+	{	"genMenu": "портфолио"	, "links":"/portfolio"},
+	{	"genMenu": "услуги"	, "links":"/services", "dropMenu":[
+
+		{"dropMenuName": "уеб дизайн", "link":"/services/web-design" },
+		{"dropMenuName": "уеб разработка", "link":"/services/web-development" },
+		{"dropMenuName": "уеб подръжка", "link":"/services/web-support" },
+		{"dropMenuName": "лого дизайн", "link":"/services/logo-design" },
+		{"dropMenuName": "дизайн на визитки", "link":"/services/business-card-design"}
+	]},
+	{	"genMenu": "оферти"	, "links":"/offers"},
+	{	"genMenu": "за нас"	, "links":"/aboutus"},
+	{	"genMenu": "контакти"	, "links":"/contacts"},
+	{ "goalsTittle":"нашите цели", "ourGoals":[
+		{"goals":"1. Прост дизайн", "goalsDescription":"Стремим се към приятен потребителски опит","goalsIcon":"fa fa-users"},
+		{"goals":"2. Най-доброто впечатление", "goalsDescription":"Целта е точно попадение в мишената","goalsIcon":"fa fa-bullseye"},
+		{"goals":"3. Проста навигация", "goalsDescription":"Ние правим търсенето лесно за потребителите","goalsIcon":"fa fa-list-ul"},
+		{"goals":"4. Природен опит", "goalsDescription":"Безкраен брой страници с кохезивен стил","goalsIcon":"fas fa-crosshairs"},
+		{"goals":"5. Избрани цветове", "goalsDescription":"Ценим цветната типография","goalsIcon":"fas fa-palette"},
+		{"goals":"6. Реактивен дизайн", "goalsDescription":"Много устройства - един дизайн","goalsIcon":"fas fa-expand-arrows-alt"},
+		{"goals":"7. Множество браузъри", "goalsDescription":"Едно и също качество в различни браузъри","goalsIcon":"fa fa-safari"},
+		{"goals":"8. Нулеви грешки", "goalsDescription":"Проверката е по-висока форма на доверие","goalsIcon":"fas fa-bug"},
+		{"goals":"9. Гарантиран контрол", "goalsDescription":"100% авторски код написан от нас","goalsIcon":"far fa-file-code"},
+		{"goals":"10. Качествено съдържание", "goalsDescription":"Стремим се към ангажиращо съдържание","goalsIcon":"far fa-file-alt"}
+	]},
+	{"phone":"телефон", "adress":"гр. ШУМЕН, пл. ОБОРИЩЕ 17", "officeTitle":"офис", "email":"имейл"},
+	{
+		"ekoForm": "контактна форма до - екрем мехмедов",
+        "seloForm": "контактна форма до - селиха мехмедова",
+		"firstName": "Име",
+        "surname":"Фамилия",
+        "em":"имейл",
+        "mess":"съобщение",
+		"sendBtn":"изпрати"
+	}
+]
