@@ -1,1 +1,34 @@
-<p>main works!</p>
+
+
+<section class="goals-section" *ngIf="jsonData$ | async as jsonData">
+  <article><h2>article 1</h2></article>
+  <main>
+    <div class="main-content">
+      <h1>{{jsonData[8]?.goalsTittle}}</h1>
+    </div>
+    <div class="main-content">
+      <ng-container *ngFor="let item of getGoals">
+        <ng-container *ngFor="let itemElements of item; let i=index">
+          <div class="mc-box arrL" [ngClass]="'bg_' + i">
+            <div class="mc-box-info">
+              <p class="goals-title">{{ itemElements.goals }}</p>
+              <p class="goals-description">{{ itemElements.goalsDescription }}</p>
+            </div>
+            <div class="mc-box-icon"><i class="{{ itemElements.goalsIcon }}"></i></div>              
+          </div> 
+        </ng-container>
+      </ng-container>
+    </div>
+  </main>
+  <article><h2>article 2</h2></article>
+</section>
+
+<!-- 
+<ng-container *ngFor="let item of getGoals;">
+  <ng-container *ngFor="let bet of item; let i=index">
+    
+    <p [ngClass]="'bg' + i">{{bet.goals}}</p>
+  </ng-container>
+</ng-container> -->
+
+

@@ -1,0 +1,181 @@
+/* send-message style start  */
+.send-message
+{
+    max-width:500px; width: 100%;
+    z-index: 1;
+    position: absolute;
+    top:0%;right: 50%; 
+    padding: 20px 0px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(50%,0%);
+    background: #002F4E;
+}
+
+.send-message span
+{
+    text-transform: capitalize;
+    color: white;  
+    font-size: 18px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.send-message span i
+{
+    z-index: 1;
+    position: absolute;
+    top: 2%; right: 2%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.send-message div
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.send-message div label
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.send-message div input,
+.send-message div textarea
+{
+    outline: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    width:300px;
+    border-radius: 4px;
+    border: none;
+    color:#002F4E
+}
+
+.send-message form .btn_send
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    float: right;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: white;
+    background: #B3541E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.send-message form .btn_send:hover{
+    color: #B3541E;
+    background: white;
+}
+
+.send-message form div .feedBack
+{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+/* send-message style end  */
+
+/* header-top style start  */
+
+.header-top
+{
+    display: flex;
+    max-width: 1920px;
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-top .header-top-info
+{
+    width: 33%;
+    margin: .2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top .header-top-info span
+{
+    margin-top: .1rem;
+    margin-bottom: .3rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    background: #002F4E;
+    color: white;
+    padding: 2px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-top .header-top-info .box
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .header-top-info .box div
+{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.header-top .header-top-info div i,
+.header-top .header-top-info .box div i
+{
+    margin: 0 3px;
+    color: #24A19C;
+}
+
+.header-top .header-top-info .box div a,
+.header-top .header-top-info div a
+{
+    color: #002F4E;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#e_1 i,#e_2 i,#e_3 i,#e_4 i,#e_5 i,
+#e_1 a,#e_2 a,#e_3 a,#e_4 a,#e_5 a{
+    transition: all .5s ease-in-out;
+}  
+#e_1:hover i, #e_2:hover i, #e_3:hover i, #e_4:hover i, #e_5:hover i{
+    color: #002F4E;
+}
+#e_1:hover a, #e_2:hover a, #e_3:hover a, #e_4:hover a, #e_5:hover a
+{
+    color: #24A19C;
+}
+
+@media (min-width: 1050px) and (max-width: 1700px) {
+    .header-top .header-top-info .box
+    {
+         flex-direction: column;
+         align-items: start;
+    }    
+}
+ 
+@media (min-width: 200px) and (max-width: 1050px) {
+    .header-top
+     {
+         display: none;
+     }    
+}
+
+/* header-top style end  */

@@ -209,6 +209,13 @@ header .change-lang ul
 header .change-lang ul li 
 {
     margin: 0 .5rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+header .change-lang ul li:hover 
+{
+    transform: scale(1.2);
 }
 
 header .header-box {width: 15%;} 
