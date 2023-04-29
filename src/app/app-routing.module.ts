@@ -17,6 +17,7 @@ import { WebDevComponent } from './components/header/services/web-dev/web-dev.co
 import { WebSupportComponent } from './components/header/services/web-support/web-support.component';
 import { LogoDesignComponent } from './components/header/services/logo-design/logo-design.component';
 import { BusinessCardDesignComponent } from './components/header/services/business-card-design/business-card-design.component';
+import { HomeComponent } from './components/header/home/home.component';
 
 const routes: Routes = [
   { path: 'courses', component: CoursesComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'websupp-service', component: WebSupportComponent },
   { path: 'logodesign-service', component: LogoDesignComponent },
   { path: 'businesscarddesign-service', component: BusinessCardDesignComponent },
+  { path: 'home', component: HomeComponent },
 ];
 
 @NgModule({

@@ -2,15 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
+import { EmailHeaderComponent } from './components/email-header/email-header.component';
 import { LangTranslateService } from './services/lang-translate.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
-<<<<<<< HEAD
-import { EmailHeaderComponent } from './components/email-header/email-header.component';
-=======
 import { CoursesComponent } from './components/header/courses/courses.component';
 import { PortfolioComponent } from './components/header/portfolio/portfolio.component';
 import { ServicesComponent } from './components/header/services/services.component';
@@ -28,17 +26,14 @@ import { WebDevComponent } from './components/header/services/web-dev/web-dev.co
 import { WebSupportComponent } from './components/header/services/web-support/web-support.component';
 import { LogoDesignComponent } from './components/header/services/logo-design/logo-design.component';
 import { BusinessCardDesignComponent } from './components/header/services/business-card-design/business-card-design.component';
->>>>>>> 7e604dde1279aaf75b5467a8b04b675f6f920f80
+import { HomeComponent } from './components/header/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    HeaderComponent, // remove the conflict markers and keep this component
     MainComponent,
     FooterComponent,
-<<<<<<< HEAD
-    EmailHeaderComponent
-=======
     CoursesComponent,
     PortfolioComponent,
     ServicesComponent,
@@ -55,8 +50,10 @@ import { BusinessCardDesignComponent } from './components/header/services/busine
     WebDevComponent,
     WebSupportComponent,
     LogoDesignComponent,
-    BusinessCardDesignComponent
->>>>>>> 7e604dde1279aaf75b5467a8b04b675f6f920f80
+    BusinessCardDesignComponent,
+    EmailHeaderComponent,
+    HomeComponent,
+    // remove the EmailHeaderComponent as it causes conflict
   ],
   imports: [
     BrowserModule,
@@ -69,3 +66,4 @@ import { BusinessCardDesignComponent } from './components/header/services/busine
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
