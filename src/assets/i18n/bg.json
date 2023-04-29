@@ -3,24 +3,24 @@
 	{	"genMenu": "начало"	, "links":"/home"},
 	{	"genMenu": "курсове"	, "links":"/courses", "dropMenu":[
 
-		{"dropMenuName": "python", "link":"/course/python" },
-		{"dropMenuName": "c+", "link":"/course/cplus" },
-		{"dropMenuName": "frond end", "link":"/course/front-end" },
-		{"dropMenuName": "back end", "link":"/course/back-end" },
-		{"dropMenuName": "full stack", "link":"/course/full-stack" },
-		{"dropMenuName": "интериорен дизайн", "link":"/course/interior-design" }
+		{"dropMenuName": "python", "link":"/python-course" },
+		{"dropMenuName": "c+", "link":"/cplusplus-course" },
+		{"dropMenuName": "frond end", "link":"/frontend-course" },
+		{"dropMenuName": "back end", "link":"/backend-course" },
+		{"dropMenuName": "full stack", "link":"/fullstack-course" },
+		{"dropMenuName": "интериорен дизайн", "link":"/interiordesign-course" }
 	]},
 	{	"genMenu": "портфолио"	, "links":"/portfolio"},
 	{	"genMenu": "услуги"	, "links":"/services", "dropMenu":[
 
-		{"dropMenuName": "уеб дизайн", "link":"/services/web-design" },
-		{"dropMenuName": "уеб разработка", "link":"/services/web-development" },
-		{"dropMenuName": "уеб подръжка", "link":"/services/web-support" },
-		{"dropMenuName": "лого дизайн", "link":"/services/logo-design" },
-		{"dropMenuName": "дизайн на визитки", "link":"/services/business-card-design"}
+		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service" },
+		{"dropMenuName": "уеб разработка", "link":"/webdev-service" },
+		{"dropMenuName": "уеб подръжка", "link":"/websupp-service" },
+		{"dropMenuName": "лого дизайн", "link":"/logodesign-service" },
+		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service"}
 	]},
 	{	"genMenu": "оферти"	, "links":"/offers"},
-	{	"genMenu": "за нас"	, "links":"/aboutus"},
+	{	"genMenu": "за нас"	, "links":"/about-us"},
 	{	"genMenu": "контакти"	, "links":"/contacts"},
 	{ "goalsTittle":"нашите цели", "ourGoals":[
 		{"goals":"1. Прост дизайн", "goalsDescription":"Стремим се към приятен потребителски опит","goalsIcon":"fa fa-users"},
