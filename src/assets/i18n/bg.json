@@ -43,5 +43,59 @@
         "em":"имейл",
         "mess":"съобщение",
 		"sendBtn":"изпрати"
+	},
+	{
+		"footerLogo": "СДМ БГ КОНСУЛТ",
+		"welcomeText": "Добре дошли в нашия сайт! Ние сме нова стартираща IT компания. Ние сме готови да предоставим всички ваши нужди според изискванията на днешния пазар, за повече информация",
+		"welcomeLink": "тук",
+		"addressTitle": "Място",
+		"address": "гр. Шумен, пл. Оборище Номер 17",
+		"phoneTitle": "Телефон",
+		"phoneNumbers": [
+			"+359 887 729 228",
+			"+359 893 871 753"
+		],
+		"emailTitle": "Емайл",
+		"emailAddresses": [
+			"ekrem.mehmedov@sdm-bg.com",
+			"seliha.mehmedova@sdm-bg.com"
+		],
+		"socialMedia": [
+			{ "platform": "twitter", "icon": "fa fa-twitter", "link": "#" },
+			{ "platform": "facebook", "icon": "fa fa-facebook", "link": "#" },
+			{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "#" },
+			{ "platform": "instagram", "icon": "fa fa-instagram", "link": "#" }
+		],
+		"quickLinksTitle": "Бързи Връзки",
+		"quickLinks": [
+			{ "title": "Начало", "link": "#" },
+			{ "title": "Нашите Услуги", "link": "#" },
+			{ "title": "За нас", "link": "#" },
+			{ "title": "Портфолио", "link": "#" },
+			{ "title": "Направи оферта", "link": "#" }
+		],
+		"popularLinksTitle": "Популярни линкове",
+		"popularLinks": [
+			{ "title": "Курс по Python", "link": "#" },
+			{ "title": "Уеб поддръжка", "link": "#" },
+			{ "title": "Курсове", "link": "#" },
+			{ "title": "Портфолио", "link": "#" },
+			{ "title": "Уеб разработка", "link": "#" },
+			{ "title": "Лого дизайн", "link": "#" }
+		],
+		"locationTitle": "Местоположение",
+		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.56738297867068!2d26.915932904042904!3d43.27073902007498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58a67f395c66b%3A0x4eda59530fcee61b!2z0KjRg9C80LXQvQ!5e0!3m2!1sbg!2sbg!4v1682021075326!5m2!1sbg!2sbg",
+		"locationMapHeight": "180px",
+		"locationMapWidth": "180px",
+		"usefulLinksTitle": "Полезни връзки",
+		"usefulLinks": [
+			{ "title": "Общи условия", "link": "#" },
+			{ "title": "Политика за поверителност", "link": "#" },
+			{ "title": "Политика за бисквитки", "link": "#" },
+			{ "title": "Сертификати", "link": "#" },
+			{ "title": "Продължителност на обучението", "link": "#" },
+			{ "title": "Нашите цели", "link": "#" }
+		],
+		"footerRightsReserved": "@ Всички права запазени, 2023"
 	}
 ]

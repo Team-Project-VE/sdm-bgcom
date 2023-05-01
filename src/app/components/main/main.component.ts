@@ -24,6 +24,7 @@ export class MainComponent implements AfterViewInit{
   }
 
   ngAfterViewInit() {
+    setTimeout(() => {
     const script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = '../../../assets/js/goals.js';
@@ -43,5 +44,6 @@ export class MainComponent implements AfterViewInit{
       this.getGoals = getGoals;
       console.log(this.getGoals);
     });
+  });
   };
 }

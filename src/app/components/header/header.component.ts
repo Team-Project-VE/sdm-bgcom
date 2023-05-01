@@ -1,4 +1,4 @@
-import { Component, AfterViewInit} from '@angular/core';
+import { Component, AfterViewInit, ChangeDetectorRef} from '@angular/core';
 // Add To langTranslate Services 
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
 // Add To rxjs operators 
@@ -16,7 +16,7 @@ export class HeaderComponent implements AfterViewInit {
   dropMenus: any;
   // declared variable getGMLinks for link in genMenus(Go...To)
   getGMLinks:any;
-  constructor(private langTranslate: LangTranslateService) {} 
+  constructor(private langTranslate: LangTranslateService, private cdr: ChangeDetectorRef) {} 
   
   // Function for get and read json fille /bg/en/tr
   get jsonData$() {
@@ -83,6 +83,7 @@ export class HeaderComponent implements AfterViewInit {
     ).subscribe(dropMenus => {
       this.dropMenus = dropMenus;
       console.log(this.dropMenus);
+      this.cdr.detectChanges();
     });
   }
 }
