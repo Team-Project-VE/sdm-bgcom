@@ -98,5 +98,14 @@
 			{ "title": "Нашите цели", "link": "#" }
 		],
 		"footerRightsReserved": "@ Всички права запазени, 2023"
+	},
+
+	{
+		"contacts": "Контакти",
+		"contactsForm": "Форма За Контакти",
+		"nameTitle": "Име:",
+		"emailAdressTitle": "Електронна поща:",
+		"subjectTitle": "Съобщение:",
+		"sendBtnTitle": "Изпрати"
 	}
 ]
