@@ -1,84 +1,71 @@
 <ng-container *ngIf="jsonData$ | async as jsonData">
-<footer>
-  <div class="footer-content">
-    <div class="footer-logo">{{ jsonData[0]?.footerLogo }}</div>
-    <p class="welcome-text">
-      {{ (jsonData$ | async)?.welcomeText }}
-      <a href="#">{{ jsonData[1]?.welcomeLink }}</a>
-    </p>
-
-    <div class="address-section">
-      <h4>{{ (jsonData$ | async)?.addressTitle }}</h4>
-      <p>{{ (jsonData$ | async)?.address }}</p>
-      <h4>{{ (jsonData$ | async)?.phoneTitle }}</h4>
-      <ul>
-        <li *ngFor="let number of (jsonData$ | async)?.phoneNumbers">
-          {{ number }}
-        </li>
-      </ul>
-      <h4>{{ (jsonData$ | async)?.emailTitle }}</h4>
-      <ul>
-        <li *ngFor="let email of (jsonData$ | async)?.emailAddresses">
-          {{ email }}
-        </li>
-      </ul>
-    </div>
-
-    <div class="social-media-section">
-      <h4>Social Media</h4>
-      <ul>
-        <li *ngFor="let platform of (jsonData$ | async)?.socialMedia">
-          <a href="{{ platform.link }}">
+  <footer>
+    <div class="footer-container footer-wrapper">
+      <div class="footer-section footer-logo">
+        <img [src]="'../../assets/images/logo/' + jsonData[11]?.footerImgUrl" alt="Footer Logo" />
+        <span class="sdm-name">{{ jsonData[11]?.footerLogo }}</span>
+      </div>
+      <p class="welcome-text">
+        {{ jsonData[11]?.welcomeText }}
+        <a href="#">{{ jsonData[11]?.welcomeLink }}</a>
+      </p>
+    
+      <div class="address-section footer-section">
+        <h3>{{ jsonData[11]?.addressTitle }}</h3>
+        <p class="address"><i class="fas fa-location"></i>{{ jsonData[11]?.address }}</p>
+        <h3>{{ jsonData[11]?.phoneTitle }}</h3>
+        <ul>
+          <li *ngFor="let number of jsonData[11]?.phoneNumbers">
+            <a href="#" class="phone-numbers"><i class="fas fa-phone"></i>{{ number }}</a>
+          </li>
+        </ul>
+        <h3>{{ jsonData[11]?.emailTitle }}</h3>
+        <ul>
+          <li *ngFor="let email of jsonData[11]?.emailAddresses">
+            <a href="#" class="emails"><i class="fa-sharp fa-regular fa-envelope"></i>{{ email }}</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="social-media-section footer-section">
+        <h3>Social Media</h3>
+        <div class="social-icons">
+          <a *ngFor="let platform of jsonData[11]?.socialMedia" class="social-icon" href="{{ platform.link }}">
             <i class="{{ platform.icon }}"></i>
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
+    
+      <div class="quick-links-section footer-section quick-links">
+        <h3>{{ jsonData[11]?.quickLinksTitle }}</h3>
+        <ul>
+          <li *ngFor="let link of jsonData[11]?.quickLinks">
+            <a [routerLink]="link.link">{{ link.title }}</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="popular-links-section footer-section popular-links">
+        <h3>{{ jsonData[11]?.popularLinksTitle }}</h3>
+        <ul>
+          <li *ngFor="let link of jsonData[11]?.popularLinks">
+            <a [routerLink]="link.link">{{ link.title }}</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="useful-links-section footer-section useful-links">
+        <h3>{{ jsonData[11]?.usefulLinksTitle }}</h3>
+        <ul>
+          <li *ngFor="let link of jsonData[11]?.usefulLinks">
+            <a [routerLink]="link.link">{{ link.title }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="quick-links-section">
-      <h4>{{ jsonData.quickLinksTitle }}</h4>
-      <ul>
-        <li *ngFor="let link of jsonData.quickLinks">
-          <a [routerLink]="link.link">{{ link.title }}</a>
-        </li>
-      </ul>
+    
+    <!-- Footer rights reserved section -->
+    <div class="footer-rights footer-section">
+      <p>{{ jsonData[11]?.footerRightsReserved }}</p>
     </div>
-
-    <div class="popular-links-section">
-      <h4>{{ jsonData.popularLinksTitle }}</h4>
-      <ul>
-        <li *ngFor="let link of jsonData.popularLinks">
-          <a [routerLink]="link.link">{{ link.title }}</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- <div class="location-section">
-      <h4>{{ (jsonData$ | async)?.locationTitle }}</h4>
-      <iframe
-      [src]="getSafeMapUrl((jsonData$ | async)?.mapEmbedUrl)"
-        width="{{ (jsonData$ | async)?.locationMapWidth }}"
-        height="{{ (jsonData$ | async)?.locationMapHeight }}"
-        frameborder="0"
-        style="border: 0"
-        allowfullscreen
-      ></iframe>
-    </div> -->
-
-    <div class="useful-links-section">
-      <h4>{{ jsonData.usefulLinksTitle }}</h4>
-      <ul>
-        <li *ngFor="let link of jsonData.usefulLinks">
-          <a [routerLink]="link.link">{{ link.title }}</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Footer rights reserved section -->
-  <div class="footer-rights">
-    <p>{{ jsonData.footerRightsReserved }}</p>
-  </div>
-</footer>
-</ng-container>
-
+    

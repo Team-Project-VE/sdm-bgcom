@@ -33,7 +33,7 @@ export class LangTranslateService {
   }
 
   private loadJsonData(lang: string){
-    this.http.get<any>(`../assets/i18n/${lang}.json`).subscribe(data=>{
+    this.http.get<any>(`assets/i18n/${lang}.json`).subscribe(data=>{
       this.jsonDataSubject.next(data);
       console.log('JSON data loaded successfully:', data);
     })
