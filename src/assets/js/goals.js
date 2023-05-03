@@ -1,3 +1,30 @@
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let sliderRight = document.getElementsByClassName("slider-right");
+  let sliderLeft = document.getElementsByClassName("slider-left");
+  if (n > sliderRight.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = sliderRight.length}
+  for (i = 0; i < sliderRight.length; i++) {
+    sliderRight[i].style.display = "none";  
+    sliderLeft[i].style.display = "none";  
+  }
+  sliderRight[slideIndex-1].style.display = "block";  
+  sliderLeft[slideIndex-1].style.display = "block";  
+}
+
+setInterval(function(){plusSlides(1)},5000);
+
 function reveal() {
     var arrL = document.querySelectorAll(".mc-box");
     for (var i = 0; i < arrL.length; i++) {

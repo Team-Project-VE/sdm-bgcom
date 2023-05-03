@@ -1,0 +1,129 @@
+.slider-top {
+    max-width: 1350px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-box {
+    width: 100%;
+  }
+  
+  .slider-box:nth-child(1){
+    position: relative;
+    height: 80px;
+  }
+  
+  .slider-box:nth-child(2) {
+    position: relative;
+    height: 585px;
+  }
+  
+  .slider-box:nth-child(1) .slider-right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .slider-box:nth-child(1) .slider-right .slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .slider-box:nth-child(2) .slider-left {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-box:nth-child(2) .slider-left img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .fade-right {
+    animation-name: fadeRight;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fadeRight {
+    from {
+      opacity: 0.4;
+      transform: translateX(-948px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-left {
+    animation-name: fadeLeft;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fadeLeft {
+    from {
+      opacity: 0.4;
+      transform: translateX(948px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .btn-slider
+  {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+    font-size: 16px;
+  }
+  
+  .prev, .next
+  {
+    font-size: 20px;
+    background:  #002F4E;
+    border: none;
+    color: white;
+    padding: .5rem 1.5rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    margin: 0 2rem;
+  }
+  .prev:hover, .next:hover
+  {
+    background:#4767B0;;
+  }
+
+  
+  @media (max-width: 480px) {
+    .slider-box:nth-child(1) {height: 100px;}
+    .slider-box:nth-child(2){height: 300px;}
+    .slideh1 {font-size:20px;}
+    .slideh2 {font-size:16px;}
+  }

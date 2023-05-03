@@ -28,7 +28,6 @@ footer {
     padding: 1rem 0;
 }
 
-.footer-container:nth-child(2) .footer-section {width: 100;}
 .footer-container:nth-child(2) .footer-section {width: 24%;}
 
 .footer-logo
@@ -102,7 +101,7 @@ footer {
 .fa-sharp {
     margin-right: .5rem;
   }
-
+  
 .footer-section h1 {
     margin: 1rem;
     font-size: 20px;

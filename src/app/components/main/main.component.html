@@ -2,22 +2,22 @@
 <ng-container *ngIf="jsonData$ | async as jsonData">
   <section class="slider-top">
     <div class="slider-box">
-      <ng-container *ngFor="let item of jsonData[12]?.getSliderTop">
-            <div class="slider-right fade-right">
+          <ng-container *ngFor="let item of jsonData[13]?.getSliderTop">
+            <div class="slider-right fade-right" [ngStyle]="{'background': item.bgFon}">
                 <div class="slogan">
-                  <h1>{{item.text_1}}</h1>
-                  <h2>{{item.text_2}}</h2>
+                  <h2 class="slideh1">{{item.text_1}}</h2>
+                  <h3 class="slideh2">{{item.text_2}}</h3>
                 </div>
             </div>
-      </ng-container>
-    </div>
+          </ng-container>
+        </div>
     <div class="slider-box">
-      <ng-container *ngFor="let item of jsonData[12]?.getSliderTop">
+        <ng-container *ngFor="let item of jsonData[13]?.getSliderTop">
           <div class="slider-left fade-left">
               <img [src]="'../../../assets//images/sliderTop/' + item.slideName" alt="">
           </div>
-    </ng-container>
-    </div>
+        </ng-container>
+      </div>
     <div class="btn-slider">
       <button class="prev"  onclick="plusSlides(-1)">❮</button>
       <button class="next"  onclick="plusSlides(1)">❯</button>
@@ -207,3 +207,12 @@
   </div>
 </ng-container> -->
 <!-- course offers end  -->
+<!-- 
+<ng-container class="goals-section" *ngIf="jsonData$ | async as jsonData">
+  <div *ngFor="let item of jsonData[13].getSliderTop">
+    <p>{{item.text_1}}</p>
+    <p>{{item.text_2}}</p>
+    <p>{{item.slideName}}</p>
+  </div>
+
+</ng-container> -->
