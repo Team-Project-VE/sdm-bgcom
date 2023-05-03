@@ -45,6 +45,6 @@ export class MainComponent implements AfterViewInit{
         this.getGoals = getGoals;
         console.log(this.getGoals);
       })
-    },3000);
+    });
 }
 }
