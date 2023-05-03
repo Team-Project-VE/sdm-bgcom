@@ -27,21 +27,24 @@ export class MainComponent implements AfterViewInit{
     const script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = '../../../assets/js/goals.js';
+    document.body.appendChild(script);
     //get getGoals as an array
-    this.langTranslate.jsonData$.pipe(
-      map(data => {
-        const getGoals = [];
-        for (let i = 0; i < data.length; i++) {
-          const goalsItem = data[i];
-          if (goalsItem.ourGoals) {
-            getGoals.push(goalsItem.ourGoals);
+    setTimeout(() => {
+      this.langTranslate.jsonData$.pipe(
+        map(data => {
+          const getGoals = [];
+          for (let i = 0; i < data.length; i++) {
+            const goalsItem = data[i];
+            if (goalsItem.ourGoals) {
+              getGoals.push(goalsItem.ourGoals);
+            }
           }
-        }
-        return getGoals;
-      })
-    ).subscribe(getGoals => {
-      this.getGoals = getGoals;
-      console.log(this.getGoals);
-    });
+          return getGoals;
+        })
+      ).subscribe(getGoals => {
+        this.getGoals = getGoals;
+        console.log(this.getGoals);
+      });
+    },3000);
   };
 }

@@ -33,8 +33,8 @@ export class HeaderComponent implements AfterViewInit {
     script.type = 'text/javascript';
     script.src = '../../assets/js/header.js';
     document.body.appendChild(script);
-    
-    //get GMLinks as an array
+    setTimeout(() => {
+          //get GMLinks as an array
     this.langTranslate.jsonData$.pipe(
       map(data=> {
         const getGMLinks=[];
@@ -84,5 +84,6 @@ export class HeaderComponent implements AfterViewInit {
       this.dropMenus = dropMenus;
       console.log(this.dropMenus);
     });
+    }, 3000);
   }
 }

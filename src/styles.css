@@ -48,6 +48,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 1rem 0;
+    overflow: hidden;
 }
 
 .goals-section article
@@ -114,7 +115,7 @@ a{
 }
 
 .arrL{
-    visibility: visible;
+    visibility: hidden;
 }
 
 .active1{
