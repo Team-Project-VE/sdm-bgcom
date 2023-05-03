@@ -22,7 +22,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/i18n"
             ],
             "styles": [
               "src/styles.css"
@@ -87,6 +88,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
             ],
             "scripts": []

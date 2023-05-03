@@ -44,7 +44,7 @@ export class MainComponent implements AfterViewInit{
       ).subscribe(getGoals => {
         this.getGoals = getGoals;
         console.log(this.getGoals);
-      });
+      })
     },3000);
-  };
+}
 }

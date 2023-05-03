@@ -38,6 +38,7 @@ const routes: Routes = [
   { path: 'logodesign-service', component: LogoDesignComponent },
   { path: 'businesscarddesign-service', component: BusinessCardDesignComponent },
   { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
 ];
 
 @NgModule({

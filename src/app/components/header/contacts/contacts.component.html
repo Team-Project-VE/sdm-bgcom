@@ -1,1 +1,27 @@
-<p>Hello from contacts</p>
+<ng-container *ngIf="jsonData$ | async as jsonData">
+
+<body>
+    <header>
+        <h1>{{ jsonData[12]?.contacts }}</h1>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>{{ jsonData[12]?.contactsForm }}</h2>
+            <form id="contact-form">
+                <label for="name">{{ jsonData[12]?.nameTitle }}</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">{{ jsonData[12]?.emailAdressTitle }}</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">{{ jsonData[12]?.subjectTitle }}</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="{{ jsonData[12]?.sendBtnTitle }}">
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</ng-container>
