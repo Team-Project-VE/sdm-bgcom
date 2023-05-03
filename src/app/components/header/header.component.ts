@@ -85,6 +85,6 @@ export class HeaderComponent implements AfterViewInit {
       console.log(this.dropMenus);
       this.cdr.detectChanges();
     });
-    }, 3000);
+    });
   }
 }
