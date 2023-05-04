@@ -38,7 +38,7 @@ const routes: Routes = [
   { path: 'logodesign-service', component: LogoDesignComponent },
   { path: 'businesscarddesign-service', component: BusinessCardDesignComponent },
   { path: 'home', component: HomeComponent },
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
