@@ -53,7 +53,6 @@ import { HomeComponent } from './components/header/home/home.component';
     BusinessCardDesignComponent,
     EmailHeaderComponent,
     HomeComponent,
-    // remove the EmailHeaderComponent as it causes conflict
   ],
   imports: [
     BrowserModule,

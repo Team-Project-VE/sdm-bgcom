@@ -1,8 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
-import { Observable } from 'rxjs';
-import { TranslationData } from 'src/app/services/translation-data-interface';
-import { map } from 'rxjs/operators';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -23,5 +20,12 @@ export class ContactsComponent {
 
   getSafeMapUrl(mapEmbedUrl: string): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(mapEmbedUrl);
+  }
+
+  ngAfterViewInit() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '../../assets/js/contacts.js';
+    document.body.appendChild(script);
   }
 }
