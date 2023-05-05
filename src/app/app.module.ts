@@ -27,6 +27,7 @@ import { WebSupportComponent } from './components/header/services/web-support/we
 import { LogoDesignComponent } from './components/header/services/logo-design/logo-design.component';
 import { BusinessCardDesignComponent } from './components/header/services/business-card-design/business-card-design.component';
 import { HomeComponent } from './components/header/home/home.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { HomeComponent } from './components/header/home/home.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [
     LangTranslateService

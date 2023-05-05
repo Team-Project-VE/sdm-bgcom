@@ -1,6 +1,7 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { EmailService } from 'src/app/services/email.service';
 
 @Component({
   selector: 'app-contacts',
@@ -8,7 +9,15 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrls: ['./contacts.component.css']
 })
 export class ContactsComponent {
-  constructor(public translationService: LangTranslateService, private sanitizer: DomSanitizer) {}
+
+  subject: string = '';
+  name: string = '';
+  surname: string = '';
+  email: string = '';
+  phoneNumber: string = '';
+  message: string = '';
+
+  constructor(public translationService: LangTranslateService, private sanitizer: DomSanitizer, private emailService: EmailService) {}
 
   get jsonData$() {
     return this.translationService.jsonData$;
@@ -28,4 +37,29 @@ export class ContactsComponent {
     script.src = '../../assets/js/contacts.js';
     document.body.appendChild(script);
   }
+
+  onSubmit(): void {
+    const contactFormData = {
+      name: this.name,
+      surname: this.surname,
+      email: this.email,
+      phoneNumber: this.phoneNumber,
+      subject: this.subject,
+      message: this.message
+    };
+
+    this.emailService
+      .sendEmail(contactFormData)
+      .subscribe(
+        (response) => {
+          console.log("Email sent successfully:", response);
+          alert("Email sent successfully!");
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+          alert("Error sending email, please try again later.");
+        }
+      );
+  }
+  
 }

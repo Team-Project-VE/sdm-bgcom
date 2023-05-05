@@ -101,12 +101,21 @@
 	},
 
 	{
-		"contacts": "Контакти",
 		"contactsForm": "Форма За Контакти",
-		"nameTitle": "Име:",
-		"emailAdressTitle": "Електронна поща:",
-		"subjectTitle": "Съобщение:",
-		"sendBtnTitle": "Изпрати"
+		"chooseOption": "-- Моля изберете опция --",
+		"offerRequest": "Поискайте оферта",
+		"questions": "Технически въпроси",
+		"else": "Друго",
+		"nameTitle": "Име",
+		"surnameTitle": "Фамилия",
+		"emailAdressTitle": "Имейл",
+		"phoneNumber": "Телефонен номер",
+		"subjectTitle": "Съобщение",
+		"agreeTerms": "Прочетох и съм съгласен с",
+		"agreeTermsTwo": "правилата и условията.",
+		"importantFields": "ЗАДЪЛЖИТЕЛНИ ПОЛЕТА",
+		"sendBtnTitle": "Изпрати",
+		"clearBtnTitle": "Изчисти"
 	},
 	{"getSliderTop":[
 		{"text_1":"безплатна консултация","text_2":"обслужване от най-висок клас","slideName":"sld1.webp", "bgFon":"#0072B5"},
