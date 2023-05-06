@@ -1,0 +1,105 @@
+.my-offers
+{
+    max-width: 1350px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.offers-box:nth-child(1){width: 100%;}
+.offers-box:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.offers-box:nth-child(2) .box {width: 33%;}
+
+
+.offers-box:nth-child(2) .box .plans
+{
+    position: relative;
+    width: 100%;
+    height: 220px;
+    margin: .5rem 0;
+} 
+
+.offers-box:nth-child(2) .box:nth-child(1) .plans-title{ background: #409fd7;}
+.offers-box:nth-child(2) .box:nth-child(2) .plans-title{ background: #0EB4A6;}
+.offers-box:nth-child(2) .box:nth-child(3) .plans-title{ background: #9BC241;}
+.offers-box:nth-child(2) .box:nth-child(1) .plans .box-info{ background: #409fd7;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .box:nth-child(2) .plans .box-info{ background: #0EB4A6;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .box:nth-child(3) .plans .box-info{ background: #9BC241;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .box:nth-child(1) .plans .box-button{ background: #e71e64;width: 100%; height: 100%; 
+    display: flex; justify-content: center; align-items: center;}
+.offers-box:nth-child(2) .box:nth-child(2) .plans .box-button{ background: #2f3080;width: 100%; height: 100%; 
+    display: flex; justify-content: center; align-items: center;}
+.offers-box:nth-child(2) .box:nth-child(3) .plans .box-button{ background: #f36f24;width: 100%; height: 100%; 
+    display: flex; justify-content: center; align-items: center;}
+
+.tittle h1 { text-align: center;}
+
+.offers-box:nth-child(2) .box .plans .box-button{
+    visibility: hidden; position: absolute; top: 0;left:0; transition: all .3s ease-in-out;
+}
+
+.offers-box:nth-child(2) .box .plans .box-button a{
+    background: #409fd7;
+    padding: .5rem 2.5rem;
+    border: none; border-radius: 5px;
+}
+
+.offers-box:nth-child(2) .box .plans-title{padding: .5rem 0 ; font-size: 20px; text-align: center; text-transform: uppercase;font-weight: bolder; color: white; margin-top: .4rem;}
+
+.offers-box:nth-child(2) .box .plans:hover .box-button{visibility: visible;}
+
+.offers-box:nth-child(2) .box .plans .box-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-box:nth-child(2) .box .plans .box-info h2{color: white; margin: 1rem;}
+
+.offers-box:nth-child(2) .box .plans .box-info  p
+{
+    width: 90%;
+    text-align: justify;
+    line-height: 1.4rem;
+    text-transform: capitalize;
+    color: black;
+}
+
+.offers-box:nth-child(2) .logo-box:nth-child(1) .plans-title{ background: #e71e64;}
+.offers-box:nth-child(2) .logo-box:nth-child(2) .plans-title{ background: #2f3080;}
+.offers-box:nth-child(2) .logo-box:nth-child(3) .plans-title{ background: #f36f24;}
+.offers-box:nth-child(2) .logo-box:nth-child(1) .plans .box-info{ background: #e71e64;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .logo-box:nth-child(2) .plans .box-info{ background: #2f3080;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .logo-box:nth-child(3) .plans .box-info{ background: #f36f24;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .logo-box .plans .box-info p{ color: white;}
+.offers-box:nth-child(2) .logo-box:nth-child(1) .plans .box-button{ background: #cf2027;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .logo-box:nth-child(2) .plans .box-button{ background: #0EB4A6;width: 100%; height: 100%;}
+.offers-box:nth-child(2) .logo-box:nth-child(3) .plans .box-button{ background: #9BC241;width: 100%; height: 100%;}
+
+
+@media only screen and (max-width:1200px) {
+    .offers-box:nth-child(2) .box {width: 60%;  margin: 0 auto;}
+}
+
+@media only screen and (max-width:700px) {
+    .offers-box:nth-child(2) .box {width: 98%;  margin: 0 auto;}
+}
+
+@media only screen and (max-width:400px) {
+    .offers-box:nth-child(2) .box .plans{height: 250px;}
+}
+
+@media only screen and (max-width:300px) {
+    .offers-box:nth-child(2) .box .plans{height: 380px;}
+}

@@ -1,9 +1,11 @@
+<!-- footer start  -->
+
 <ng-container *ngIf="jsonData$ | async as jsonData">
     <footer>
       <div class="footer-container">
         <div class="footer-section footer-logo">
             <div class="header-box">
-                <img [src]="'../../assets/images/logo/' + jsonData[11]?.footerImgUrl" alt="Footer Logo">
+                <img src="../../../assets/images/logo/sdm_logo.webp" alt="Footer Logo">
                 <p class="brand-name">{{  jsonData[0]?.brandName}}</p>
             </div>
           <p>
@@ -72,4 +74,5 @@
       </div>
     </footer>
 </ng-container>  
-      
+
+<!-- footer end  -->

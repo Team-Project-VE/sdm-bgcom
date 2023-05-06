@@ -53,7 +53,53 @@
 
 <!-- my goals start  -->
 <section class="goals-section" *ngIf="jsonData$ | async as jsonData">
-  <article><h2>article 1</h2></article>
+  <article>
+    <!-- logo offers start-->
+    <div class="my-offers">
+      <div class="offers-box logo-box">
+        <div class="tittle" ><h1>{{  jsonData[15]?.offersTitle}}</h1></div>
+      </div>
+      <div class="offers-box">
+        <div class="box logo-box">
+          <ng-container *ngFor="let items of jsonData[15]?.logoOffers_1">
+              <div class="plans">
+                <div class="box-info">
+                  <h3>{{jsonData[15]?.planStan}}</h3>
+                </div>
+                <div class="box-button">
+                  <a href="#">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
+                </div>
+              </div>
+          </ng-container>
+        </div>
+        <div class="box logo-box">
+          <ng-container *ngFor="let items of jsonData[15]?.logoOffers_2">
+              <div class="plans">
+                <div class="box-info">
+                  <h3 class="title">{{jsonData[15]?.planPrem}}</h3>
+                </div>
+                <div class="box-button">
+                  <a href="#">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
+                </div>
+              </div>
+          </ng-container>
+        </div>
+        <div class="box logo-box">
+          <ng-container *ngFor="let items of jsonData[15]?.logoOffers_3">
+              <div class="plans">
+                <div class="box-info">
+                  <h3>{{ jsonData[15]?.planBuss }}</h3>
+                </div>
+                <div class="box-button">
+                  <a href="#">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
+                </div>
+              </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+    <!-- logo offers end-->
+  </article>
   <main>
     <div class="main-content">
       <h1>{{jsonData[8]?.goalsTittle}}</h1>
@@ -72,7 +118,53 @@
       </ng-container>
     </div>
   </main>
-  <article><h2>article 2</h2></article>
+  <article>
+    <!-- bussines card offers start-->
+      <div class="my-offers">
+        <div class="offers-box logo-box">
+              <div class="tittle" ><h1>{{  jsonData[16]?.offersTitle}}</h1></div>
+        </div>
+        <div class="offers-box">
+          <div class="box">
+                <ng-container *ngFor="let items of jsonData[16]?.cardOffers_1">
+                    <div class="plans">
+                      <div class="box-info">
+                        <h3>{{jsonData[16]?.planStan}}</h3>
+                      </div>
+                      <div class="box-button">
+                        <a href="#">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
+                      </div>
+                    </div>
+                </ng-container>
+          </div>
+          <div class="box">
+                <ng-container *ngFor="let items of jsonData[16]?.cardOffers_2">
+                    <div class="plans">
+                      <div class="box-info">
+                        <h3 class="title">{{jsonData[16]?.planPrem}}</h3>
+                      </div>
+                      <div class="box-button">
+                        <a href="#">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
+                      </div>
+                    </div>
+                </ng-container>
+          </div>
+          <div class="box">
+                <ng-container *ngFor="let items of jsonData[16]?.cardOffers_3">
+                    <div class="plans">
+                      <div class="box-info">
+                        <h3>{{ jsonData[16]?.planBuss }}</h3>
+                      </div>
+                      <div class="box-button">
+                        <a href="#">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
+                      </div>
+                    </div>
+                </ng-container>
+          </div>
+        </div>
+      </div>
+    <!-- bussines card offers end-->
+  </article>
 </section>
 <!-- my goals end -->
 

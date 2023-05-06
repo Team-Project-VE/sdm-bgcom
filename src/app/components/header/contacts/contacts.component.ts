@@ -8,6 +8,8 @@ import { EmailService } from 'src/app/services/email.service';
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.css']
 })
+
+
 export class ContactsComponent {
 
   subject: string = '';
@@ -48,18 +50,16 @@ export class ContactsComponent {
       message: this.message
     };
 
-    this.emailService
-      .sendEmail(contactFormData)
-      .subscribe(
-        (response) => {
-          console.log("Email sent successfully:", response);
-          alert("Email sent successfully!");
-        },
-        (error) => {
-          console.error("Error sending email:", error);
-          alert("Error sending email, please try again later.");
-        }
-      );
+    this.emailService.sendEmail(contactFormData)
+    .subscribe({
+      next: (response) => {
+        console.log("Email sent successfully:", response);
+        alert("Email sent successfully!");
+      },
+      error: (error) => {
+        console.error("Error sending email:", error);
+        alert("Error sending email, please try again later.");
+      }
+    });
   }
-  
 }
