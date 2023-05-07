@@ -18,25 +18,46 @@ import { WebSupportComponent } from './components/header/services/web-support/we
 import { LogoDesignComponent } from './components/header/services/logo-design/logo-design.component';
 import { BusinessCardDesignComponent } from './components/header/services/business-card-design/business-card-design.component';
 import { HomeComponent } from './components/header/home/home.component';
+import { WebdesignComponent } from './components/header/portfolio/webdesign/webdesign.component';
+import { WebsupportPortComponent } from './components/header/portfolio/websupport-port/websupport-port.component';
+import { WebdevPortComponent } from './components/header/portfolio/webdev-port/webdev-port.component';
+import { LogodesPortComponent } from './components/header/portfolio/logodes-port/logodes-port.component';
+import { BusscardPortComponent } from './components/header/portfolio/busscard-port/busscard-port.component';
 
 const routes: Routes = [
+  // nav routing start 
   { path: 'courses', component: CoursesComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'offers', component: OffersComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contacts', component: ContactsComponent },
+  // nav routing end 
+
+  // course routing strat 
   { path: 'python-course', component: PythonComponent },
   { path: 'cplusplus-course', component: CPlusPlusComponent },
   { path: 'frontend-course', component: FrontEndComponent },
   { path: 'backend-course', component: BackEndComponent },
   { path: 'fullstack-course', component: FullStackComponent },
   { path: 'interiordesign-course', component: InteriorDesignComponent },
+  // course routing end 
+
+  // services routing start
   { path: 'webdesign-service', component: WebDesignComponent },
   { path: 'webdev-service', component: WebDevComponent },
   { path: 'websupp-service', component: WebSupportComponent },
   { path: 'logodesign-service', component: LogoDesignComponent },
   { path: 'businesscarddesign-service', component: BusinessCardDesignComponent },
+  // services routing start
+
+  // portfolio routing start
+  { path: 'webdesign-portfolio', component: WebdesignComponent},
+  { path: 'webdev-portfolio', component:WebdevPortComponent},
+  { path: 'websupp-portfolio', component:WebsupportPortComponent},
+  { path: 'logodesign-portfolio', component:LogodesPortComponent},
+  { path: 'businesscarddesign-portfolio', component:BusscardPortComponent},
+  // portfolio routing end
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];

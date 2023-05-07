@@ -13,11 +13,11 @@
 	{	"genMenu": "портфолио"	, "links":"/portfolio"},
 	{	"genMenu": "услуги"	, "links":"/services", "dropMenu":[
 
-		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service" },
-		{"dropMenuName": "уеб разработка", "link":"/webdev-service" },
-		{"dropMenuName": "уеб подръжка", "link":"/websupp-service" },
-		{"dropMenuName": "лого дизайн", "link":"/logodesign-service" },
-		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service"}
+		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "workDescription":"Имате идея за страхотен и мотивиращ бизнес? Ние можем да Ви помогнем при внедряването с помощта на съвременни методи и технологии","imgName":"srv1.webp"},
+		{"dropMenuName": "уеб разработка", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "workDescription":"Имате работещ бизнес, но нещо не е наред? нуждае се  от модерна технология за контрол и взаимодействие с вашите клиенти, ние затова сме тук","imgName":"srv2.webp"},
+		{"dropMenuName": "уеб подръжка", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "workDescription":"Уеб подръжката е като гаранцията на новия ви автомобил, а нашите експерти са на разположение 24/7, готови да отговорят в случай на нужда","imgName":"srv3.webp"},
+		{"dropMenuName": "лого дизайн", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "workDescription":"Имате идея! Искате нещо впечатляващо, нещо различно, което пленява от пръв поглед? Вашето лого е наша работа","imgName":"srv4.webp"},
+		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "workDescription":"Искате по-голяма аудитория за вашия бизнес? Имате ли свой бизнес? Ние сме готови да направим нещо впечатляващо за вас","imgName":"srv5.webp"}
 	]},
 	{	"genMenu": "оферти"	, "links":"/offers"},
 	{	"genMenu": "за нас"	, "links":"/about-us"},
@@ -125,6 +125,7 @@
 		{"text_1":"Искате ли нещо ново?","text_2":"Ние сме отсреща","slideName":"sld5.webp", "bgFon":"#F5DF4D"}
 	]},
 	{	"offersTitle":"уеб оферти", "webDesTitle":"уеб дизайн","webDevTitle":"уеб разаботка","webSupportTitle":"уеб подръжка",
+		"webDesOffers":"оферти уеб дизайн","webDevOffers":"оферти уеб разаботка","webSupportOffers":"оферти уеб подръжка",
 	"webOffers_1":[	
 		{"webDesign":[
 			{"titlePlan":"стандарт"},

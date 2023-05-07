@@ -28,6 +28,11 @@ import { LogoDesignComponent } from './components/header/services/logo-design/lo
 import { BusinessCardDesignComponent } from './components/header/services/business-card-design/business-card-design.component';
 import { HomeComponent } from './components/header/home/home.component';
 import { FormsModule } from '@angular/forms';
+import { WebdesignComponent } from './components/header/portfolio/webdesign/webdesign.component';
+import { WebsupportPortComponent } from './components/header/portfolio/websupport-port/websupport-port.component';
+import { WebdevPortComponent } from './components/header/portfolio/webdev-port/webdev-port.component';
+import { LogodesPortComponent } from './components/header/portfolio/logodes-port/logodes-port.component';
+import { BusscardPortComponent } from './components/header/portfolio/busscard-port/busscard-port.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +59,11 @@ import { FormsModule } from '@angular/forms';
     BusinessCardDesignComponent,
     EmailHeaderComponent,
     HomeComponent,
+    WebdesignComponent,
+    WebsupportPortComponent,
+    WebdevPortComponent,
+    LogodesPortComponent,
+    BusscardPortComponent,
   ],
   imports: [
     BrowserModule,
