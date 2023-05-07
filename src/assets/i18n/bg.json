@@ -218,5 +218,49 @@
 			{"btnLinkOffers":"виж"}
 		]}
 	]
+	},
+	{	"offersTitle":"нашите образователни курсове",
+		"cplus":[
+			{"title":"курс по C++"},
+			{"img":"CLogo.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/cplusplus-course", "btn":"виж"}
+		],
+		"backend":[
+			{"title":"курс по back end"},
+			{"img":"backend.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/backend-course", "btn":"виж"}
+		],
+		"frontend":[
+			{"title":"курс по front end"},
+			{"img":"frontend.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/frontend-course", "btn":"виж"}
+		],
+		"fullstack":[
+			{"title":"курс по full stcak"},
+			{"img":"fullstack.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/fullstack-course", "btn":"виж"}
+		],
+		"python":[
+			{"title":"курс по python"},
+			{"img":"pythonIcon.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/python-course","btn":"виж"}
+		],
+		"interdes":[
+			{"title":"курс по интериорен дизайн"},
+			{"img":"SweeetHome.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/interiordesign-course","btn":"виж"}
+		]
 	}
 ]
