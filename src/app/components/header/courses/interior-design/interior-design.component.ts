@@ -1,10 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit, ChangeDetectorRef } from '@angular/core';
+import { LangTranslateService } from 'src/app/services/lang-translate.service';
 
 @Component({
   selector: 'app-interior-design',
   templateUrl: './interior-design.component.html',
-  styleUrls: ['./interior-design.component.css']
+  styleUrls: ['../c-plus-plus/c-plus-plus.component.css']
 })
-export class InteriorDesignComponent {
+export class InteriorDesignComponent implements AfterViewInit {
+
+  constructor(private langTranslate: LangTranslateService, private cdr: ChangeDetectorRef) {} 
+  
+  // Function for get and read json fille /bg/en/tr
+  get jsonData$() {
+    return this.langTranslate.jsonData$;
+  }
+
+  // Function for change on langue for website
+  changeLanguage(lang: string) {
+    this.langTranslate.changeLanguage(lang);
+  }
+
+  ngAfterViewInit() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '../../../../../assets/js/course.js';
+    document.body.appendChild(script);
+  }
 
 }

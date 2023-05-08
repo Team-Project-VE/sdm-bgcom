@@ -262,5 +262,299 @@
 			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
 			{"link":"/interiordesign-course","btn":"виж"}
 		]
+	},
+	{		
+		"beginners":"модул 1 - за начинаещи", "intermediate":"модул 2 - средно ниво", "advanced":"модул 3 - напреднали",
+		"expert":"модул 4 - експерти","individual":"модул 5 - за индивидуална тематика"
+	},
+	{		
+		"modul_1":"модул 1", "modul_2":"модул 2", "modul_3":"модул 3",
+		"modul_4":"модул 4","modul_5":"модул 5",
+		"characteristic_1":"курс", "characteristic_2":"брой теми",
+		"characteristic_3":"продължителност","characteristic_4":"цена"
+	},
+	{
+		"python":[
+			{
+				"courseTitle":"Курс по Python", "img":"python.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"cplus":[
+			{
+				"courseTitle":"Курс по C++", "img":"cplus.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"frontend":[
+			{
+				"courseTitle":"Курс по frond end", "img":"frontend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"backend":[
+			{
+				"courseTitle":"Курс по back end", "img":"backend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"fullstack":[
+			{
+				"courseTitle":"Курс по full stack", "img":"fullstack.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"interdes":[
+			{
+				"courseTitle":"Курс по интериорен дизайн", "img":"iterdesign.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		]
 	}
 ]

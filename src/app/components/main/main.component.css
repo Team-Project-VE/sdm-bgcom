@@ -477,7 +477,7 @@
   text-align: center;
 }
 
-.course-desc-box a{background: #409fd7; padding: .5rem 0; width: 120px; text-align: center; border: none; border-radius: 5px; transition: all .5s ease-in-out;}
+.course-desc-box a{background: #409fd7; padding: .5rem 0; width: 120px; text-align: center; border: none; border-radius: 5px;}
 .course-desc-box a:hover{background: white; color: black;}
 
 .course-info:hover .course-desc-box{

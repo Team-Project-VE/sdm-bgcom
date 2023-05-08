@@ -1,1 +1,392 @@
-<p>front-end works!</p>
+<ng-container *ngIf="jsonData$ | async as jsonData">
+    <section class="my-course">
+        <div class="course">
+            <h1>{{jsonData[20]?.frontend[0].courseTitle}}</h1>
+        </div>
+        <div class="course">
+            <div class="course-info">
+                <img [src]="jsonData[20]?.frontend[0]?.img ? '../../../../../assets/images/course_IMG/' + jsonData[20]?.frontend[0]?.img : ''" alt="">
+            </div>
+            <div class="course-info">
+                <p>{{jsonData[20]?.frontend[0]?.paragraph_1}}</p>
+                <div class="modules">
+                    <div class="modules-info">
+                        <i class="fa-solid fa-diamond"></i>
+                        <p>{{jsonData[18]?.beginners}}</p>
+                    </div>
+                    <div class="modules-info">
+                        <i class="fa-solid fa-diamond"></i>
+                        <p>{{jsonData[18]?.intermediate}}</p>
+                    </div>
+                    <div class="modules-info">
+                        <i class="fa-solid fa-diamond"></i>
+                        <p>{{jsonData[18]?.advanced}}</p>
+                    </div>
+                    <div class="modules-info">
+                        <i class="fa-solid fa-diamond"></i>
+                        <p>{{jsonData[18]?.expert}}</p>
+                    </div>
+                    <div class="modules-info">
+                        <i class="fa-solid fa-diamond"></i>
+                        <p>{{jsonData[18]?.individual}}</p>
+                    </div>
+                </div>
+                <p>{{jsonData[20]?.frontend[0]?.paragraph_2}}</p>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-box">
+                <i class="fa-solid fa-list-ul" id="listModule"></i>
+                <ul class="modules" id="modules">
+                    <li class="mod" id="module_1" data-module="1">{{jsonData[19]?.modul_1}}</li>
+                    <li class="mod" id="module_2" data-module="2">{{jsonData[19]?.modul_2}}</li>
+                    <li class="mod" id="module_3" data-module="3">{{jsonData[19]?.modul_3}}</li>
+                    <li class="mod" id="module_4" data-module="4">{{jsonData[19]?.modul_4}}</li>
+                    <li class="mod" id="module_5" data-module="5">{{jsonData[19]?.modul_5}}</li>
+                </ul>
+            </div>
+            <div class="course-box">
+                <!-- 1 -->
+                <div class="course-modul">
+                    <div class="modul-box">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_1}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_1[0]?.description_1}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_2}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_1[0]?.description_2}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_3}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_1[0]?.description_3}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_4}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_1[0]?.description_4}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modul-box">
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_1[1]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_1[1]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_1[2]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_1[2]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_1[3]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_1[3]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_1[4]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_1[4]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_1[5]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_1[5]?.answer}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="course-modul">
+                    <div class="modul-box">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_1}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_2[0]?.description_1}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_2}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_2[0]?.description_2}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_3}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_2[0]?.description_3}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_4}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_2[0]?.description_4}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modul-box">
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_2[1]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_2[1]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_2[2]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_2[2]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_2[3]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_2[3]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_2[4]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_2[4]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_2[5]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_2[5]?.answer}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="course-modul">
+                    <div class="modul-box">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_1}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_3[0]?.description_1}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_2}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_3[0]?.description_2}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_3}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_3[0]?.description_3}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_4}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_3[0]?.description_4}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modul-box">
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_3[1]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_3[1]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_3[2]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_3[2]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_3[3]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_3[3]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_3[4]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_3[4]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_3[5]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_3[5]?.answer}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="course-modul">
+                    <div class="modul-box">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_1}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_4[0]?.description_1}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_2}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_4[0]?.description_2}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_3}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_4[0]?.description_3}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_4}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_4[0]?.description_4}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modul-box">
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_4[1]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_4[1]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_4[2]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_4[2]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_4[3]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_4[3]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_4[4]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_4[4]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_4[5]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_4[5]?.answer}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="course-modul">
+                    <div class="modul-box">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_1}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_5[0]?.description_1}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_2}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_5[0]?.description_2}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_3}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_5[0]?.description_3}}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>{{jsonData[19]?.characteristic_4}}</span>
+                                    <p>{{jsonData[20].frontend[0]?.modul_5[0]?.description_4}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modul-box">
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_5[1]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_5[1]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_5[2]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_5[2]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_5[3]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_5[3]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_5[4]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_5[4]?.answer}}</div>
+                        </div>
+                        <div class="question">
+                            <div>
+                                <p>{{jsonData[20]?.frontend[0]?.modul_5[5]?.question}}</p>
+                                <i class="fa-solid fa-plus closeQest"></i>
+                            </div>
+                            <div class="answer">{{jsonData[20]?.frontend[0]?.modul_5[5]?.answer}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</ng-container>
