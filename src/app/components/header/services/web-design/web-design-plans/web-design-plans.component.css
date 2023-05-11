@@ -1,0 +1,56 @@
+.green{
+    background: green;
+    font-size: 18px;
+}
+
+.red{
+    background: red;
+    font-size: 18px;
+}
+
+
+.plans{
+    margin:1rem auto;
+    max-width: 1350px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.plan-content:nth-child(1){width: 100%; margin: 1rem 0;}
+.plan-content:nth-child(1) h1{text-align: center;}
+.plan-content:nth-child(2){width: 45%; border: 1px solid black;}
+.plan-content:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan-box:nth-child(1){
+    width: 100; background: #409fd7; color: white; display: flex;align-items: center; flex-direction: column;
+}
+
+.plan-box:nth-child(2)
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.plan-box:nth-child(2) .apporate {width: 100%; display: flex; align-items: center; margin: .5rem 0; padding-bottom: .5em;  border-bottom: 1px solid black;}
+.plan-box:nth-child(2) .apporate:last-child{border: none;}
+.plan-box:nth-child(2) .apporate i {width: 25px; height: 25px; display: flex; align-items: center; justify-content: center; border-radius: 50%; margin: 0 1rem; color: white;}
+.plan-box:nth-child(3) {
+    padding: 1rem 0;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+} 
+
+.plan-box:nth-child(3) p:nth-child(1){font-size: 2.5rem;}
+.plan-box:nth-child(3) p:nth-child(2){font-size: 2rem; color: red;}
