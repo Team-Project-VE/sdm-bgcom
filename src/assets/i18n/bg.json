@@ -556,5 +556,335 @@
 				]
 			}
 		]
-	}
+	},
+	{"planWebDesign":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"planWebDev":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"planBusinessCards":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"planLogoDesign":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"planWebSupport":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"clpusModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"backEndModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"frontEndModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"fullStackModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"interiorDesignModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]},
+	{"pythonnModules":[
+		{
+			"id": 1,
+			"name": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"price": 19.99,
+			"imageUrl": "product1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Product 2",
+			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
+			"price": 24.99,
+			"imageUrl": "product2.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Product 3",
+			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
+			"price": 29.99,
+			"imageUrl": "product3.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Product 4",
+			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
+			"price": 14.99,
+			"imageUrl": "product4.jpg"
+		}
+	]}
 ]

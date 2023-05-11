@@ -1,14 +1,15 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component, AfterViewInit, } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
 import { map } from 'rxjs/operators';
 
+
 @Component({
-  selector: 'app-business-card-design',
-  templateUrl: './business-card-design.component.html',
-  styleUrls: ['./business-card-design.component.css']
+  selector: 'app-web-design-plans',
+  templateUrl: './web-design-plans.component.html',
+  styleUrls: ['./web-design-plans.component.css']
 })
-export class BusinessCardDesignComponent implements AfterViewInit{
+export class WebDesignPlansComponent implements AfterViewInit{
   product: any;
 
   constructor(private route: ActivatedRoute, private langTranslate: LangTranslateService) { }
@@ -30,8 +31,8 @@ export class BusinessCardDesignComponent implements AfterViewInit{
           const product = [];
           for (let i = 0; i < data.length; i++) {
             const planItem = data[i];
-            if (planItem.planBusinessCards) {
-              product.push(...planItem.planBusinessCards);
+            if (planItem.planWebDesign) {
+              product.push(...planItem.planWebDesign);
             }
           }
           return product;
