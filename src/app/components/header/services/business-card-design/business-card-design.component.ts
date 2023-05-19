@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'app-business-card-design',
   templateUrl: './business-card-design.component.html',
-  styleUrls: ['./business-card-design.component.css']
+  styleUrls: ['../web-design/web-design.component.css']
 })
 export class BusinessCardDesignComponent implements AfterViewInit{
   product: any;
