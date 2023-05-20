@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'app-web-dev-plans',
   templateUrl: './web-dev-plans.component.html',
-  styleUrls: ['./web-dev-plans.component.css']
+  styleUrls: ['../../web-design/web-design-plans/web-design-plans.component.css']
 })
 
 export class WebDevPlansComponent implements AfterViewInit{

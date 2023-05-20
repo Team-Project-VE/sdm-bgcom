@@ -6,7 +6,7 @@ import { LangTranslateService } from 'src/app/services/lang-translate.service';
 @Component({
   selector: 'app-logo-plans',
   templateUrl: './logo-plans.component.html',
-  styleUrls: ['./logo-plans.component.css']
+  styleUrls: ['../../web-design/web-design-plans/web-design-plans.component.css']
 })
 export class LogoPlansComponent implements AfterViewInit{
   product: any;
