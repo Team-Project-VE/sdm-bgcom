@@ -77,7 +77,7 @@ const routes: Routes = [
   // plan details 
   { path:'web-design-plans/:id',component:WebDesignPlansComponent},
   { path:'web-dev-plans/:id',component:WebDevPlansComponent},
-  { path:'busines-cards-plans/:id',component:BusinessCardsPlansComponent},
+  { path:'business-cards-plans/:id',component:BusinessCardsPlansComponent},
   { path:'logo-design-plans/:id',component:LogoPlansComponent},
   { path:'web-support-plans/:id',component:WebSupportPlansComponent},
   //modul details

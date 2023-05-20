@@ -10,9 +10,9 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./web-design-plans.component.css']
 })
 export class WebDesignPlansComponent implements AfterViewInit{
-  product: any;
+
   constructor(private route: ActivatedRoute, private langTranslate: LangTranslateService) { }
-  
+  product:any
   // Function for get and read json fille /bg/en/tr
   get jsonData$() {
     return this.langTranslate.jsonData$;
