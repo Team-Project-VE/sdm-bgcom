@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./web-design-plans.component.css']
 })
 export class WebDesignPlansComponent implements AfterViewInit{
-  product: any;
+  plan: any;
 
   constructor(private route: ActivatedRoute, private langTranslate: LangTranslateService) { }
   
@@ -38,12 +38,12 @@ export class WebDesignPlansComponent implements AfterViewInit{
           return product;
         })
       ).subscribe(product => {
-        this.product = product;
-        console.log(this.product);
+        this.plan = product;
+        console.log(this.plan);
         this.route.paramMap.subscribe(params => {
           const productId = Number(params.get('id'));
           if (productId) {
-            this.product = product.find(p => p.id === productId);
+            this.plan = product.find(p => p.id === productId);
           }
         });
       });

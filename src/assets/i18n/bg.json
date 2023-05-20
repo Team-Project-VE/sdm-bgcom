@@ -886,5 +886,24 @@
 			"price": 14.99,
 			"imageUrl": "product4.jpg"
 		}
-	]}
+	]},
+	
+	{
+		"plan": [
+			{
+				"name": "Стандартен",
+				"description": [
+					{"check": true, "feature": "1 Концепция за дизайн"},
+					{"check": false, "feature": "Социална интеграция"},
+					{"check": true, "feature": "Бизнес социална интеграция"},
+					{"check": false, "feature": "Хостинг и домейн"},
+					{"check": true, "feature": "Комуникационни форми"},
+					{"check": false, "feature": "Административен панел"},
+					{"check": false, "feature": "SEO оптимизация"},
+					{"check": true, "feature": "Отзивчивост"}
+				],
+				"price": "$300"
+			}
+		]
+	}
 ]
