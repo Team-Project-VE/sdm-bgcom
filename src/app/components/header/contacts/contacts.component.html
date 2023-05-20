@@ -1,9 +1,9 @@
 <ng-container *ngIf="jsonData$ | async as jsonData">
-  <form class="my-form" (ngSubmit)="onSubmit()" #contactForm="ngForm">
+  <form class="my-form" id="my-form" (ngSubmit)="onSubmit()" #contactForm="ngForm">
       <div class="container">
-        <h1>{{ jsonData[12]?.contactsForm }}</h1>
+        <h1 class="heading-hide" >{{ jsonData[12]?.contactsForm }}</h1>
         <ul>
-          <li>
+          <li class="subject-hide">
             <select [(ngModel)]="subject" name="subject" required>
               <option selected disabled>{{ jsonData[12]?.chooseOption }}</option>
               <option>{{ jsonData[12]?.offerRequest }}</option>
@@ -49,10 +49,9 @@
           </li>    
         </ul>
       </div>
-    </form>
-  </ng-container>
+  </form>
+</ng-container>
   
-
   <script>
     const checkbox = document.querySelector('.my-form input[type="checkbox"]');
     const btns = document.querySelectorAll(".my-form button");

@@ -11,7 +11,6 @@ import { map } from 'rxjs/operators';
 })
 export class WebDesignPlansComponent implements AfterViewInit{
   product: any;
-
   constructor(private route: ActivatedRoute, private langTranslate: LangTranslateService) { }
   
   // Function for get and read json fille /bg/en/tr
@@ -25,6 +24,10 @@ export class WebDesignPlansComponent implements AfterViewInit{
   }
 
   ngAfterViewInit() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '../../../../../../assets/js/request-contacts.js';
+    document.body.appendChild(script);
     setTimeout(() => {
       this.langTranslate.jsonData$.pipe(
         map(data => {
@@ -41,7 +44,7 @@ export class WebDesignPlansComponent implements AfterViewInit{
         this.product = product;
         console.log(this.product);
         this.route.paramMap.subscribe(params => {
-          const productId = Number(params.get('id'));
+          const productId = (params.get('id'));
           if (productId) {
             this.product = product.find(p => p.id === productId);
           }

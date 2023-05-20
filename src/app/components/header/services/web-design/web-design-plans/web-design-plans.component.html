@@ -1,7 +1,4 @@
-<!-- <p>web-design-plans works!</p>
-
-
-<div *ngIf="product" class="web-design-plans">
+<!-- <div *ngIf="product" class="web-design-plans">
     <h2>{{ product.name }}</h2>
     <img [src]="product.imageUrl" [alt]="product.name">
     <p>{{ product.description }}</p>
@@ -11,7 +8,7 @@
     <p>Product not found.</p>
 </div> -->
 
-<section class="plans">
+<!-- <section class="plans">
     <div class="plan-content"><h1>Направи Заявка</h1></div>
     <div class="plan-content">
         <div class="plan-box">
@@ -58,15 +55,34 @@
         </div>
     </div>
     <div class="plan-content">
-        <form action="">
-            <input type="text" placeholder="Име" name="name" required>
-            <input type="text" placeholder="Фамилия" name="family" required>
-            <input type="email" placeholder="Имейл" name="email" required>
-            <input type="tel" name="phone" id="phone" placeholder="Телефонен номер">
-            <textarea placeholder="Съобщение" name="message" rows="5" required></textarea>
-        </form>
+        <app-contacts></app-contacts>
     </div>
-    <div class="plan-content">
-        <button type="submit" form="myForm">Заяви</button>
-    </div>
-</section>
+</section> -->
+
+<ng-container *ngIf="product" class="web-design-plans">
+    <section class="plans">
+        <div class="plan-content"><h1>Направи Заявка</h1></div>
+        <div class="plan-content">
+          <div id="plan-background" class="plan-box" [ngStyle]="{'background': product.background}">
+            <h1>{{ product.name }}</h1>
+            <small>{{ product.plan }}</small>
+          </div>
+          <div class="plan-box">
+            <div class="apporate" *ngFor="let option of product.options">
+              <i class="{{ option.symbol }}"></i>
+              <p>{{ option.description }}</p>
+            </div>
+          </div>
+          <div class="plan-box">
+            <p>$ {{ product.price }}</p>
+            <p>{{ product.currency }}</p>
+          </div>
+        </div>
+        <div class="plan-content" [ngStyle]="{'background': product.background}">
+          <app-contacts></app-contacts>
+        </div>
+      </section>      
+</ng-container>
+<ng-container *ngIf="!product">
+    <p>Product not found.</p>
+</ng-container>

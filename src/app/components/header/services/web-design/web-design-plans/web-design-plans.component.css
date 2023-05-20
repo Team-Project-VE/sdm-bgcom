@@ -18,13 +18,12 @@
     justify-content: space-evenly;
 }
 
-.plan-content:nth-child(1){width: 100%; margin: 1rem 0;}
+.plan-content:nth-child(1){width: 100%; margin: 1rem 0;  border-bottom: 2px solid black;}
 .plan-content:nth-child(1) h1{text-align: center;}
 .plan-content:nth-child(2){width: 45%; border: 1px solid black;}
 .plan-content:nth-child(3){
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
 .plan-box:nth-child(1){
@@ -37,7 +36,7 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .plan-box:nth-child(2) .apporate {width: 100%; display: flex; align-items: center; margin: .5rem 0; padding-bottom: .5em;  border-bottom: 1px solid black;}
@@ -54,3 +53,29 @@
 
 .plan-box:nth-child(3) p:nth-child(1){font-size: 2.5rem;}
 .plan-box:nth-child(3) p:nth-child(2){font-size: 2rem; color: red;}
+.plan-content:nth-child(3) app-contacts form 
+{
+    margin: 0;
+    padding: 3.3rem 0;
+}
+
+
+@media screen and (max-width:1200px){
+    .plans .plan-content{width: 80%;}
+    .plan-content:nth-child(3) app-contacts form {margin-top:1rem}
+}
+
+@media screen and (max-width:500px){
+    .plans .plan-content{width: 95%;}
+}
+
+
+@media screen and (max-width:400px){
+    .plans .plan-content{width: 95%;}
+    .plan-box:nth-child(2){width: 98%;}
+}
+
+@media screen and (max-width:420px)
+{
+    .plan-box:nth-child(3) {width: 95%;}
+}
