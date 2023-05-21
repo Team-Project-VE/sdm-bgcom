@@ -2,6 +2,8 @@ import { Component, AfterViewInit } from '@angular/core';
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { EmailService } from 'src/app/services/email.service';
+import { map } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contacts',
@@ -10,16 +12,19 @@ import { EmailService } from 'src/app/services/email.service';
 })
 
 
-export class ContactsComponent {
+export class ContactsComponent implements AfterViewInit {
 
+  product: any;
   subject: string = '';
   name: string = '';
   surname: string = '';
   email: string = '';
   phoneNumber: string = '';
   message: string = '';
+  endpoint: string = '';
+  price: string = '';
 
-  constructor(public translationService: LangTranslateService, private sanitizer: DomSanitizer, private emailService: EmailService) {}
+  constructor(public translationService: LangTranslateService, private sanitizer: DomSanitizer, private emailService: EmailService, private route: ActivatedRoute) {}
 
   get jsonData$() {
     return this.translationService.jsonData$;
@@ -38,6 +43,33 @@ export class ContactsComponent {
     script.type = 'text/javascript';
     script.src = '../../assets/js/contacts.js';
     document.body.appendChild(script);
+
+    setTimeout(() => {
+      this.translationService.jsonData$.pipe(
+        map(data => {
+          const product = [];
+          for (let i = 0; i < data.length; i++) {
+            const planItem = data[i];
+            if (planItem.planWebDesign) {
+              product.push(...planItem.planWebDesign);
+            }
+          }
+          return product;
+        })
+      ).subscribe(product => {
+        this.product = product;
+        console.log(this.product);
+        this.route.paramMap.subscribe(params => {
+          const productId = (params.get('id'));
+          if (productId) {
+            this.product = product.find(p => p.id === productId);
+            if(this.product) {
+              this.price = this.product.price;
+            }
+          }
+        });
+      });
+    });
   }
 
   onSubmit(): void {
@@ -47,7 +79,9 @@ export class ContactsComponent {
       email: this.email,
       phoneNumber: this.phoneNumber,
       subject: this.subject,
-      message: this.message
+      message: this.message,
+      endpoint: window.location.href,
+      price: this.price
     };
 
     this.emailService.sendEmail(contactFormData)

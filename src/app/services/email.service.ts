@@ -17,7 +17,8 @@ export class EmailService {
     surname: string,
     email: string,
     phoneNumber: string,
-    message: string 
+    message: string,
+    endpoint: string
 }): Observable<any> {
     return this.http.post(this.emailApiUrl, contactFormData).pipe(
         catchError((error) => {
