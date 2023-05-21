@@ -707,32 +707,61 @@
 	]},
 	{"planLogoDesign":[
 		{
-			"id": 1,
-			"name": "Product 1",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"price": 19.99,
-			"imageUrl": "product1.jpg"
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"2 Концепции за дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Прозрачност на логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Векторен файл", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Файл за печат", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Изходен файл", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"3D макет", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Комплект за социални медии", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Разширени формати", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+1 Дизайн на Визитка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 180,
+			"currency":"BGN"
 		},
 		{
-			"id": 2,
-			"name": "Product 2",
-			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
-			"price": 24.99,
-			"imageUrl": "product2.jpg"
+			"id": "premium",
+			"name": "премуим",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"3 Концепции за дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Прозрачност на логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Векторен файл", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Файл за печат", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Изходен файл", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"3D макет", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Комплект за социални медии", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Разширени формати", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+1 Дизайн на Визитка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 200,
+			"currency":"BGN"
 		},
 		{
-			"id": 3,
-			"name": "Product 3",
-			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
-			"price": 29.99,
-			"imageUrl": "product3.jpg"
-		},
-		{
-			"id": 4,
-			"name": "Product 4",
-			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
-			"price": 14.99,
-			"imageUrl": "product4.jpg"
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"5 Концепции за дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Прозрачност на логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Векторен файл", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Файл за печат", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Изходен файл", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"3D макет", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Комплект за социални медии", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Разширени формати", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"+2 Дизайн на Визитка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 350,
+			"currency":"BGN"
 		}
 	]},
 	{"planWebSupport":[
