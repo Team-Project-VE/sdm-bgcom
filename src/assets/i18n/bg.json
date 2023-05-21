@@ -608,7 +608,7 @@
 				{"description":"SEO оптимизация", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"До 20 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
 			],
@@ -618,32 +618,61 @@
 	]},
 	{"planWebDev":[
 		{
-			"id": 1,
-			"name": "Product 1",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"price": 19.99,
-			"imageUrl": "product1.jpg"
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+1 месец подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 650,
+			"currency":"BGN"
 		},
 		{
-			"id": 2,
-			"name": "Product 2",
-			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
-			"price": 24.99,
-			"imageUrl": "product2.jpg"
+			"id": "premium",
+			"name": "премуим",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 1000,
+			"currency":"BGN"
 		},
 		{
-			"id": 3,
-			"name": "Product 3",
-			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
-			"price": 29.99,
-			"imageUrl": "product3.jpg"
-		},
-		{
-			"id": 4,
-			"name": "Product 4",
-			"description": "Etiam ac ipsum vitae enim convallis volutpat.",
-			"price": 14.99,
-			"imageUrl": "product4.jpg"
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 1350,
+			"currency":"BGN"
 		}
 	]},
 	{"planBusinessCards":[

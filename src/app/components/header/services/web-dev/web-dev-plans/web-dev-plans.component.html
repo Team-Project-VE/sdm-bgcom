@@ -1,27 +1,27 @@
 <ng-container *ngIf="product" class="web-design-plans">
-    <section class="plans">
-        <div class="plan-content"><h1>Направи Заявка</h1></div>
-        <div class="plan-content">
-          <div id="plan-background" class="plan-box" [ngStyle]="{'background': product.background}">
-            <h1>{{ product.name }}</h1>
-            <small>{{ product.plan }}</small>
-          </div>
-          <div class="plan-box">
-            <div class="apporate" *ngFor="let option of product.options">
-              <i class="{{ option.symbol }}"></i>
-              <p>{{ option.description }}</p>
-            </div>
-          </div>
-          <div class="plan-box">
-            <p>$ {{ product.price }}</p>
-            <p>{{ product.currency }}</p>
+  <section class="plans">
+      <div class="plan-content"><h1>Направи Заявка</h1></div>
+      <div class="plan-content">
+        <div id="plan-background" class="plan-box" [ngStyle]="{'background': product.background}">
+          <h1>{{ product.name }}</h1>
+          <small>{{ product.plan }}</small>
+        </div>
+        <div class="plan-box">
+          <div class="apporate" *ngFor="let option of product.options">
+            <i class="{{ option.symbol }}"></i>
+            <p>{{ option.description }}</p>
           </div>
         </div>
-        <div class="plan-content" [ngStyle]="{'background': product.background}">
-          <app-contacts></app-contacts>
+        <div class="plan-box">
+          <p>$ {{ product.price }}</p>
+          <p>{{ product.currency }}</p>
         </div>
-      </section>      
+      </div>
+      <div class="plan-content" [ngStyle]="{'background': product.background}">
+        <app-contacts></app-contacts>
+      </div>
+    </section>      
 </ng-container>
 <ng-container *ngIf="!product">
-    <p>Product not found.</p>
+  <p>Product not found.</p>
 </ng-container>
