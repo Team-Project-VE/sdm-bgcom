@@ -44,6 +44,7 @@ export class ContactsComponent implements AfterViewInit {
     script.src = '../../assets/js/contacts.js';
     document.body.appendChild(script);
 
+    //For Web Design
     setTimeout(() => {
       this.translationService.jsonData$.pipe(
         map(data => {
@@ -52,6 +53,34 @@ export class ContactsComponent implements AfterViewInit {
             const planItem = data[i];
             if (planItem.planWebDesign) {
               product.push(...planItem.planWebDesign);
+            }
+          }
+          return product;
+        })
+      ).subscribe(product => {
+        this.product = product;
+        console.log(this.product);
+        this.route.paramMap.subscribe(params => {
+          const productId = (params.get('id'));
+          if (productId) {
+            this.product = product.find(p => p.id === productId);
+            if(this.product) {
+              this.price = this.product.price;
+            }
+          }
+        });
+      });
+    });
+
+    //For web dev
+    setTimeout(() => {
+      this.translationService.jsonData$.pipe(
+        map(data => {
+          const product = [];
+          for (let i = 0; i < data.length; i++) {
+            const planItem = data[i];
+            if (planItem.planWebDev) {
+              product.push(...planItem.planWebDev);
             }
           }
           return product;
