@@ -643,14 +643,14 @@
 			"background":"#0EB4A6",
 			"options":[
 				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"SEO оптимизаця", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1000,
 			"currency":"BGN"
@@ -663,13 +663,13 @@
 			"options":[
 				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1350,
 			"currency":"BGN"
