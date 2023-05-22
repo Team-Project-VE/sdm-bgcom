@@ -62,10 +62,10 @@
 			"seliha.mehmedova@sdm-bg.com"
 		],
 		"socialMedia": [
-			{ "platform": "twitter", "icon": "fa fa-twitter", "link": "#" },
-			{ "platform": "facebook", "icon": "fa fa-facebook", "link": "#" },
-			{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "#" },
-			{ "platform": "instagram", "icon": "fa fa-instagram", "link": "#" }
+			{ "platform": "twitter", "icon": "fa fa-twitter", "link": "https://twitter.com" },
+			{ "platform": "facebook", "icon": "fa fa-facebook", "link": "https://facebook.com" },
+			{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "https://linkedin.com" },
+			{ "platform": "instagram", "icon": "fa fa-instagram", "link": "https://instagram.com" }
 		],
 		"quickLinksTitle": "Бързи Връзки",
 		"quickLinks": [
@@ -692,7 +692,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
 				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
 			],
-			"price": 19.99,
+			"price": 40,
 			"currency":"BGN"
 		},
 		{
@@ -711,7 +711,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
 				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
 			],
-			"price": 19.99,
+			"price": 60,
 			"currency":"BGN"
 		},
 		{
@@ -730,7 +730,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green" },
 				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-check green" }
 			],
-			"price": 19.99,
+			"price": 80,
 			"currency":"BGN"
 		},
 		{
@@ -758,7 +758,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
 				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
 			],
-			"price": 19.99,
+			"price": 100,
 			"currency":"BGN"
 		},
 		{
@@ -777,7 +777,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
 				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
 			],
-			"price": 19.99,
+			"price": 200,
 			"currency":"BGN"
 		},
 		{
@@ -796,7 +796,7 @@
 				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
-			"price": 19.99,
+			"price": 300,
 			"currency":"BGN"
 		},
 		{
@@ -824,7 +824,7 @@
 				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
-			"price": 19.99,
+			"price": 300,
 			"currency":"BGN"
 		},
 		{
@@ -843,7 +843,7 @@
 				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
-			"price": 19.99,
+			"price": 500,
 			"currency":"BGN"
 		},
 		{
@@ -862,7 +862,7 @@
 				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
-			"price": 19.99,
+			"price": 700,
 			"currency":"BGN"
 		},
 		{
