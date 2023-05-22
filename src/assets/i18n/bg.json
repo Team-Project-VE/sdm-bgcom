@@ -677,25 +677,61 @@
 	]},
 	{"planBusinessCards":[
 		{
-			"id": 1,
-			"name": "Product 1",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
 			"price": 19.99,
-			"imageUrl": "product1.jpg"
+			"currency":"BGN"
 		},
 		{
-			"id": 2,
-			"name": "Product 2",
-			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
-			"price": 24.99,
-			"imageUrl": "product2.jpg"
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
-			"id": 3,
-			"name": "Product 3",
-			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
-			"price": 29.99,
-			"imageUrl": "product3.jpg"
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-check green" }
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
 			"id": 4,
@@ -707,25 +743,61 @@
 	]},
 	{"planLogoDesign":[
 		{
-			"id": 1,
-			"name": "Product 1",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
 			"price": 19.99,
-			"imageUrl": "product1.jpg"
+			"currency":"BGN"
 		},
 		{
-			"id": 2,
-			"name": "Product 2",
-			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
-			"price": 24.99,
-			"imageUrl": "product2.jpg"
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
-			"id": 3,
-			"name": "Product 3",
-			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
-			"price": 29.99,
-			"imageUrl": "product3.jpg"
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
 			"id": 4,
@@ -737,25 +809,61 @@
 	]},
 	{"planWebSupport":[
 		{
-			"id": 1,
-			"name": "Product 1",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
 			"price": 19.99,
-			"imageUrl": "product1.jpg"
+			"currency":"BGN"
 		},
 		{
-			"id": 2,
-			"name": "Product 2",
-			"description": "Nulla eu felis tristique, tempus nisl ac, lobortis lorem.",
-			"price": 24.99,
-			"imageUrl": "product2.jpg"
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
-			"id": 3,
-			"name": "Product 3",
-			"description": "Donec ultricies velit non massa mollis, eget finibus arcu bibendum.",
-			"price": 29.99,
-			"imageUrl": "product3.jpg"
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 19.99,
+			"currency":"BGN"
 		},
 		{
 			"id": 4,

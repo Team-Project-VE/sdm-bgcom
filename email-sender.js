@@ -12,9 +12,9 @@ const PORT = process.env.PORT || 3000;
 
 app.post("/send-email", async (req, res) => {
     console.log("Received request body: ", req.body);
-    console.log("Received request URL: ", req.originalUrl);
-    const { subject, name, surname, email, phoneNumber, message } = req.body;
-    const endpoint = req.originalUrl;
+    // console.log("Received request URL: ", req.originalUrl);
+    // const endpoint = req.originalUrl;
+    const { subject, name, surname, email, phoneNumber, message, endpoint, price } = req.body;
 
     let transporter = nodemailer.createTransport({
         service: "gmail",
@@ -31,7 +31,7 @@ app.post("/send-email", async (req, res) => {
         from: `"${name} ${surname}" <${email}>`,
         to: process.env.TO,
         subject: subject,
-        text: `Name: ${name}\nSurname: ${surname}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nMessage: ${message}\nEndpoint: ${endpoint}\n}`,
+        text: `Name: ${name}\nSurname: ${surname}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nMessage: ${message}\nEndpoint: ${endpoint}\nPrice: ${price}\n}`,
       };
     
       try {

@@ -14,15 +14,15 @@ import { ActivatedRoute } from '@angular/router';
 
 export class ContactsComponent implements AfterViewInit {
 
-  product: any;
-  subject: string = '';
-  name: string = '';
-  surname: string = '';
-  email: string = '';
-  phoneNumber: string = '';
-  message: string = '';
-  endpoint: string = '';
-  price: string = '';
+  public product: any;
+  public subject: string = '';
+  public name: string = '';
+  public surname: string = '';
+  public email: string = '';
+  public phoneNumber: string = '';
+  public message: string = '';
+  public endpoint: string = '';
+  public price: string = '';
 
   constructor(public translationService: LangTranslateService, private sanitizer: DomSanitizer, private emailService: EmailService, private route: ActivatedRoute) {}
 
@@ -99,6 +99,117 @@ export class ContactsComponent implements AfterViewInit {
         });
       });
     });
+
+    //For Logo Deisgn
+    setTimeout(() => {
+      this.translationService.jsonData$.pipe(
+        map(data => {
+          const product = [];
+          for (let i = 0; i < data.length; i++) {
+            const planItem = data[i];
+            if (planItem.planLogoDesign) {
+              product.push(...planItem.planLogoDesign);
+            }
+          }
+          return product;
+        })
+      ).subscribe(product => {
+        this.product = product;
+        console.log(this.product);
+        this.route.paramMap.subscribe(params => {
+          const productId = (params.get('id'));
+          if (productId) {
+            this.product = product.find(p => p.id === productId);
+            if(this.product) {
+              this.price = this.product.price;
+            }
+          }
+        });
+      });
+    });
+
+    //For Business-Cards
+    setTimeout(() => {
+      this.translationService.jsonData$.pipe(
+        map(data => {
+          const product = [];
+          for (let i = 0; i < data.length; i++) {
+            const planItem = data[i];
+            if (planItem.planBusinessCards) {
+              product.push(...planItem.planBusinessCards);
+            }
+          }
+          return product;
+        })
+      ).subscribe(product => {
+        this.product = product;
+        console.log(this.product);
+        this.route.paramMap.subscribe(params => {
+          const productId = (params.get('id'));
+          if (productId) {
+            this.product = product.find(p => p.id === productId);
+            if(this.product) {
+              this.price = this.product.price;
+            }
+          }
+        });
+      });
+    });
+
+        //For Business-Cards
+    setTimeout(() => {
+      this.translationService.jsonData$.pipe(
+        map(data => {
+          const product = [];
+          for (let i = 0; i < data.length; i++) {
+            const planItem = data[i];
+            if (planItem.planBusinessCards) {
+              product.push(...planItem.planBusinessCards);
+            }
+          }
+          return product;
+        })
+      ).subscribe(product => {
+        this.product = product;
+        console.log(this.product);
+        this.route.paramMap.subscribe(params => {
+          const productId = (params.get('id'));
+          if (productId) {
+            this.product = product.find(p => p.id === productId);
+            if(this.product) {
+              this.price = this.product.price;
+            }
+          }
+        });
+      });
+    });
+      //For Web-Support
+      setTimeout(() => {
+        this.translationService.jsonData$.pipe(
+          map(data => {
+            const product = [];
+            for (let i = 0; i < data.length; i++) {
+              const planItem = data[i];
+              if (planItem.planWebSupport) {
+                product.push(...planItem.planWebSupport);
+              }
+            }
+            return product;
+          })
+        ).subscribe(product => {
+          this.product = product;
+          console.log(this.product);
+          this.route.paramMap.subscribe(params => {
+            const productId = (params.get('id'));
+            if (productId) {
+              this.product = product.find(p => p.id === productId);
+              if(this.product) {
+                this.price = this.product.price;
+              }
+            }
+          });
+        });
+      });
   }
 
   onSubmit(): void {

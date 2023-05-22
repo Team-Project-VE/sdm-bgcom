@@ -9,10 +9,8 @@ import { LangTranslateService } from 'src/app/services/lang-translate.service';
   styleUrls: ['../../web-design/web-design-plans/web-design-plans.component.css']
 })
 export class WebSupportPlansComponent implements AfterViewInit{
-  product: any;
-
   constructor(private route: ActivatedRoute, private langTranslate: LangTranslateService) { }
-  
+  product:any
   // Function for get and read json fille /bg/en/tr
   get jsonData$() {
     return this.langTranslate.jsonData$;
@@ -24,6 +22,10 @@ export class WebSupportPlansComponent implements AfterViewInit{
   }
 
   ngAfterViewInit() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '../../../../../../assets/js/request-contacts.js';
+    document.body.appendChild(script);
     setTimeout(() => {
       this.langTranslate.jsonData$.pipe(
         map(data => {
@@ -40,7 +42,7 @@ export class WebSupportPlansComponent implements AfterViewInit{
         this.product = product;
         console.log(this.product);
         this.route.paramMap.subscribe(params => {
-          const productId = Number(params.get('id'));
+          const productId = (params.get('id'));
           if (productId) {
             this.product = product.find(p => p.id === productId);
           }
