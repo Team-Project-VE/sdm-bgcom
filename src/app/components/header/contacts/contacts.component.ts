@@ -127,7 +127,6 @@ export class ContactsComponent implements AfterViewInit {
         });
       });
     });
-
     //For Business-Cards
     setTimeout(() => {
       this.translationService.jsonData$.pipe(
@@ -156,35 +155,8 @@ export class ContactsComponent implements AfterViewInit {
       });
     });
 
-        //For Business-Cards
+    //For Web-Support
     setTimeout(() => {
-      this.translationService.jsonData$.pipe(
-        map(data => {
-          const product = [];
-          for (let i = 0; i < data.length; i++) {
-            const planItem = data[i];
-            if (planItem.planBusinessCards) {
-              product.push(...planItem.planBusinessCards);
-            }
-          }
-          return product;
-        })
-      ).subscribe(product => {
-        this.product = product;
-        console.log(this.product);
-        this.route.paramMap.subscribe(params => {
-          const productId = (params.get('id'));
-          if (productId) {
-            this.product = product.find(p => p.id === productId);
-            if(this.product) {
-              this.price = this.product.price;
-            }
-          }
-        });
-      });
-    });
-      //For Web-Support
-      setTimeout(() => {
         this.translationService.jsonData$.pipe(
           map(data => {
             const product = [];
@@ -209,7 +181,7 @@ export class ContactsComponent implements AfterViewInit {
             }
           });
         });
-      });
+    });
   }
 
   onSubmit(): void {

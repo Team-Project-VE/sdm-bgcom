@@ -29,13 +29,6 @@ import { WebDevPlansComponent } from './components/header/services/web-dev/web-d
 import { BusinessCardsPlansComponent } from './components/header/services/business-card-design/business-cards-plans/business-cards-plans.component';
 import { LogoPlansComponent } from './components/header/services/logo-design/logo-plans/logo-plans.component';
 import { WebSupportPlansComponent } from './components/header/services/web-support/web-support-plans/web-support-plans.component';
-// import course moduls
-import { CPlusPlusModulComponent } from './components/header/courses/c-plus-plus/c-plus-plus-modul/c-plus-plus-modul.component';
-import { BackEndModulComponent } from './components/header/courses/back-end/back-end-modul/back-end-modul.component';
-import { FrontEndModulComponent } from './components/header/courses/front-end/front-end-modul/front-end-modul.component';
-import { FullStackModulComponent } from './components/header/courses/full-stack/full-stack-modul/full-stack-modul.component';
-import { InteriorDesignModulComponent } from './components/header/courses/interior-design/interior-design-modul/interior-design-modul.component';
-import { PythonModulComponent } from './components/header/courses/python/python-modul/python-modul.component';
 
 const routes: Routes = [
   // nav routing start 
@@ -80,13 +73,6 @@ const routes: Routes = [
   { path:'business-cards-plans/:id',component:BusinessCardsPlansComponent},
   { path:'logo-design-plans/:id',component:LogoPlansComponent},
   { path:'web-support-plans/:id',component:WebSupportPlansComponent},
-  //modul details
-  { path:'c-plus-plus-modul/:id',component:CPlusPlusModulComponent},
-  { path:'back-end-modul/:id',component:BackEndModulComponent},
-  { path:'front-end-modul/:id',component:FrontEndModulComponent},
-  { path:'full-stack-modul/:id',component:FullStackModulComponent},
-  { path:'interior-design-modul/:id',component:InteriorDesignModulComponent},
-  { path:'python-modul/:id',component:PythonModulComponent}
 ];
 
 @NgModule({
