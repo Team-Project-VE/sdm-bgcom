@@ -38,12 +38,6 @@ import { WebDevPlansComponent } from './components/header/services/web-dev/web-d
 import { BusinessCardsPlansComponent } from './components/header/services/business-card-design/business-cards-plans/business-cards-plans.component';
 import { LogoPlansComponent } from './components/header/services/logo-design/logo-plans/logo-plans.component';
 import { WebSupportPlansComponent } from './components/header/services/web-support/web-support-plans/web-support-plans.component';
-import { CPlusPlusModulComponent } from './components/header/courses/c-plus-plus/c-plus-plus-modul/c-plus-plus-modul.component';
-import { BackEndModulComponent } from './components/header/courses/back-end/back-end-modul/back-end-modul.component';
-import { FrontEndModulComponent } from './components/header/courses/front-end/front-end-modul/front-end-modul.component';
-import { FullStackModulComponent } from './components/header/courses/full-stack/full-stack-modul/full-stack-modul.component';
-import { InteriorDesignModulComponent } from './components/header/courses/interior-design/interior-design-modul/interior-design-modul.component';
-import { PythonModulComponent } from './components/header/courses/python/python-modul/python-modul.component';
 
 @NgModule({
   declarations: [
@@ -79,13 +73,7 @@ import { PythonModulComponent } from './components/header/courses/python/python-
     WebDevPlansComponent,
     BusinessCardsPlansComponent,
     LogoPlansComponent,
-    WebSupportPlansComponent,
-    CPlusPlusModulComponent,
-    BackEndModulComponent,
-    FrontEndModulComponent,
-    FullStackModulComponent,
-    InteriorDesignModulComponent,
-    PythonModulComponent,
+    WebSupportPlansComponent
   ],
   imports: [
     BrowserModule,

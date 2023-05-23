@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -6,9 +6,14 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent {
+export class PortfolioComponent implements AfterViewInit {
 
-
+  ngAfterViewInit() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '../../../../assets/js/portfolio.js';
+    document.body.appendChild(script);
+  }
   
 
 }
