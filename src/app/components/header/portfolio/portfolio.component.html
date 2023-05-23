@@ -5,60 +5,125 @@
             <div class="item">
                 <div class="item-img">
                     <img src="../../../../assets/images/portfolio/webdesign/img_1.webp" alt="">
-                    <div class="image-options">
-                        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="">
-                        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="">
-                        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="">
-                        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="">
-                        <img src="../../../../assets/images/portfolio/webdesign/img_6.webp" alt="">
-                    </div>
                 </div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_1"><i class="fa-sharp fa-solid fa-eye"></i></button></div>
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_2"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_3"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_4"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_5"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_6.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_6"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_7.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_7"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_8"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
             <div class="item">
                 <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_9.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
+                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_9"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
             </div>
         </div>
         <div class="box-item"><button>ВИЖ ОЩЕ</button></div>
     </div>
-
-
 </section>
 
-<div id="myModal" class="modal">
-    <!-- Modal content -->
+<div id="modal_1" class="modal">
+    <span class="close cursor">&times;</span>
+    <div class="tittle-modal">
+        <h1># Project 1</h1>
+    </div>
     <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>This is a modal!</p>
-      <img src="" alt="" id="imageFlash">
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Image 1">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Image 2">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Image 3">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Image 4">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Image 5">
+      </div>
+    </div>
+    <div class="thumbnail-container">
+      <div class="thumbnail" onclick="currentSlide(1)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Thumbnail 1">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(2)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Thumbnail 2">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(3)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Thumbnail 3">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(4)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Thumbnail 4">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(5)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Thumbnail 5">
+      </div>
     </div>
 </div>
+
+<div id="modal_2" class="modal">
+    <span class="close cursor">&times;</span>
+    <div class="tittle-modal">
+        <h1># Project 1</h1>
+    </div>
+    <div class="modal-content">
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Image 1">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Image 2">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Image 3">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Image 4">
+      </div>
+      <div class="mySlides">
+        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Image 5">
+      </div>
+    </div>
+    <div class="thumbnail-container">
+      <div class="thumbnail" onclick="currentSlide(1)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Thumbnail 1">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(2)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Thumbnail 2">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(3)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Thumbnail 3">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(4)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Thumbnail 4">
+      </div>
+      <div class="thumbnail" onclick="currentSlide(5)">
+        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Thumbnail 5">
+      </div>
+    </div>
+</div>
+  
