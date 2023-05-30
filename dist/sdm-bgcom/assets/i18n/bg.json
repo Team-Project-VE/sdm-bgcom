@@ -1,0 +1,855 @@
+[
+	{	"brandName":"сдм бг консулт"},
+	{	"genMenu": "начало"	, "links":"/home"},
+	{	"genMenu": "курсове"	, "links":"/courses", "dropMenu":[
+
+		{"dropMenuName": "python", "link":"/python-course" },
+		{"dropMenuName": "c+", "link":"/cplusplus-course" },
+		{"dropMenuName": "frond end", "link":"/frontend-course" },
+		{"dropMenuName": "back end", "link":"/backend-course" },
+		{"dropMenuName": "full stack", "link":"/fullstack-course" },
+		{"dropMenuName": "интериорен дизайн", "link":"/interiordesign-course" }
+	]},
+	{	"genMenu": "портфолио"	, "links":"/portfolio"},
+	{	"genMenu": "услуги"	, "links":"/services", "dropMenu":[
+
+		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "workDescription":"Имате идея за страхотен и мотивиращ бизнес? Ние можем да Ви помогнем при внедряването с помощта на съвременни методи и технологии","imgName":"srv1.webp"},
+		{"dropMenuName": "уеб разработка", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "workDescription":"Имате работещ бизнес, но нещо не е наред? нуждае се  от модерна технология за контрол и взаимодействие с вашите клиенти, ние затова сме тук","imgName":"srv2.webp"},
+		{"dropMenuName": "уеб подръжка", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "workDescription":"Уеб подръжката е като гаранцията на новия ви автомобил, а нашите експерти са на разположение 24/7, готови да отговорят в случай на нужда","imgName":"srv3.webp"},
+		{"dropMenuName": "лого дизайн", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "workDescription":"Имате идея! Искате нещо впечатляващо, нещо различно, което пленява от пръв поглед? Вашето лого е наша работа","imgName":"srv4.webp"},
+		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "workDescription":"Искате по-голяма аудитория за вашия бизнес? Имате ли свой бизнес? Ние сме готови да направим нещо впечатляващо за вас","imgName":"srv5.webp"}
+	]},
+	{	"genMenu": "оферти"	, "links":"/offers"},
+	{	"genMenu": "за нас"	, "links":"/about-us"},
+	{	"genMenu": "контакти"	, "links":"/contacts"},
+	{ "goalsTittle":"нашите цели", "ourGoals":[
+		{"goals":"1. Прост дизайн", "goalsDescription":"Стремим се към приятен потребителски опит","goalsIcon":"fa fa-users"},
+		{"goals":"2. Най-доброто впечатление", "goalsDescription":"Целта е точно попадение в мишената","goalsIcon":"fa fa-bullseye"},
+		{"goals":"3. Проста навигация", "goalsDescription":"Ние правим търсенето лесно за потребителите","goalsIcon":"fa fa-list-ul"},
+		{"goals":"4. Природен опит", "goalsDescription":"Безкраен брой страници с кохезивен стил","goalsIcon":"fas fa-crosshairs"},
+		{"goals":"5. Избрани цветове", "goalsDescription":"Ценим цветната типография","goalsIcon":"fas fa-palette"},
+		{"goals":"6. Реактивен дизайн", "goalsDescription":"Много устройства - един дизайн","goalsIcon":"fas fa-expand-arrows-alt"},
+		{"goals":"7. Множество браузъри", "goalsDescription":"Едно и също качество в различни браузъри","goalsIcon":"fa fa-safari"},
+		{"goals":"8. Нулеви грешки", "goalsDescription":"Проверката е по-висока форма на доверие","goalsIcon":"fas fa-bug"},
+		{"goals":"9. Гарантиран контрол", "goalsDescription":"100% авторски код написан от нас","goalsIcon":"far fa-file-code"},
+		{"goals":"10. Качествено съдържание", "goalsDescription":"Стремим се към ангажиращо съдържание","goalsIcon":"far fa-file-alt"}
+	]},
+	{"phone":"телефон", "adress":"гр. ШУМЕН, пл. ОБОРИЩЕ 17", "officeTitle":"офис", "email":"имейл"},
+	{
+		"ekoForm": "контактна форма до - екрем мехмедов",
+        "seloForm": "контактна форма до - селиха мехмедова",
+		"firstName": "Име",
+        "surname":"Фамилия",
+        "em":"имейл",
+        "mess":"съобщение",
+		"sendBtn":"изпрати"
+	},
+	{
+		"footerImgUrl": "sdm_logo.webp",
+		"footerLogo": "СДМ БГ КОНСУЛТ",
+		"welcomeText": "Добре дошли в нашия сайт! Ние сме нова стартираща IT компания. Ние сме готови да предоставим всички ваши нужди според изискванията на днешния пазар, за повече информация",
+		"welcomeLink": "тук",
+		"addressTitle": "Място",
+		"address": "гр. Шумен, пл. Оборище Номер 17",
+		"phoneTitle": "Телефон",
+		"phoneNumbers": [
+			"+359 887 729 228",
+			"+359 893 871 753"
+		],
+		"emailTitle": "Емайл",
+		"emailAddresses": [
+			"ekrem.mehmedov@sdm-bg.com",
+			"seliha.mehmedova@sdm-bg.com"
+		],
+		"socialMedia": [
+			{ "platform": "twitter", "icon": "fa fa-twitter", "link": "https://twitter.com" },
+			{ "platform": "facebook", "icon": "fa fa-facebook", "link": "https://facebook.com" },
+			{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "https://linkedin.com" },
+			{ "platform": "instagram", "icon": "fa fa-instagram", "link": "https://instagram.com" }
+		],
+		"quickLinksTitle": "Бързи Връзки",
+		"quickLinks": [
+			{ "title": "Начало", "link": "#" },
+			{ "title": "Нашите Услуги", "link": "#" },
+			{ "title": "За нас", "link": "#" },
+			{ "title": "Портфолио", "link": "#" },
+			{ "title": "Направи оферта", "link": "#" }
+		],
+		"popularLinksTitle": "Популярни линкове",
+		"popularLinks": [
+			{ "title": "Курс по Python", "link": "#" },
+			{ "title": "Уеб поддръжка", "link": "#" },
+			{ "title": "Курсове", "link": "#" },
+			{ "title": "Портфолио", "link": "#" },
+			{ "title": "Уеб разработка", "link": "#" },
+			{ "title": "Лого дизайн", "link": "#" }
+		],
+		"locationTitle": "Местоположение",
+		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.56738297867068!2d26.915932904042904!3d43.27073902007498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58a67f395c66b%3A0x4eda59530fcee61b!2z0KjRg9C80LXQvQ!5e0!3m2!1sbg!2sbg!4v1682021075326!5m2!1sbg!2sbg",
+		"locationMapHeight": "180px",
+		"locationMapWidth": "180px",
+		"usefulLinksTitle": "Полезни връзки",
+		"usefulLinks": [
+			{ "title": "Общи условия", "link": "#" },
+			{ "title": "Политика за поверителност", "link": "#" },
+			{ "title": "Политика за бисквитки", "link": "#" },
+			{ "title": "Сертификати", "link": "#" },
+			{ "title": "Продължителност на обучението", "link": "#" },
+			{ "title": "Нашите цели", "link": "#" }
+		],
+		"footerRightsReserved": "@ Всички права запазени, 2023"
+	},
+
+	{
+		"contactsForm": "Форма За Контакти",
+		"chooseOption": "-- Моля изберете опция --",
+		"offerRequest": "Поискайте оферта",
+		"questions": "Технически въпроси",
+		"else": "Друго",
+		"nameTitle": "Име",
+		"surnameTitle": "Фамилия",
+		"emailAdressTitle": "Имейл",
+		"phoneNumber": "Телефонен номер",
+		"subjectTitle": "Съобщение",
+		"agreeTerms": "Прочетох и съм съгласен с",
+		"agreeTermsTwo": "правилата и условията.",
+		"importantFields": "ЗАДЪЛЖИТЕЛНИ ПОЛЕТА",
+		"sendBtnTitle": "Изпрати",
+		"clearBtnTitle": "Изчисти"
+	},
+	{"getSliderTop":[
+		{"text_1":"безплатна консултация","text_2":"обслужване от най-висок клас","slideName":"sld1.webp", "bgFon":"#0072B5"},
+		{"text_1":"Настолно или уеб приложение","text_2":"Готови сме да реализираме вашата идея","slideName":"sld2.webp", "bgFon":"#A0DAA9"},
+		{"text_1":"Приятелско отношение","text_2":"Готови сме да посрещнем нови приятели","slideName":"sld3.webp", "bgFon":"#B55A30"},
+		{"text_1":"Харесвате креативни или модерни неща","text_2":"Готови сме да реализираме вашата идея","slideName":"sld4.webp", "bgFon":"#9BB7D4"},
+		{"text_1":"Искате ли нещо ново?","text_2":"Ние сме отсреща","slideName":"sld5.webp", "bgFon":"#F5DF4D"}
+	]},
+	{	"offersTitle":"уеб оферти", "webDesTitle":"уеб дизайн","webDevTitle":"уеб разаботка","webSupportTitle":"уеб подръжка",
+		"webDesOffers":"оферти уеб дизайн","webDevOffers":"оферти уеб разаботка","webSupportOffers":"оферти уеб подръжка",
+	"webOffers_1":[	
+		{"webDesign":[
+			{"titlePlan":"стандарт"},
+			{"infoPlan":"подходящ за уебсайт с базов дизайн и функционалност, който да предостави основната информация за Вашия бизнес или услуга"},
+			{"btnLinkOffers":"виж"}
+		]},			
+		{"webDesign":[
+			{"titlePlan":"премиум"},
+			{"infoPlan":"уебсайт с персонализиран дизайн и по-сложна функционалност. Подходящ за по-големи бизнеси или тези, които искат да се отличат в онлайн пространството"},
+			{"btnLinkOffers":"виж"}
+		]},
+		{"webDesign":[
+			{"titlePlan":"бизнес"},
+			{"infoPlan":"Идеален за големи компании или онлайн магазини, където има нужда от многофункционален и сложен уебсайт с персонализиран дизайн, напълно адаптивен за мобилни устройства и с множество функционалности"},
+			{"btnLinkOffers":"виж"}
+		]}
+	],
+	"webOffers_2":[
+		{"webDevolmpent":[
+			{"titlePlan":"стандарт"},
+			{"infoPlan":"до 5 страници, оптимизиран дизайн за мобилни устройства, подходящ за малки и средни предприятия."},
+			{"btnLinkOffers":"виж"}
+		]}, 
+		{"webDevolmpent":[
+			{"titlePlan":"премиум"},
+			{"infoPlan":" до 10 страници, допълнителни функционалности и персонализиран дизайн, подходящ за по-големи компании."},
+			{"btnLinkOffers":"виж"}
+		]},
+		{"webDevolmpent":[
+			{"titlePlan":"бизнес"},
+			{"infoPlan":"до 20 страници, персонализиран дизайн, интеграция на социални медии и SEO оптимизация, най-добър за онлайн магазини и големи проекти"},
+			{"btnLinkOffers":"виж"}
+		]}		
+	],
+	"webOffers_3":[
+		{"webSupport":[
+			{"titlePlan":"стандарт"},
+			{"infoPlan":"включва редовна проверка на функционалността и елементите на дизайна, както и обновяване на съдържанието според вашите желания"},
+			{"btnLinkOffers":"виж"}
+		]}, 
+		{"webSupport":[
+			{"titlePlan":"премиум"},
+			{"infoPlan":"включва всичко от стандартния план, както и персонализирана поддръжка и бърза реакция на проблеми, които може да възникнат"},
+			{"btnLinkOffers":"виж"}
+		]},
+		{"webSupport":[
+			{"titlePlan":"бизнес"},
+			{"infoPlan":" е идеален за онлайн магазини и големи проекти, който включва персонализирана поддръжка, SEO оптимизация, бърза реакция на проблеми и поддръжка на социални медии"},
+			{"btnLinkOffers":"виж"}
+		]}		
+	]
+
+	},
+	{	"offersTitle":"лого оферти",  "planStan":"стандарт", "planPrem":"премиум","planBuss":"бизнес", 
+	"logoOffers_1":[	
+		{"logoDesign":[
+			{"infoPlan":"Професионална разработка на лого, предоставено в различни формати"},
+			{"btnLinkOffers":"виж"}
+		]}
+	],
+	"logoOffers_2":[		
+		{"logoDesign":[
+			{"infoPlan":"Персонализирана услуга за лого дизайн, включваща уникална идентичност, дизайн варианти и до 3 ревизи на разработката"},
+			{"btnLinkOffers":"виж"}
+		]}
+	],
+	"logoOffers_3":[
+		{"logoDesign":[
+			{"infoPlan":"Включва всички предимства на премиум пакета, както и допълнителни не ограничени ревизии, за да удовлетвори нуждите на  компании, които търсят визуална идентичност"},
+			{"btnLinkOffers":"виж"}
+		]}
+	]
+	},
+	{	"offersTitle":"оферти за визитка",  "planStan":"стандарт", "planPrem":"премиум","planBuss":"бизнес",
+	"cardOffers_1":[	
+		{"cardDesign":[
+			{"infoPlan":"включва елегантен и професионален дизайн, който ще отразява вашето стилно представяне"},
+			{"btnLinkOffers":"виж"}
+		]}
+	],
+	"cardOffers_2":[		
+		{"cardDesign":[
+			{"infoPlan":"Премиум пакетът предлага персонализирана услуга за дизайн с по-голямо внимание към детайлите и различни варианти на дизайн"},
+			{"btnLinkOffers":"виж"}
+		]}
+	],
+	"cardOffers_3":[
+		{"cardDesign":[
+			{"infoPlan":"включва всички предимства на премиум пакета, плюс неограничени ревизии"},
+			{"btnLinkOffers":"виж"}
+		]}
+	]
+	},
+	{	"offersTitle":"нашите образователни курсове",
+		"cplus":[
+			{"title":"курс по C++"},
+			{"img":"CLogo.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/cplusplus-course", "btn":"виж"}
+		],
+		"backend":[
+			{"title":"курс по back end"},
+			{"img":"backend.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/backend-course", "btn":"виж"}
+		],
+		"frontend":[
+			{"title":"курс по front end"},
+			{"img":"frontend.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/frontend-course", "btn":"виж"}
+		],
+		"fullstack":[
+			{"title":"курс по full stcak"},
+			{"img":"fullstack.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/fullstack-course", "btn":"виж"}
+		],
+		"python":[
+			{"title":"курс по python"},
+			{"img":"pythonIcon.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/python-course","btn":"виж"}
+		],
+		"interdes":[
+			{"title":"курс по интериорен дизайн"},
+			{"img":"SweeetHome.webp"},
+			{"descripTitle":"Какво да очакваш ?"},
+			{"description":"Ценни умения специфични за курса, практически умения и идеи за проекти за вашето идеално портфолио"},
+			{"link":"/interiordesign-course","btn":"виж"}
+		]
+	},
+	{		
+		"beginners":"модул 1 - за начинаещи", "intermediate":"модул 2 - средно ниво", "advanced":"модул 3 - напреднали",
+		"expert":"модул 4 - експерти","individual":"модул 5 - за индивидуална тематика"
+	},
+	{		
+		"modul_1":"модул 1", "modul_2":"модул 2", "modul_3":"модул 3",
+		"modul_4":"модул 4","modul_5":"модул 5",
+		"characteristic_1":"курс", "characteristic_2":"брой теми",
+		"characteristic_3":"продължителност","characteristic_4":"цена"
+	},
+	{
+		"python":[
+			{
+				"courseTitle":"Курс по Python", "img":"python.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"cplus":[
+			{
+				"courseTitle":"Курс по C++", "img":"cplus.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"frontend":[
+			{
+				"courseTitle":"Курс по frond end", "img":"frontend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"backend":[
+			{
+				"courseTitle":"Курс по back end", "img":"backend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"fullstack":[
+			{
+				"courseTitle":"Курс по full stack", "img":"fullstack.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"interdes":[
+			{
+				"courseTitle":"Курс по интериорен дизайн", "img":"iterdesign.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		]
+	},
+	{"planWebDesign":[
+		{
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"персонализиран уеб дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"пълна адаптивност за устройства", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"SEO оптимизация", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 300,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "премуим",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"персонализиран уеб дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"пълна адаптивност за устройства", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизация", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 560,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"персонализиран уеб дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"пълна адаптивност за устройства", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизация", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"До 20 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
+			],
+			"price": 800,
+			"currency":"BGN"
+		}
+	]},
+	{"planWebDev":[
+		{
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"+1 месец подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 650,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "премуим",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаця", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 1000,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Дизайн на уеб сайт", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"SEO оптимизаци", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"CMS за управление на съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Социална интеграция", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Аналитика и статистика", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 1350,
+			"currency":"BGN"
+		}
+	]},
+	{"planBusinessCards":[
+		{
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 100,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 150,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Избор от предварително дефинирани дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовата схема и шрифтовете", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на текст и лого", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "По-голям избор за дизайни", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Напълно персонализируеми шаблони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Добавяне на множество лога и изображения", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Интеграция със софтуери за дизайн и публикуване", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Използване на специализирани шрифтове", "symbol":"fa-sharp fa-solid fa-check green" }
+			],
+			"price": 200,
+			"currency":"BGN"
+		}
+	]},
+	{"planLogoDesign":[
+		{
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 100,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green" },
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid check green" },
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-xmark red" },
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-xmark red" }
+			],
+			"price": 200,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализиране на цветовете и шрифтовете в логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Основни графични елементи и икони", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Избор от предварително дефинирани лого дизайни", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализируеми шаблони за лого", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Множество елементи и слоеве в логото", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Интеграция с професионални софтуери", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширени възможности за редактиране", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Специализирани шрифтове и ефекти за логото", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 300,
+			"currency":"BGN"
+		}
+	]},
+	{"planWebSupport":[
+		{
+			"id": "standart",
+			"name": "стандартен",
+			"plan": "план",
+			"background":"#409fd7",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 300,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "премиум",
+			"plan": "план",
+			"background":"#0EB4A6",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-xmark red"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 500,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "бизнес",
+			"plan": "план",
+			"background":"#9BC241",
+			"options":[
+				{"description":"Резервно копиране на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на достъпността на уебсайта", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Поддръжка на съдържанието", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Разширено резервно копиране и възстановяване", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Мониторинг на сигурността и защита", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Актуализации на платформата и модулите", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "24/7 поддръжка и бърз отговор", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Персонализирани функционалности и разработка", "symbol":"fa-sharp fa-solid fa-check green"},
+				{"description": "Оптимизация за производителност и SEO", "symbol":"fa-sharp fa-solid fa-check green"}
+			],
+			"price": 700,
+			"currency":"BGN"
+		}
+	]}
+]
