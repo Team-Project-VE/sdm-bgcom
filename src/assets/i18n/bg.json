@@ -572,7 +572,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
 			"price": 300,
 			"currency":"BGN"
@@ -591,7 +591,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
 			"price": 560,
 			"currency":"BGN"
@@ -610,7 +610,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"До 20 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
 			],
 			"price": 800,
 			"currency":"BGN"
@@ -631,7 +631,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"+1 месец подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+1 месец поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 650,
 			"currency":"BGN"
@@ -650,7 +650,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+2 месеца поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1000,
 			"currency":"BGN"
@@ -669,7 +669,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+3 месеца поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1350,
 			"currency":"BGN"
