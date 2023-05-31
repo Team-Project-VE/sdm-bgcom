@@ -1,5 +1,5 @@
 <!-- for web design portfolio  start -->
-<section class="my-portfolio">
+<!-- <section class="my-portfolio">
     <div class="portfolio-box">
         <div class="box-item"><h1>УЕБ ДИЗАЙН</h1></div>
         <div class="box-item">
@@ -126,7 +126,7 @@
         <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Thumbnail 5">
       </div>
     </div>
-</div>
+</div> -->
 <!-- for web design portfolio end  -->
 
 <!-- for web design portfolio start -->
@@ -242,6 +242,28 @@
       <div class="box-item"><a [href]="jsonData[26]?.link">{{jsonData[26]?.btnName}}</a></div>
     </div>
   </section>
+
+  <ng-container *ngFor="let item of jsonData[26]?.portfolioWebDesign">
+    <div id="{{item.modal}}" class="modal">
+      <span class="close cursor">&times;</span>
+      <div class="tittle-modal">
+        <h1>{{item.title}}</h1>
+      </div>
+      <div class="modal-content">
+        <div class="mySlides" *ngFor="let image of item.imgOptions">
+          <img [src]="image.img" [alt]="item.descriptions">
+        </div>
+      </div>
+      <div class="thumbnail-container">
+          <ng-container *ngFor="let image of item.imgOptions">
+            <div class="thumbnail" (click)="currentSlide(image.index)">
+              <img [src]="image.img" [alt]="item.descriptions">
+            </div>
+          </ng-container>
+      </div>
+    </div>
+  </ng-container>
+  
 </ng-container>
 
 
