@@ -13,17 +13,17 @@
             <a href="#">{{ jsonData[11]?.welcomeLink }}</a>
           </p>
           <h4>{{ jsonData[11]?.addressTitle }}:</h4>
-            <a href="#">{{ jsonData[11]?.address }}</a>
+            <a href="https://goo.gl/maps/odZZJ7poehKNERvx8?coh=178573&entry=tt">{{ jsonData[11]?.address }}</a>
           <ul>
             <h4>{{ jsonData[11]?.phoneTitle }}:</h4> 
               <li *ngFor="let number of jsonData[11]?.phoneNumbers">
-                <a href="#"><i class="fas fa-phone"></i>{{ number }}</a>
+                <a [href]="'tel:'+ number"><i class="fas fa-phone"></i>{{ number }}</a>
               </li>
           </ul>
           <ul>
             <h4>{{ jsonData[11]?.emailTitle }}:</h4>
               <li *ngFor="let email of jsonData[11]?.emailAddresses">
-                <a href="#"><i class="fa-sharp fa-regular fa-envelope"></i>{{ email }}</a>
+                <a href=""><i class="fa-sharp fa-regular fa-envelope"></i>{{ email }}</a>
               </li>
           </ul>
           
@@ -40,7 +40,7 @@
             <h1>{{ jsonData[11]?.quickLinksTitle }}</h1>
             <ul>
               <li *ngFor="let link of jsonData[11]?.quickLinks">
-                <a [routerLink]="link.link"><i class="fas fa-arrow-right"></i>{{ link.title }}</a>
+                <a [href]="link.link"><i class="fas fa-arrow-right"></i>{{ link.title }}</a>
               </li>
             </ul>
         </div>
@@ -49,7 +49,7 @@
             <h1>{{ jsonData[11]?.popularLinksTitle }}</h1>
             <ul>
               <li *ngFor="let popLinks of jsonData[11]?.popularLinks">
-                <a [routerLink]="popLinks.link"><i class="fas fa-arrow-right"></i>{{ popLinks.title }}</a>
+                <a [href]="popLinks.link"><i class="fas fa-arrow-right"></i>{{ popLinks.title }}</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
             <h1>{{ jsonData[11]?.usefulLinksTitle }}</h1>
             <ul>
               <li *ngFor="let usefulLink of jsonData[11]?.usefulLinks">
-                <a [routerLink]="usefulLink.link"><i class="fas fa-arrow-right"></i>{{ usefulLink.title }}</a>
+                <a [href]="usefulLink.link"><i class="fas fa-arrow-right"></i>{{ usefulLink.title }}</a>
               </li>
             </ul>
           </div>

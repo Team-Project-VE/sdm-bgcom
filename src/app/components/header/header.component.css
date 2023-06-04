@@ -12,6 +12,8 @@
     justify-content: space-around;
 }
 
+#courses {display: none;}
+
 .header-top .header-top-info
 {
     width: 33%;

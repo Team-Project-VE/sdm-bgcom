@@ -28,7 +28,7 @@ import { WebDevPlansComponent } from './components/header/services/web-dev/web-d
 import { BusinessCardsPlansComponent } from './components/header/services/business-card-design/business-cards-plans/business-cards-plans.component';
 import { LogoPlansComponent } from './components/header/services/logo-design/logo-plans/logo-plans.component';
 import { WebSupportPlansComponent } from './components/header/services/web-support/web-support-plans/web-support-plans.component';
-
+import { PoliciesComponent } from './components/policies/policies.component';
 const routes: Routes = [
   // nav routing start 
   { path: 'courses', component: CoursesComponent },
@@ -71,6 +71,9 @@ const routes: Routes = [
   { path:'business-cards-plans/:id',component:BusinessCardsPlansComponent},
   { path:'logo-design-plans/:id',component:LogoPlansComponent},
   { path:'web-support-plans/:id',component:WebSupportPlansComponent},
+  
+  { path:'policies/:id', component:PoliciesComponent},
+
 ];
 
 @NgModule({

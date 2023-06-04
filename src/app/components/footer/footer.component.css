@@ -1,3 +1,7 @@
+a{
+    text-transform: capitalize;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;

@@ -1,41 +1,17 @@
-<section class="my-services">
-  <div class="service"><h1>Уеб Дизайн</h1></div>
-  <div class="service">
-    <div class="service-box"><img src="../../../../../assets/images/services_IMG/web-design.webp" alt=""></div>
-    <div class="service-box">
-      <p>Добре дошли в нашата компания за уеб дизайн услуги! Ние предлагаме професионални дизайнерски решения, които ще направят вашето онлайн присъствие незабравимо. Ние разбираме, че всеки бизнес е уникален и затова предлагаме три плана - Стандарт, Премиум и Бизнес - за да можем да отговорим на вашите индивидуални нужди и бюджет.</p>
-      <p>Стандартният план включва базов дизайн на уеб сайт, който отговаря на основните нужди на вашия бизнес. Премиум планът включва по-разширен дизайн, който предлага повече възможности за персонализация и визуално привличане на клиенти. Бизнес планът включва пълноценен дизайн на уеб сайт, с максимално възможности за функционалност и удобство за клиентите ви.</p>
-      <p>Нашите услуги включват дизайн на уеб сайтове, визуален и графичен дизайн, лого дизайн и други дизайнерски услуги. Ние ще работим с вас внимателно, за да изберете плана, който отговаря на вашите нужди и предпочитания.</p>
-      <p>Нашите професионални уеб дизайнери ще се погрижат за всеки аспект от дизайна на вашия уеб сайт, от цветовата палитра и шрифтовете до разположението на информацията. Всички наши проекти са изработени с използване на най-новите технологии и тенденции в уеб дизайна.</p>
-      <p>Свържете се с нас днес, за да започнете да създавате едно уникално и професионално онлайн присъствие, което ще помогне на вашия бизнес да се откроява от конкуренцията и да привлича повече клиенти!</p>
-    </div>
-  </div>
-  <div class="service">
-    <div class="plans">
-      <div class="box-info">
-        <h2>Стандартен</h2>
-      </div>
-      <div class="box-button">
-        <a href="web-design-plans/standart">преглед</a>
+<ng-container *ngIf="jsonData$ | async as jsonData">
+  <section class="my-services">
+    <div class="service"><h1>{{jsonData[23]?.webdes[0]?.title}}</h1></div>
+    <div class="service">
+      <div class="service-box">  <img [src]="jsonData[23]?.webdes[0]?.img ? '../../../../../assets/images/course_IMG/' + jsonData[23]?.webdes[0]?.img : ''" alt=""></div>
+      <div class="service-box">  
+        <p *ngFor="let item of jsonData[23]?.webdes[0].paragrahps">{{item.paragraph}}</p>
       </div>
     </div>
-    <div class="plans">
-      <div class="box-info">
-        <h2>Премиум</h2>
-      </div>
-      <div class="box-button">
-        <a href="web-design-plans/premium">преглед</a>
+    <div class="service">
+      <div class="plans" *ngFor="let item of jsonData[23]?.webdes[0].packages">
+        <div class="box-info"><h2>{{item.title}}</h2></div>
+        <div class="box-button"><a [href]="item.link">{{item.btnName}}</a></div>
       </div>
     </div>
-    <div class="plans">
-      <div class="box-info">
-        <h2>Бизнес</h2>
-      </div>
-      <div class="box-button">
-        <a href="web-design-plans/business">преглед</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+  </section>
+</ng-container>

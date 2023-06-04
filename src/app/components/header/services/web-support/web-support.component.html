@@ -1,38 +1,17 @@
-<section class="my-services">
-    <div class="service"><h1>Уеб Поддръжка</h1></div>
-    <div class="service">
-      <div class="service-box"><img src="../../../../../assets/images/services_IMG/web-support.webp" alt=""></div>
-      <div class="service-box">
-        <p>Добре дошли в нашата компания за уеб поддръжка! Ние предлагаме ефективни решения, които ще осигурят безпроблемното и безпрепятствено функциониране на вашия уеб сайт. Разбираме, че всяка организация има уникални нужди, затова предлагаме три плана - Стандарт, Премиум и Бизнес - за да съответстваме на вашите специфични изисквания и бюджет.</p>
-        <p>Стандартният план включва основна поддръжка и актуализации на вашия уеб сайт, като се гарантира непрекъснатостта на неговото функциониране. Премиум планът предлага повече услуги, включително бързи отговори при проблеми, редовни актуализации и по-обстойно техническо подпомагане. Бизнес планът включва пълноценна поддръжка на уеб сайт, с първокласна служба за поддръжка и извършване на всички необходими актуализации и промени.</p>
-        <p>Нашите професионалисти в областта на уеб поддръжката са ангажирани с вашия успех и се грижат за всеки аспект от поддръжката на вашия уеб сайт - от неговата производителност и сигурност до адаптивността и бързодействието му. Всички наши проекти са изпълнени с акцент върху най-новите стандарти и практики в уеб индустрията.</p>
-        <p>Свържете се с нас днес, за да започнете да поддържате вашия уеб сайт в най-добрата му форма, гарантирайки неговата постоянна готовност да отговаря на нуждите на вашия бизнес и да привлича нови клиенти. С нашите услуги за уеб поддръжка, вие ще бъдете винаги една стъпка пред конкуренцията!</p>
-      </div>
-    </div>
-    <div class="service">
-      <div class="plans">
-        <div class="box-info">
-          <h2>Стандартен</h2>
-        </div>
-        <div class="box-button">
-          <a href="web-support-plans/standart">преглед</a>
+  <ng-container *ngIf="jsonData$ | async as jsonData">
+    <section class="my-services">
+      <div class="service"><h1>{{jsonData[25]?.websupport[0]?.title}}</h1></div>
+      <div class="service">
+        <div class="service-box">  <img [src]="jsonData[25]?.websupport[0]?.img ? '../../../../../assets/images/course_IMG/' + jsonData[25]?.websupport[0]?.img : ''" alt=""></div>
+        <div class="service-box">  
+          <p *ngFor="let item of jsonData[25]?.websupport[0].paragrahps">{{item.paragraph}}</p>
         </div>
       </div>
-      <div class="plans">
-        <div class="box-info">
-          <h2>Премиум</h2>
-        </div>
-        <div class="box-button">
-          <a href="web-support-plans/premium">преглед</a>
+      <div class="service">
+        <div class="plans" *ngFor="let item of jsonData[25]?.websupport[0].packages">
+          <div class="box-info"><h2>{{item.title}}</h2></div>
+          <div class="box-button"><a [href]="item.link">{{item.btnName}}</a></div>
         </div>
       </div>
-      <div class="plans">
-        <div class="box-info">
-          <h2>Бизнес</h2>
-        </div>
-        <div class="box-button">
-          <a href="web-support-plans/business">преглед</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </ng-container>

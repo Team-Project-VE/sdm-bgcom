@@ -20,7 +20,8 @@
                   </div>
                 </li>
               </ng-container>
-              <ng-container *ngIf="menu==='courses' || menu==='курсове' || menu==='dersler'">
+              <ng-container *ngIf="menu==='courses' || menu==='курсове' || menu==='kurslar'">
+                <div id="courses">
                   <li class="open-drop">
                     <a>{{ menu }}</a>
                     <div class="drop-menu">
@@ -29,8 +30,9 @@
                       </ng-container>
                     </div>
                   </li>
+                </div>
               </ng-container>
-              <ng-container *ngIf="menu!='courses' && menu!='курсове' && menu!='dersler' &&  menu!=='services' && menu!=='услуги' && menu!=='hizmetler'">
+              <ng-container *ngIf="menu!='courses' && menu!='курсове' && menu!='kurslar' &&  menu!=='services' && menu!=='услуги' && menu!=='hizmetler'">
                   <li><a [href]="getGMLinks[i]">{{ menu }}</a></li>
               </ng-container>
             </ng-container>

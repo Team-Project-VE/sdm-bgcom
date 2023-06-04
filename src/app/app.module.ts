@@ -37,6 +37,7 @@ import { WebDevPlansComponent } from './components/header/services/web-dev/web-d
 import { BusinessCardsPlansComponent } from './components/header/services/business-card-design/business-cards-plans/business-cards-plans.component';
 import { LogoPlansComponent } from './components/header/services/logo-design/logo-plans/logo-plans.component';
 import { WebSupportPlansComponent } from './components/header/services/web-support/web-support-plans/web-support-plans.component';
+import { PoliciesComponent } from './components/policies/policies.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { WebSupportPlansComponent } from './components/header/services/web-suppo
     WebDevPlansComponent,
     BusinessCardsPlansComponent,
     LogoPlansComponent,
-    WebSupportPlansComponent
+    WebSupportPlansComponent,
+    PoliciesComponent
   ],
   imports: [
     BrowserModule,

@@ -22,6 +22,8 @@ export class LangTranslateService {
 
     // Load JSON data for new language
     this.loadJsonData(lang);
+      // Reload the page
+    window.location.reload();
   }
 
   getTranslation(key: string) {

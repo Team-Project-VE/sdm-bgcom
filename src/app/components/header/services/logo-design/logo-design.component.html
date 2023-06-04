@@ -1,39 +1,17 @@
-<section class="my-services">
-    <div class="service"><h1>Лого Дизайн</h1></div>
-    <div class="service">
-      <div class="service-box"><img src="../../../../../assets/images/services_IMG/logo-design.webp" alt=""></div>
-      <div class="service-box">
-        <p>Добре дошли в нашата компания за дизайн на лога! Ние предлагаме креативни и уникални решения, които ще направят вашата марка запомняща се. Разбираме, че всяка организация има уникални нужди и идентичност, затова предлагаме три плана - Стандарт, Премиум и Бизнес - за да съответстваме на вашите специфични изисквания и бюджет.</p>
-        <p>Стандартният план включва базов дизайн на логото, който отразява основните ви ценности и идеали. Премиум планът предлага разширен дизайн, който предлага повече възможности за креативност и изпъкване. Бизнес планът включва пълноценен дизайн на лого, с допълнителни услуги, включително персонализирани графики, консултации по бранд стил и индивидуализация.</p>
-        <p>Нашите услуги включват дизайн на лога, консултации за бранд стил, създаване на персонализирани графики и др. Ние ще работим с вас, за да разберем вашата визия и да я превърнем в изразителен и уникален логотип.</p>
-        <p>Нашите професионални дизайнери са ангажирани с всяка детайл от създаването на вашето лого - от цветовата палитра и формата до типографията и изпълнението. Всички наши проекти са изработени съобразно най-новите тенденции в областта на графичния дизайн.</p>
-        <p>Свържете се с нас днес, за да започнете процеса на създаване на уникален и запомнящ се лого, който ще помогне на вашата марка да се откроява и да привлича повече клиенти!</p>
-      </div>
-    </div>
-    <div class="service">
-      <div class="plans">
-        <div class="box-info">
-          <h2>Стандартен</h2>
-        </div>
-        <div class="box-button">
-          <a href="logo-design-plans/standart">преглед</a>
+  <ng-container *ngIf="jsonData$ | async as jsonData">
+    <section class="my-services">
+      <div class="service"><h1>{{jsonData[22]?.logodesing[0]?.title}}</h1></div>
+      <div class="service">
+        <div class="service-box">  <img [src]="jsonData[22]?.logodesing[0]?.img ? '../../../../../assets/images/course_IMG/' + jsonData[22]?.logodesing[0]?.img : ''" alt=""></div>
+        <div class="service-box">  
+          <p *ngFor="let item of jsonData[22]?.logodesing[0].paragrahps">{{item.paragraph}}</p>
         </div>
       </div>
-      <div class="plans">
-        <div class="box-info">
-          <h2>Премиум</h2>
-        </div>
-        <div class="box-button">
-          <a href="logo-design-plans/premium">преглед</a>
+      <div class="service">
+        <div class="plans" *ngFor="let item of jsonData[22]?.logodesing[0].packages">
+          <div class="box-info"><h2>{{item.title}}</h2></div>
+          <div class="box-button"><a [href]="item.link">{{item.btnName}}</a></div>
         </div>
       </div>
-      <div class="plans">
-        <div class="box-info">
-          <h2>Бизнес</h2>
-        </div>
-        <div class="box-button">
-          <a href="logo-design-plans/business">преглед</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </ng-container>

@@ -34,7 +34,7 @@ export class HeaderComponent implements AfterViewInit {
     script.src = '../../assets/js/header.js';
     document.body.appendChild(script);
     setTimeout(() => {
-          //get GMLinks as an array
+    //get GMLinks as an array
     this.langTranslate.jsonData$.pipe(
       map(data=> {
         const getGMLinks=[];

@@ -1,0 +1,6 @@
+h1{margin: 1rem 2rem}
+h2{margin: .5rem 2rem;}
+p{margin: .5rem 2rem; text-align: justify;}
+ul li{margin: .5rem 2.5rem; line-height: 1.8rem;}
+ul li p i{margin:0 1rem;}
+ul li p a{color:#409fd7;}

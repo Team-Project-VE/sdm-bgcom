@@ -1,47 +1,1601 @@
 [
 	{	"brandName":"SDM BG CONSULT"},
-	{	"genMenu": "HOME"	, "links":"/home"},
-	{	"genMenu": "dersler"	, "links":"/courses", "dropMenu":[
+	{	"genMenu": "home", "links":"/home"},
+	{	"genMenu": "kurslar", "links":"/courses", "dropMenu":[
 
-		{"dropMenuName": "python", "link":"/course/python" },
-		{"dropMenuName": "c+", "link":"/course/cplus" },
-		{"dropMenuName": "frond end", "link":"/course/front-end" },
-		{"dropMenuName": "back end", "link":"/course/back-end" },
-		{"dropMenuName": "full stack", "link":"/course/full-stack" },
-		{"dropMenuName": "iç mimari", "link":"/course/interior-design" }
+		{"dropMenuName": "python", "link":"/python-course" },
+		{"dropMenuName": "c+", "link":"/cplusplus-course" },
+		{"dropMenuName": "frond end", "link":"/frontend-course" },
+		{"dropMenuName": "back end", "link":"/backend-course" },
+		{"dropMenuName": "full stack", "link":"/fullstack-course" },
+		{"dropMenuName": "İç dizayn", "link":"/interiordesign-course" }
 	]},
 	{	"genMenu": "portföy"	, "links":"/portfolio"},
 	{	"genMenu": "hizmetler"	, "links":"/services", "dropMenu":[
 
-		{"dropMenuName": "Web tasarımı", "link":"/services/web-design" },
-		{"dropMenuName": "web Geliştirme", "link":"/services/web-development" },
-		{"dropMenuName": "web desteği", "link":"/services/web-support" },
-		{"dropMenuName": "logo tasarımı", "link":"/services/logo-design" },
-		{"dropMenuName": "kartvizit tasarımı", "link":"/services/business-card-design"}
+		{"dropMenuName": "Web tasarımı", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "workDescription":"Harika ve motive edici bir iş fikriniz mi var? Modern yöntem ve teknolojileri kullanarak uygulama konusunda size yardımcı olabiliriz","imgName":"srv1.webp"},
+		{"dropMenuName": "web Geliştirme", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "workDescription":"Çalışan bir işiniz var ama bir şeyler ters mi gidiyor? müşterilerinizi kontrol etmek ve onlarla etkileşimde bulunmak için modern teknolojiye ihtiyaç duyuyor, bu yüzden buradayız","imgName":"srv2.webp"},
+		{"dropMenuName": "web Destek", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "workDescription":"Web desteği, yeni arabanızın garantisi gibidir ve uzmanlarımız ihtiyaç durumunda yanıt vermeye hazır olarak 7/24 hizmetinizdedir.","imgName":"srv3.webp"},
+		{"dropMenuName": "logo tasarımı", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "workDescription":"Bir fikrin var! Etkileyici, ilk bakışta büyüleyen farklı bir şey mi istiyorsunuz? Logonuz bizim işimiz","imgName":"srv4.webp"},
+		{"dropMenuName": "kartvizit tasarımı", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "workDescription":"İşletmeniz için daha büyük bir hedef kitle mi istiyorsunuz? Kendi işiniz var mı? Sizin için etkileyici bir şey yapmaya hazırız","imgName":"srv5.webp"}
 	]},
 	{	"genMenu": "teklifler"	, "links":"/offers"},
-	{	"genMenu": "Hakkımızda"	, "links":"/aboutus"},
+	{	"genMenu": "hakkımızda"	, "links":"/about-us"},
 	{	"genMenu": "iletişim"	, "links":"/contacts"},
 	{ "goalsTittle":"hedeflerimiz", "ourGoals":[
-		{"goals":"1. Basit Tasarım", "goalsDescription":"Dostu bir deneyim için çaba sarf ediyoruz","goalsIcon":"fa fa-users"},
-		{"goals":"2. En İyi İzlenim", "goalsDescription":"Hedefe tam isabet etmek","goalsIcon":"fa fa-bullseye"},
-		{"goals":"3. Basit Navigasyon", "goalsDescription":"Kullanıcıların arama yapmasını kolaylaştırıyoruz","goalsIcon":"fa fa-list-ul"},
-		{"goals":"4. Doğal Deneyim", "goalsDescription":"Sonsuz sayfalar, uyumlu stil","goalsIcon":"fas fa-crosshairs"},
-		{"goals":"5. Seçili Renkler", "goalsDescription":"Renkli tipografiyi takdir ediyoruz","goalsIcon":"fas fa-palette"},
-		{"goals":"6. Tepki Veren Tasarım", "goalsDescription":"Çoklu cihazlar için tek tasarım","goalsIcon":"fas fa-expand-arrows-alt"},
-		{"goals":"7. Birden Fazla Tarayıcı", "goalsDescription":"Farklı tarayıcılarda aynı kalite","goalsIcon":"fa fa-safari"},
-		{"goals":"8. Sıfır Hatalar", "goalsDescription":"Doğrulama daha yüksek bir güven formudur","goalsIcon":"fas fa-bug"},
-		{"goals":"9. Tam Kontrol Sağlama", "goalsDescription":"%100 yazar kodu yazıyoruz","goalsIcon":"far fa-file-code"},
-		{"goals":"10. Yüksek Kaliteli İçerik", "goalsDescription":"Etkileşimli içerik için çaba sarf ediyoruz","goalsIcon":"far fa-file-alt"}
+		{"goals":"1. Basit tasarım", "goalsDescription":"Keyifli bir kullanıcı deneyimi için çalışıyoruz","goalsIcon":"fa fa-users"},
+		{"goals":"2. en iyi izlenim", "goalsDescription":"Hedef, hedefe isabetli bir vuruştur","goalsIcon":"fa fa-bullseye"},
+		{"goals":"3. Basit gezinme", "goalsDescription":"Kullanıcılar için aramayı kolaylaştırıyoruz","goalsIcon":"fa fa-list-ul"},
+		{"goals":"4. Doğal deneyim", "goalsDescription":"Tutarlı bir stile sahip sonsuz sayıda sayfa","goalsIcon":"fas fa-crosshairs"},
+		{"goals":"5. Seçilen renkler", "goalsDescription":"Renkli tipografiyi takdir ediyoruz","goalsIcon":"fas fa-palette"},
+		{"goals":"6. Duyarlı tasarım", "goalsDescription":"Birçok cihaz - tek tasarım","goalsIcon":"fas fa-expand-arrows-alt"},
+		{"goals":"7. Birden çok tarayıcı", "goalsDescription":"Tarayıcılar arasında aynı kalite","goalsIcon":"fa fa-safari"},
+		{"goals":"8. Sıfır hata", "goalsDescription":"Doğrulama, daha yüksek bir güven biçimidir","goalsIcon":"fas fa-bug"},
+		{"goals":"9. garantili kontrol", "goalsDescription":"Bizim tarafımızdan yazılan %100 telif hakkıyla korunan kod","goalsIcon":"far fa-file-code"},
+		{"goals":"10. kaliteli içerik", "goalsDescription":"Etkileyici içerik için çalışıyoruz","goalsIcon":"far fa-file-alt"}
 	]},
-	{"phone":"TELEFON", "adress":"ŞUMEN, 17 OBORISHTE", "officeTitle":"OFİS", "email":"E-POSTA"},
+	{"phone":"telefon", "adress":"ŞÜMEN, 17 OBORISHTE Meydanı", "officeTitle":"ofis", "email":"e-posta"},
 	{
 		"ekoForm": "iletişim formu - Ekrem Mehmedov",
-        "seloForm": "iletişim formu - Seliha Mehmedova",
-		"firstName": "isim",
-        "surname":"Soyad",
+        "seloForm": "iletişim formu - seliha mehmedova",
+		"firstName": "İsim",
+        "surname":"Soyadı",
         "em":"e-posta",
-        "mess":"mesaj",
-		"sendBtn":"Gönder"
+        "mess":"İleti",
+		"sendBtn":"Göndermek"
+	},
+	{
+		"footerImgUrl": "sdm_logo.webp",
+		"footerLogo": "SDM BG CONSULT",
+		"welcomeText": "Sitemize hoşgeldiniz! Yeni kurulan bir bilişim şirketiyiz. Günümüz pazarının gereksinimlerine göre tüm ihtiyaçlarınızı karşılamaya hazırız, daha fazla bilgi için",
+		"welcomeLink": "Burada",
+		"addressTitle": "adres",
+		"address": "ŞÜMEN, 17 OBORISHTE Meydanı",
+		"phoneTitle": "telefon",
+		"phoneNumbers": [
+			"+359 887 729 228",
+			"+359 893 871 753"
+		],
+		"emailTitle": "E-posta",
+		"emailAddresses": [
+			"ekrem.mehmedov@sdm-bg.com",
+			"seliha.mehmedova@sdm-bg.com"
+		],
+		"socialMedia": [
+			{ "platform": "twitter", "icon": "fa fa-twitter", "link": "https://twitter.com" },
+			{ "platform": "facebook", "icon": "fa fa-facebook", "link": "https://facebook.com" },
+			{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "https://linkedin.com" },
+			{ "platform": "instagram", "icon": "fa fa-instagram", "link": "https://instagram.com" }
+		],
+		"quickLinksTitle": "Бързи Връзки",
+		"quickLinks": [
+			{ "title": "home", "link": "#" },
+			{ "title": "hizmetler", "link": "home/#my-works" },
+			{ "title": "Hakkımızda", "link": "about-us" },
+			{ "title": "portföy", "link": "portfolio" },
+			{ "title": "Bir teklif yap", "link": "contacts" }
+		],
+		"popularLinksTitle": "Popüler ilişkiler",
+		"popularLinks": [
+			{ "title": "Python kursu", "link": "python-course" },
+			{ "title": "web desteği", "link": "websupp-service" },
+			{ "title": "Kurslar", "link": "home/#course" },
+			{ "title": "portföy", "link": "portfolio" },
+			{ "title": "web Geliştirme", "link": "webdev-service" },
+			{ "title": "Logo tasarımı", "link": "logodesign-service" }
+		],
+		"locationTitle": "Konum",
+		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.56738297867068!2d26.915932904042904!3d43.27073902007498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58a67f395c66b%3A0x4eda59530fcee61b!2z0KjRg9C80LXQvQ!5e0!3m2!1sbg!2sbg!4v1682021075326!5m2!1sbg!2sbg",
+		"locationMapHeight": "180px",
+		"locationMapWidth": "180px",
+		"usefulLinksTitle": "Yararlı ",
+		"usefulLinks": [
+			{ "title": "Şartlar ve Koşullar", "link": "policies/terms-conditions" },
+			{ "title": "Gizlilik Politikası", "link": "policies/privacy-policy" },
+			{ "title": "Çerez politikası", "link": "policies/cookies-policy" },
+			{ "title": "Sertifikalar", "link": "#" },
+			{ "title": "eğitim süresi", "link": "#" },
+			{ "title": "hedeflerimiz", "link": "home/#goals" }
+		],
+		"footerRightsReserved": "Tüm hakları saklıdır © 2023"
+	},
+	{
+		"contactsForm": "İletişim Formu",
+		"chooseOption": "-- Lütfen bir seçenek seçin --",
+		"offerRequest": "Bir teklif isteği",
+		"questions": "Teknik sorular",
+		"else": "Başka bir şey",
+		"nameTitle": "İsim",
+		"surnameTitle": "Soyadı",
+		"emailAdressTitle": "E-posta",
+		"phoneNumber": "Telefon numarası",
+		"subjectTitle": "İleti",
+		"agreeTerms": "okudum ve katılıyorum",
+		"agreeTermsTwo": "Şartlar ve koşullar.",
+		"importantFields": "ZORUNLU ALANLAR",
+		"sendBtnTitle": "Göndermek",
+		"clearBtnTitle": "Temizlemek"
+	},
+	{"getSliderTop":[
+		{"text_1":"ücretsiz danışmanlık","text_2":"birinci sınıf hizmet","slideName":"sld1.webp", "bgFon":"#0072B5"},
+		{"text_1":"Masaüstü veya web uygulaması","text_2":"Fikrinizi gerçekleştirmeye hazırız","slideName":"sld2.webp", "bgFon":"#A0DAA9"},
+		{"text_1":"Dostça tutum","text_2":"Yeni dostları ağırlamaya hazırız","slideName":"sld3.webp", "bgFon":"#B55A30"},
+		{"text_1":"Yaratıcı veya modaya uygun şeyleri seviyorsunuz","text_2":"Fikrinizi gerçekleştirmeye hazırız","slideName":"sld4.webp", "bgFon":"#9BB7D4"},
+		{"text_1":"Yeni bir şey ister misin?","text_2":"biz sizin karşısındayız","slideName":"sld5.webp", "bgFon":"#F5DF4D"}
+	]},
+	{
+		"offersTitle":"web teklifleri", "webDesTitle":"Web tasarımı","webDevTitle":"web Geliştirme","webSupportTitle":"web desteği",
+		"webDesOffers":"web tasarımı teklifleri","webDevOffers":"web geliştirme teklifleri","webSupportOffers":"web desteği teklifleri",
+		"webOffers_1":[	
+		{"webDesign":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"işletmeniz veya hizmetiniz hakkında temel bilgileri sağlamak için temel tasarım ve işlevselliğe sahip bir web sitesi için uygundur"},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-design-plans/standart"}
+		]},			
+		{"webDesign":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"özel bir tasarıma ve daha gelişmiş işlevselliğe sahip bir web sitesi. Daha büyük işletmeler veya çevrimiçi ortamda öne çıkmak isteyenler için uygundur"},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-design-plans/premium"}
+		]},
+		{"webDesign":[
+			{"titlePlan":"business"},
+			{"infoPlan":"Özel bir tasarıma sahip, tamamen mobil cihazlara duyarlı ve birçok işlevselliğe sahip çok işlevli ve karmaşık bir web sitesine ihtiyaç duyan büyük şirketler veya çevrimiçi mağazalar için ideal"},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-design-plans/business"}
+		]}
+	],
+	"webOffers_2":[
+		{"webDevolmpent":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"5 sayfaya kadar, küçük ve orta ölçekli işletmeler için mobil cihazlar için optimize edilmiş tasarım."},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-dev-plans/standart"}
+
+		]}, 
+		{"webDevolmpent":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"10 sayfaya kadar, ek işlevler ve daha büyük şirketlere uygun özelleştirilmiş tasarı"},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-dev-plans/premium"}
+		]},
+		{"webDevolmpent":[
+			{"titlePlan":"business"},
+			{"infoPlan":"20 sayfaya kadar, özel tasarım, sosyal medya entegrasyonu ve SEO optimizasyonu, çevrimiçi mağazalar ve büyük projeler için en iyisi"},
+			{"btnLinkOffers":"Bir göz at"},
+			{"link":"web-dev-plans/business"}
+		]}		
+	],
+	"webOffers_3":[
+		{"webSupport":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"işlevsellik ve tasarım öğelerinin düzenli olarak kontrol edilmesini ve içeriğin sizin isteklerinize göre güncellenmesini içerir"},
+			{"btnLinkOffers":"Bir göz at"}
+		]}, 
+		{"webSupport":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"standart planın yanı sıra kişiselleştirilmiş destek ve ortaya çıkabilecek sorunlara hızlı yanıt dahil her şeyi içerir"},
+			{"btnLinkOffers":"Bir göz at"}
+		]},
+		{"webSupport":[
+			{"titlePlan":"business"},
+			{"infoPlan":"kişiselleştirilmiş destek, SEO optimizasyonu, sorunlara hızlı yanıt ve sosyal medya desteği içeren çevrimiçi mağazalar ve büyük projeler için idealdir."},
+			{"btnLinkOffers":"Bir göz at"}
+		]}		
+	]
+	},
+	{	
+		"offersTitle":"logo teklifleri",  "planStan":"standard", "planPrem":"premium","planBuss":"business", 
+		"logoOffers_1":[	
+			{"logoDesign":[
+				{"infoPlan":"Çeşitli formatlarda sağlanan profesyonel logo tasarımı"},
+				{"btnLinkOffers":"Bir göz at"}
+			]}
+		],
+		"logoOffers_2":[		
+			{"logoDesign":[
+				{"infoPlan":"Benzersiz bir kimlik, tasarım seçenekleri ve tasarımın 3 adede kadar revizyonunu içeren özelleştirilmiş bir logo tasarım hizmeti"},
+				{"btnLinkOffers":"Bir göz at"}
+			]}
+		],
+		"logoOffers_3":[
+			{"logoDesign":[
+				{"infoPlan":"Görsel kimlik arayan firmaların ihtiyaçlarını karşılamak için premium paketin tüm avantajlarını ve ek sınırsız revizyonları içerir."},
+				{"btnLinkOffers":"Bir göz at"}
+			]}
+		]
+	},
+	{	"offersTitle":"kartvizit teklifleri",  "planStan":"standard", "planPrem":"premium","planBuss":"business",
+	"cardOffers_1":[	
+		{"cardDesign":[
+			{"infoPlan":"şık sunumunuzu yansıtacak şık ve profesyonel bir tasarıma sahiptir"},
+			{"btnLinkOffers":"Bir göz at"}
+		]}
+	],
+	"cardOffers_2":[		
+		{"cardDesign":[
+			{"infoPlan":"Premium paket, detaylara daha fazla dikkat ve farklı tasarım seçenekleriyle kişiselleştirilmiş bir tasarım hizmeti sunar."},
+			{"btnLinkOffers":"Bir göz at"}
+		]}
+	],
+	"cardOffers_3":[
+		{"cardDesign":[
+			{"infoPlan":"premium paketin tüm avantajlarını ve ayrıca sınırsız revizyonları içerir"},
+			{"btnLinkOffers":"Bir göz at"}
+		]}
+	]
+	},
+	{	"offersTitle":"eğitim kurslarımız",
+		"cplus":[
+			{"title":"C++ kursu"},
+			{"img":"CLogo.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/cplusplus-course", "btn":"Bir göz at"}
+		],
+		"backend":[
+			{"title":"back end kursu"},
+			{"img":"backend.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/backend-course", "btn":"Bir göz at"}
+		],
+		"frontend":[
+			{"title":"front end kursu"},
+			{"img":"frontend.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/frontend-course", "btn":"Bir göz at"}
+		],
+		"fullstack":[
+			{"title":"full stcak kursu"},
+			{"img":"fullstack.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/fullstack-course", "btn":"Bir göz at"}
+		],
+		"python":[
+			{"title":"python kursu"},
+			{"img":"pythonIcon.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/python-course","btn":"Bir göz at"}
+		],
+		"interdes":[
+			{"title":"İç dizayn kursu"},
+			{"img":"SweeetHome.webp"},
+			{"descripTitle":"Ne bekleyebileceğinizi?"},
+			{"description":"İdeal portföyünüz için kursa özgü değerli beceriler, pratik beceriler ve proje fikirleri"},
+			{"link":"/interiordesign-course","btn":"Bir göz at"}
+		]
+	},
+	{		
+		"beginners":"modül 1 - yeni başlayanlar için", "intermediate":"modül 2 - orta seviyede", "advanced":"modül 3 - gelişmiş",
+		"expert":"modül 4 - uzmanlar","individual":"modül 5 - bireysel konu için"
+	},
+	{		
+		"modul_1":"modül 1", "modul_2":"modül 2", "modul_3":"modül 3",
+		"modul_4":"modül 4","modul_5":"modül 5",
+		"characteristic_1":"kurs", "characteristic_2":"konu sayısı",
+		"characteristic_3":"süre","characteristic_4":"fiyat"
+	},
+	{
+		"python":[
+			{
+				"courseTitle":"Курс по Python", "img":"python.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"cplus":[
+			{
+				"courseTitle":"Курс по C++", "img":"cplus.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"frontend":[
+			{
+				"courseTitle":"Курс по frond end", "img":"frontend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"backend":[
+			{
+				"courseTitle":"Курс по back end", "img":"backend.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"fullstack":[
+			{
+				"courseTitle":"Курс по full stack", "img":"fullstack.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		],
+		"interdes":[
+			{
+				"courseTitle":"Курс по интериорен дизайн", "img":"iterdesign.webp",
+				"paragraph_1":"Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+				"paragraph_2":"Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+				"modul_1":[
+					{"description_1":"Основи на Python 1","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_2":[
+					{"description_1":"Основи на Python 2","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_3":[
+					{"description_1":"Основи на Python 3","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				],
+				"modul_4":[
+					{"description_1":"Основи на Python 4","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}
+				],
+				"modul_5":[
+					{"description_1":"Основи на Python 5","description_2":"8 теми","description_3":"25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)","description_4":"200 лв" },
+					{"question":"За кого е предназначен курса?","answer":"answer 1"},
+					{"question":"На какво ще се науча?","answer":"answer 2"},
+					{"question":"Какъв е учебният метод?","answer":"answer 3"},
+					{"question":"Има ли определен график","answer":"answer 4"},
+					{"question":"Какво представлява сертификатa?","answer":"answer 5"}	
+				]
+			}
+		]
+	},
+	{"businesscard":[
+		{
+			"title":"kartvizit tasarımı",
+			"img":"../../../../../assets/images/services_IMG/business-card.webp",
+			"paragrahps":[
+				{"paragraph":"Kartvizit tasarım şirketimize hoş geldiniz! Kartvizitinizi unutulmaz ve benzersiz kılacak yenilikçi ve yaratıcı çözümler sunuyoruz. Her işletmenin özel ihtiyaçları ve kimliği olduğunu anlıyoruz, bu nedenle gereksinimlerinize ve bütçenize uygun üç plan - Standart, Premium ve Ticari - sunuyoruz."},
+				{"paragraph":"Standart plan, temel değerlerinizi ve işletme kimliğinizi yansıtan temel bir kartvizit tasarımı içerir. Premium plan, ek görsel öğeler ve yaratıcı çözümler içeren daha ayrıntılı bir tasarım sunar. İş planı, özel grafikler, birinci sınıf malzemeler ve stil ve marka danışmanlığı dahil olmak üzere eksiksiz bir kartvizit tasarım hizmetleri paketi sunar."},
+				{"paragraph":"Hizmetlerimiz, kartvizit tasarımı, marka danışmanlığı, özel grafik oluşturma ve daha fazlasını içerir. Profesyonel tasarımcılarımız, vizyonunuzu anlamak ve onu görsel olarak çekici ve profesyonel bir kartvizite dönüştürmek için sizinle birlikte çalışacaktır."},
+				{"paragraph":"Tasarım uzmanlarımız, renk paleti ve tipografiden malzeme seçimine ve nihai uygulamaya kadar, kartvizitinizin oluşturulmasının her detayında yer alır. Tüm projelerimiz grafik tasarım alanındaki son trendlere göre yapılmaktadır."},
+				{"paragraph":"Öne çıkmanıza ve müşterileriniz üzerinde güçlü bir izlenim bırakmanıza yardımcı olacak benzersiz ve profesyonel kartvizitinizi oluşturmaya başlamak için bugün bizimle iletişime geçin!"}
+			],
+			"packages":[
+				{"title":"standart" , "btnName":"Bir göz at", "link":"business-cards-plans/standart"},
+				{"title":"premium" , "btnName":"Bir göz at", "link":"business-cards-plans/premium"},
+				{"title":"business" , "btnName":"Bir göz at", "link":"business-cards-plans/business"}
+			]
+		}
+	]},
+	{"logodesing":[
+		{
+			"title":"logo tasarımı",
+			"img":"../../../../../assets/images/services_IMG/logo-design.webp",
+			"paragrahps":[
+				{"paragraph":"Logo tasarım şirketimize hoş geldiniz! Markanızı akılda kalıcı kılacak yaratıcı ve özgün çözümler sunuyoruz. Her kuruluşun benzersiz ihtiyaçları ve kimlikleri olduğunu anlıyoruz, bu nedenle özel gereksinimlerinize ve bütçenize uygun üç plan - Standart, Premium ve İş - sunuyoruz."},
+				{"paragraph":"Standart plan, temel değerlerinizi ve ideallerinizi yansıtan temel bir logo tasarımı içerir. Premium plan, yaratıcılık ve pop için daha fazla fırsat sunan gelişmiş tasarım sunar. İş planı, özel grafikler, marka stili danışmanlığı ve kişiselleştirme dahil olmak üzere ek hizmetler ile tam logo tasarımı içerir."},
+				{"paragraph":"Hizmetlerimiz arasında logo tasarımı, marka stili danışmanlığı, özel grafik oluşturma ve daha fazlası yer alır. Vizyonunuzu anlamak ve onu etkileyici ve benzersiz bir logoya dönüştürmek için sizinle birlikte çalışacağız."},
+				{"paragraph":"Profesyonel tasarımcılarımız, renk paleti ve şekilden tipografi ve uygulamaya kadar logonuzu oluşturmanın her detayına dahil olurlar. Tüm projelerimiz grafik tasarım alanındaki son trendlere göre yapılmaktadır."},
+				{"paragraph":"Markanızın öne çıkmasına ve daha fazla müşteri çekmesine yardımcı olacak benzersiz ve akılda kalıcı bir logo oluşturma sürecini başlatmak için bugün bizimle iletişime geçin!"}
+			],
+			"packages":[
+				{"title":"standart" , "btnName":"Bir göz at", "link":"logo-design-plans/standart"},
+				{"title":"premium" , "btnName":"Bir göz at", "link":"logo-design-plans/premium"},
+				{"title":"business" , "btnName":"Bir göz at", "link":"logo-design-plans/business"}
+			]
+		}
+
+	]},
+	{"webdes":[
+		{
+			"title":"Web tasarımı",
+			"img":"../../../../../assets/images/services_IMG/web-design.webp",
+			"paragrahps":[
+				{"paragraph":"Web tasarım hizmetleri şirketimize hoş geldiniz! Çevrimiçi varlığınızı unutulmaz kılacak profesyonel tasarım çözümleri sunuyoruz. Her işletmenin benzersiz olduğunu anlıyoruz, bu nedenle bireysel ihtiyaçlarınızı ve bütçenizi karşılayabilmemiz için Standart, Premium ve İş olmak üzere üç plan sunuyoruz."},
+				{"paragraph":"Standart plan, işletmenizin temel ihtiyaçlarını karşılayan temel bir web sitesi tasarımı içerir. Premium plan, müşterilere kişiselleştirme ve görsel çekicilik için daha fazla seçenek sunan daha gelişmiş bir tasarım içerir. İş planı, müşterileriniz için işlevsellik ve rahatlık için maksimum olanaklara sahip tam teşekküllü bir web sitesi tasarımı içerir."},
+				{"paragraph":"Hizmetlerimiz arasında web sitesi tasarımı, görsel ve grafik tasarım, logo tasarımı ve diğer tasarım hizmetleri yer almaktadır. İhtiyaçlarınızı ve tercihlerinizi karşılayan planı seçmek için sizinle birlikte dikkatli bir şekilde çalışacağız."},
+				{"paragraph":"Profesyonel web tasarımcılarımız, renk paleti ve yazı tiplerinden bilgi düzenine kadar web sitenizin tasarımının her yönüyle ilgilenecektir. Tüm projelerimiz web tasarımındaki en son teknolojiler ve trendler kullanılarak yapılmaktadır."},
+				{"paragraph":"İşletmenizin rekabette öne çıkmasına ve daha fazla müşteri çekmesine yardımcı olacak benzersiz ve profesyonel bir çevrimiçi varlık oluşturmaya başlamak için bugün bize ulaşın!"}
+			],
+			"packages":[
+				{"title":"standart" , "btnName":"Bir göz at", "link":"web-design-plans/standart"},
+				{"title":"premium" , "btnName":"Bir göz at", "link":"web-design-plans/premium"},
+				{"title":"business" , "btnName":"Bir göz at", "link":"web-design-plans/business"}
+			]
+		}
+
+	]},
+	{"webdev":[
+		{
+			"title":"Web Geliştirme",
+			"img":"../../../../../assets/images/services_IMG/web-development.webp",
+			"paragraphs":[
+				{"paragraph":"Web geliştirme şirketimize hoş geldiniz! Online varlığınızı geliştirecek ve vizyonunuzu gerçeğe dönüştürecek yenilikçi teknolojik çözümler sunuyoruz. Her kuruluşun benzersiz ihtiyaçlara sahip olduğunu anlıyoruz, bu nedenle özel gereksinimlerinizi ve bütçenizi karşılamak için Standart, Premium ve İşletme olmak üzere üç plan sunuyoruz."},
+				{"paragraph":"Standart plan, işinizin temel ihtiyaçlarını karşılayan temel web geliştirmeyi içermektedir. Premium plan, genişletilmiş özellikler ve kişiselleştirme seçenekleri sunarak daha büyük bir kitleye hitap etmenizi sağlar. İşletme planı, müşterileriniz için en iyi kullanıcı deneyimini sağlamak için gelişmiş özellikler ve kişiselleştirme seçenekleri de dahil olmak üzere tam bir web geliştirme hizmet yelpazesini kapsar."},
+				{"paragraph":"Hizmetlerimiz web geliştirme, programlama, web sitesi bakımı ve yönetimi, SEO optimizasyonu, mobil uygulama geliştirme ve daha fazlasını içermektedir. Profesyonel web geliştiricilerimiz, ürünün ihtiyaçlarınıza ve beklentilerinize uygun olduğundan emin olmak için baştan sona kadar sizinle çalışacaktır."},
+				{"paragraph":"Web geliştirme alanındaki uzmanlarımız, web sitenizin oluşturulması sürecinin her aşamasına odaklanmış durumdadır. Mimariden navigasyona, işlevselliğe ve performansa kadar tüm projelerimiz, web geliştirme alanındaki en yeni teknoloji ve uygulamalar kullanılarak geliştirilmektedir."},
+				{"paragraph":"Bugün bizimle iletişime geçerek işletmenizin başarısına katkıda bulunacak güçlü ve işlevsel bir online varlığın oluşturulmasına başlayabilirsiniz ve her zaman rekabetin bir adım önünde olabilirsiniz!"}
+			],
+			"packages":[
+				{"title":"standart" , "btnName":"Bir göz at", "link":"web-dev-plans/standart"},
+				{"title":"premium" , "btnName":"Bir göz at", "link":"web-dev-plans/premium"},
+				{"title":"business" , "btnName":"Bir göz at", "link":"web-dev-plans/business"}
+			]
+		}
+	]},
+	{"websupport":[
+		{
+			"title":"web desteği",
+			"img":"../../../../../assets/images/services_IMG/web-support.webp",
+			"paragraphs":[
+				{"paragraph":"Web bakım şirketimize hoş geldiniz! Web sitenizin sorunsuz ve kesintisiz çalışmasını sağlayacak etkili çözümler sunuyoruz. Her kuruluşun benzersiz ihtiyaçlara sahip olduğunu anlıyoruz, bu nedenle özel gereksinimlerinizi ve bütçenizi karşılamak için Standart, Premium ve İşletme olmak üzere üç plan sunuyoruz."},
+				{"paragraph":"Standart plan, web sitenizin temel bakımını ve güncellemelerini içerirken sürekli çalışmasını garanti altına alır. Premium plan, sorunlara hızlı yanıtlar, düzenli güncellemeler ve daha kapsamlı teknik destek de dahil olmak üzere daha fazla hizmet sunar. İşletme planı, web sitesinin eksiksiz bakımını, birinci sınıf destek hizmeti ve gerekli tüm güncellemeleri ve değişiklikleri içerir."},
+				{"paragraph":"Web bakım alanındaki uzmanlarımız, web sitenizin başarısı için her yönüyle ilgilenir ve performansından güvenliğine, duyarlılığından hızına kadar her şeyi gözetir. Tüm projelerimiz, web endüstrisindeki en son standartlara ve uygulamalara odaklanarak gerçekleştirilir."},
+				{"paragraph":"İşletmenizin ihtiyaçlarını karşılayacak şekilde web sitenizi en iyi durumda tutmaya başlamak için bugün bizimle iletişime geçin ve yeni müşteriler çekme ve işletmenizin ihtiyaçlarına her zaman yanıt verme konusunda web bakım hizmetlerimizle rekabetin bir adım önünde olun!"}
+			],
+			"packages":[
+				{"title":"standart" , "btnName":"Bir göz at", "link":"web-support-plans/standart"},
+				{"title":"premium" , "btnName":"Bir göz at", "link":"web-support-plans/premium"},
+				{"title":"business" , "btnName":"Bir göz at", "link":"web-support-plans/business"}
+			]
+		}
+	]},
+	{"planWebDesign":[
+		{
+			"id": "standart",
+			"name": "standart",
+			"plan": "plan",
+			"background":"#409fd7",
+			"options": [
+				{"description": "Kişiselleştirilmiş web tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Cihazlara tam uyumluluk", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik yönetim sistemi (CMS)", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Sosyal medya entegrasyonu", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "E-ticaret özellikleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "En fazla 5 sayfa içerik", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "UI/UX tasarımı", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Bakım ve güncelleme", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 300,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "premium",
+			"plan": "plan",
+			"background":"#0EB4A6",
+			"options": [
+				{"description": "Kişiselleştirilmiş web tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Cihazlara tam uyumluluk", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik yönetim sistemi (CMS)", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Sosyal medya entegrasyonu", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "E-ticaret özellikleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "En fazla 5 sayfa içerik", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "UI/UX tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Bakım ve güncelleme", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 560,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "business",
+			"plan": "plan",
+			"background": "#9BC241",
+			"options": [
+			{"description": "Kişiselleştirilmiş web tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "Cihazlara tam uyumluluk", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "İçerik yönetim sistemi (CMS)", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "Sosyal medya entegrasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "E-ticaret özellikleri", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "En fazla 20 sayfa içerik", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "UI/UX tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+			{"description": "Bakım ve güncelleme", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 800,
+			"currency": "BGN"
+		}
+	]},
+	{"planWebDev":[
+		{
+			"id": "standart",
+			"name": "standart",
+			"plan": "plan",
+			"background":"#409fd7",
+			"options": [
+				{"description": "Web sitesi tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik yönetim sistemi (CMS)", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Sosyal medya entegrasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Analitik ve istatistik", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "E-ticaret özellikleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Veritabanı ve yönetim", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "En fazla 5 sayfa içerik", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "+1 ay bakım", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 650,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "premium",
+			"plan": "plan",
+			"background":"#0EB4A6",
+			"options": [
+				{"description": "Web sitesi tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik yönetim sistemi (CMS)", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Sosyal medya entegrasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Analitik ve istatistik", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "E-ticaret özellikleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Veritabanı ve yönetim", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "En fazla 5 sayfa içerik", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "+2 ay bakım", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 1000,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "business",
+			"plan": "plan",
+			"background":"#9BC241",
+			"options": [
+				{"description": "Web tasarımı", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik yönetimi için CMS", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Sosyal entegrasyon", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Analitik ve istatistik", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "E-ticaret işlevselliği", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Veritabanı ve yönetim", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "15 sayfaya kadar içerik", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "+3 ay bakım", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 1350,
+			"currency":"BGN"
+		}
+	]},
+	{"planBusinessCards":[
+		{
+			"id": "standart",
+			"name": "standart",
+			"plan": "plan",
+			"background":"#409fd7",
+			"options": [
+				{"description": "Önceden tanımlanmış tasarımlar arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Renk şeması ve yazı tiplerini kişiselleştirme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Metin ve logo ekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Daha fazla tasarım seçeneği", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Tamamen özelleştirilebilir şablonlar", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Çoklu logo ve resim ekleme", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Tasarım ve yayınlama yazılımlarıyla entegrasyon", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Özel yazı tipleri kullanma", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 100,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "premium",
+			"plan": "plan",
+			"background":"#0EB4A6",
+			"options": [
+				{"description": "Önceden tanımlanmış tasarımlar arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Renk şeması ve yazı tiplerini kişiselleştirme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Metin ve logo ekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Daha fazla tasarım seçeneği", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Tamamen özelleştirilebilir şablonlar", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Çoklu logo ve resim ekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Tasarım ve yayınlama yazılımlarıyla entegrasyon", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Özel yazı tipleri kullanma", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 150,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "business",
+			"plan": "plan",
+			"background":"#9BC241",
+			"options": [
+				{"description": "Önceden tanımlanmış tasarımlar arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Renk şeması ve yazı tiplerini kişiselleştirme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Metin ve logo ekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Daha fazla tasarım seçeneği", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Tamamen özelleştirilebilir şablonlar", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Çoklu logo ve resim ekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Tasarım ve yayınlama yazılımlarıyla entegrasyon", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Özel yazı tipleri kullanma", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 200,
+			"currency":"BGN"
+		}
+	]},
+	{"planLogoDesign":[
+		{
+			"id": "standart",
+			"name": "standart",
+			"plan": "plan",
+			"background":"#409fd7",
+			"options": [
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logodaki renklerin ve yazı tiplerinin kişiselleştirilmesi", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Temel grafik öğeleri ve simgeler", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Özelleştirilebilir logo şablonları", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Logo içinde çoklu öğeler ve katmanlar", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Profesyonel yazılımlarla entegrasyon", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Logo için özel yazı tipleri ve efektler", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 100,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "premium",
+			"plan": "plan",
+			"background":"#0EB4A6",
+			"options": [
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logodaki renklerin ve yazı tiplerinin kişiselleştirilmesi", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Temel grafik öğeleri ve simgeler", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Özelleştirilebilir logo şablonları", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logo içinde çoklu öğeler ve katmanlar", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Profesyonel yazılımlarla entegrasyon", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Logo için özel yazı tipleri ve efektler", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],
+			"price": 200,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "business",
+			"plan": "plan",
+			"background":"#9BC241",
+			"options": [
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logodaki renklerin ve yazı tiplerinin kişiselleştirilmesi", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Temel grafik öğeleri ve simgeler", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Önceden tanımlanmış logo tasarımları arasından seçim yapma", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Özelleştirilebilir logo şablonları", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logo içinde çoklu öğeler ve katmanlar", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Profesyonel yazılımlarla entegrasyon", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Gelişmiş düzenleme seçenekleri", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Logo için özel yazı tipleri ve efektler", "symbol": "fa-sharp fa-solid fa-check green"}
+			],
+			"price": 300,
+			"currency":"BGN"
+		}
+	]},
+	{"planWebSupport":[
+		{
+			"id": "standart",
+			"name": "standart",
+			"plan": "plan",
+			"background":"#409fd7",
+			"options": [
+				{"description": "Web sitesi yedekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Web sitesi erişilebilirlik izleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik destek", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Gelişmiş yedekleme ve geri yükleme", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Güvenlik ve koruma izleme", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Platform ve modül güncellemeleri", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "7/24 destek ve hızlı yanıt", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Özelleştirilmiş özellikler ve geliştirme", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Performans ve SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],	
+			"price": 300,
+			"currency":"BGN"
+		},
+		{
+			"id": "premium",
+			"name": "premium",
+			"plan": "plan",
+			"background":"#0EB4A6",
+			"options": [
+				{"description": "Web sitesi yedekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Web sitesi erişilebilirlik izleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik destek", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Gelişmiş yedekleme ve geri yükleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Güvenlik ve koruma izleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Platform ve modül güncellemeleri", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "7/24 destek ve hızlı yanıt", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Özelleştirilmiş özellikler ve geliştirme", "symbol": "fa-sharp fa-solid fa-xmark red"},
+				{"description": "Performans ve SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-xmark red"}
+			],	
+			"price": 500,
+			"currency":"BGN"
+		},
+		{
+			"id": "business",
+			"name": "business",
+			"plan": "plan",
+			"background":"#9BC241",
+			"options": [
+				{"description": "Web sitesi yedekleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Web sitesi erişilebilirlik izleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "İçerik destek", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Gelişmiş yedekleme ve geri yükleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Güvenlik ve koruma izleme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Platform ve modül güncellemeleri", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "7/24 destek ve hızlı yanıt", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Özelleştirilmiş özellikler ve geliştirme", "symbol": "fa-sharp fa-solid fa-check green"},
+				{"description": "Performans ve SEO optimizasyonu", "symbol": "fa-sharp fa-solid fa-check green"}
+			],	
+			"price": 700,
+			"currency":"BGN"
+		}
+	]},
+	{	"title":"Web tasarımı", "btnName":"daha fazla gör","link":"webdesign-portfolio",
+	"portfolioWebDesign":[
+		{
+			"title":"Proje #1", "modal":"modal_1", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_1.webp", "index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_2.webp", "index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_3.webp", "index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_4.webp", "index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_5.webp", "index":"5"}	
+			]
+		},
+		{
+			"title":"Proje #2","modal":"modal_2", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_5.webp","index":"5"}
+			]
+		},
+		{
+			"title":"Proje #3","modal":"modal_3", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_5.webp","index":"5"}
+			]
+		},
+		{
+			"title":"Proje #4","modal":"modal_4", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_1.webp", "index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_2.webp", "index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_3.webp", "index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_4.webp", "index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_5.webp", "index":"5"}
+			]
+		},
+		{
+			"title":"Proje #5","modal":"modal_5", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_5.webp","index":"5"}
+			]
+		},
+		{
+			"title":"Proje #6","modal":"modal_6", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_5.webp","index":"5"}
+			]
+		},
+		{
+			"title":"Proje #7","modal":"modal_7", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_5.webp","index":"5"}
+			]
+		},
+		{
+			"title":"Proje #8","modal":"modal_8", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_1.webp", "index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_2.webp", "index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_3.webp", "index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_4.webp", "index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_5.webp", "index":"5"}
+			]
+		},
+		{
+			"title":"Proje #9","modal":"modal_9", "descriptions":"web design image",
+			"imgOptions":[
+				{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_1.webp","index":"1"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_2.webp","index":"2"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_3.webp","index":"3"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_4.webp","index":"4"},
+				{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_5.webp","index":"5"}
+			]
+		}
+	]},
+	{
+		"policies":[
+		{	
+			"id":"privacy-policy",
+			"descriptions":[
+				{
+					"title": "Gizlilik Politikası",
+					"paragraphs": [
+					  {"paraItems": "Son Güncelleme: 2 Haziran 2023"},
+					  {"paraItems": "Bu Gizlilik Politikası, hizmeti kullanırken bilgilerinizin toplanması, kullanımı ve açıklanması konusundaki politikalarımızı ve prosedürlerimizi açıklar ve gizlilik haklarınızı ve yasaların size sağladığı korumayı size anlatır."},
+					  {"paraItems": "Hizmeti sunmak ve geliştirmek için kişisel verilerinizi kullanıyoruz. Hizmeti kullanarak, bu Gizlilik Politikası çerçevesinde bilgi toplamanın ve kullanmanın kabul ettiğinizi onaylamış olursunuz."}
+					]
+				},
+				{
+					"title":"Yorumlama ve Tanımlar",
+					"subtitles":[
+						{
+							"title":"Yorumlama", 					
+							"paragrahps":[
+								{"paraItems":"Büyük harfle başlayan kelimelerin anlamları aşağıdaki koşullarda belirlenir. Aşağıdaki tanımlar, tekil veya çoğul olarak yer alıyor olsalar da aynı anlama sahiptir."}
+							]
+						},
+						{
+							"title":"Tanımlar",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Bu Gizlilik Politikası'nda aşağıdaki amaçlar için:"}
+								]},
+								{"listparagraph":[
+									{"strong":"Hesap", "paragraph":"Hizmetimize veya Hizmetimizin bir bölümüne erişim için sizin için oluşturulan benzersiz bir hesaptır."},
+									{"strong":"Ortak", "paragraph":"Kontrol ettiği, kontrol ettiği veya aynı kontrol altında olduğu bir taraf ile ilişkili bir özne anlamına gelir; „kontrol“ bu durumda, yöneticilerin seçiminde oy hakkı olan hisse senetlerinin, payların veya diğer değerli kıymetlerin %50'sine veya daha fazlasına sahip olma anlamına gelir."},
+									{"strong":"Şirket", "paragraph":"(bu Anlaşmada Şirket, Biz, Bizi veya Bizim olarak da anılır) SDM BG CONSULT OOD, ŞUMEN, OBORISHTE 17."},
+									{"strong":"Çerezler", "paragraph":"Bu web sitesindeki tarama geçmişinizle ilgili ayrıntılar içeren ve web sitesi tarafından bilgisayarınıza, mobil cihazınıza veya başka bir cihaza yerleştirilen küçük dosyalardır."},
+									{"strong":"Ülke", "paragraph":"Bulgaristan anlamına gelir."},
+									{"strong":"Cihaz", "paragraph":"Hizmete erişimi olan herhangi bir cihazı ifade eder, bilgisayar, cep telefonu veya dijital tablet gibi."},
+									{"strong":"Kişisel Veriler", "paragraph":"Kimlikleri belirlenmiş veya belirlenebilir fiziksel kişilere ilişkin herhangi bir bilgiyi ifade eder."},
+									{"strong":"Hizmet", "paragraph":"Web sitesine atıfta bulunur."},
+									{"strong":"Hizmet Sağlayıcı", "paragraph":"Şirket adına verileri işleyen herhangi bir gerçek veya tüzel kişi; Şirket adına Hizmeti kolaylaştırmak, Şirket adına Hizmeti sunmak, Hizmetle ilgili hizmetler sunmak veya Şirketin Hizmetin nasıl kullanıldığını analiz etmesine yardımcı olmak üzere Şirket tarafından istihdam edilen veya Şirket tarafından görevlendirilen üçüncü taraflar veya kişileri ifade eder."},
+									{"strong":"Kullanım Verileri", "paragraph":"Hizmetin otomatik olarak topladığı veya Hizmet altyapısı tarafından üretilen verileri ifade eder (örneğin, bir sayfayı ziyaret süresi)."},
+									{"strong":"Site", "paragraph":"ŞDM BG CONSULT'a erişilebilen", "link":"https://sdm-bg.com"},
+									{"strong":"Siz", "paragraph":"Siz, Hizmete erişen veya kullanan fiziksel kişiyi veya uygulanabilirse bu kişi adına Hizmete erişen veya kullanan şirketi veya başka bir tüzel kişiyi ifade eder."}
+								]}
+							]
+						}
+					] 
+				},
+				{
+					"title":"Kişisel Verilerinizin Toplanması ve Kullanımı - Toplanan Veri Türleri",
+					"subtitles":[
+						{
+							"title":"Kişisel Veriler",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Hizmetimizi kullanırken, sizden iletişim veya tanımlama amacıyla belirli kişisel bilgileri sağlamanızı isteyebiliriz. Kişisel bilgiler şunları içerebilir, ancak bunlarla sınırlı değildir:"}
+								]},
+								{"listparagraph":[
+									{"paragraph":"E-posta adresi"},
+									{"paragraph":"Ad ve soyad"},
+									{"paragraph":"Telefon numarası"},
+									{"paragraph":"Kullanım verileri"}
+								]}
+							]
+						},
+						{
+							"title":"Kullanım Verileri",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Hizmeti kullanırken, Kullanım Verileri otomatik olarak toplanır."},
+									{"paragrahp":"Kullanım Verileri, cihazınızın internet protokolü adresi (IP adresi), tarayıcı türü, tarayıcı sürümü, ziyaret ettiğiniz Hizmet sayfaları, ziyaret tarihi ve saati, bu sayfalarda geçirdiğiniz süre, benzersiz cihaz tanımlayıcıları ve diğer teşhis verileri gibi bilgileri içerebilir."},
+									{"paragrahp":"Mobil cihazdan veya mobil cihaz aracılığıyla Hizmete eriştiğinizde, kullanılan mobil cihazın türü, mobil cihazınızın benzersiz kimliği, mobil cihazınızın IP adresi, mobil işletim sistemi, kullandığınız mobil internet tarayıcısı türü, benzersiz cihaz kimlikleri ve diğer teşhis verileri de dahil olmak üzere belirli bilgileri otomatik olarak toplayabiliriz."},
+									{"paragrahp":"Ayrıca, Hizmetimizi ziyaret ettiğinizde veya mobil cihaz aracılığıyla Hizmete eriştiğinizde tarayıcınızın her ziyaretinizde gönderdiği bilgileri de toplayabiliriz."}
+								]}
+							]
+						},
+						{
+							"title":"İzleme Teknolojileri ve Çerezler",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Belirli bilgileri takip etmek ve saklamak için çerezler ve benzeri izleme teknolojileri kullanıyoruz. Kullanılan izleme teknolojileri, bilgi toplama ve izleme için etiketler, web işaretleri ve betikler içerebilir ve hizmetimizi iyileştirmek ve analiz etmek amacıyla kullanılır. Kullandığımız teknolojiler şunları içerebilir:"}
+								]},
+								{"listparagraph":[
+									{"strong":"Çerezler veya Tarayıcı Çerezleri","paragraph":"Çerez, cihazınıza yerleştirilen küçük bir dosyadır. Tarayıcınıza tüm çerezleri reddetmesini veya bir çerez gönderildiğinde size bildirim yapmasını talimat verebilirsiniz. Ancak çerezleri kabul etmezseniz, hizmetimizin bazı bölümlerini kullanamayabilirsiniz. Tarayıcınızın ayarlarını çerezleri reddetmek için değiştirmemişseniz, hizmetimiz çerezler kullanabilir."},
+									{"strong":"Web İşaretleri","paragraph":"Hizmetimizin belirli bölümleri ve e-postalarımız, web işaretleri olarak bilinen küçük elektronik dosyaları içerebilir (ayrıca temiz gifler, piksel etiketleri ve tek piksel gifler olarak da adlandırılır). Bu web işaretleri, örneğin, bu sayfaları ziyaret eden veya e-postayı açan kullanıcıları saymayı ve diğer ilgili web sitesi istatistiklerini (belirli bir bölümün popülerliğini kaydetme, sistem ve sunucu bütünlüğünü kontrol etme vb.) sağlar."}
+								]}
+							]
+						},
+						{
+							"title":"Gerekli / Temel Çerezler",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Çerezler \"kalıcı\" veya \"oturum\" çerezleri olabilir. Kalıcı çerezler, çevrimdışıyken kişisel bilgisayarınızda veya mobil cihazınızda kalırken, oturum çerezleri ise web tarayıcınızı kapattığınız anda silinir."}
+								]},
+								{"listparagraph":[
+									{"strong":"Tip:","paragraph":"Oturum çerezleri"},
+									{"strong":"Yöneten:","paragraph":"Biz"}
+								]},
+								{"paragrahps":[
+									{"paragrahp":"Bu çerezler, web sitesi aracılığıyla erişilebilen hizmetleri size sunmak ve bazı özelliklerini kullanmanıza olanak sağlamak için hayati öneme sahiptir. Kullanıcıların kimlik doğrulamasına yardımcı olur ve kullanıcı hesaplarının yanıltıcı kullanımını önler. Bu çerezler olmadan talep ettiğiniz hizmetler sağlanamaz ve bu çerezleri sadece bu hizmetleri size sunmak için kullanırız."}
+								]}
+							]
+						},
+						{
+							"title":"Çerez Politikası / Bildirimleri Kabul İçin Çerezler",
+							"termsDescriptions":[
+								{"listparagraph":[
+									{"strong":"Tür:","paragraph":"Kalıcı çerezler"},
+									{"strong":"Yöneten:","paragraph":"Biz"}
+								]},
+								{"paragrahps":[
+									{"paragrahp":"Amaç: Bu çerezler, kullanıcıların web sitesinde çerez kullanımını kabul edip etmediklerini belirlemek için kullanılır."}
+								]}
+							]
+						},
+						{
+							"title":"İşlevsellik Çerezleri",
+							"termsDescriptions":[
+								{"listparagraph":[
+									{"strong":"Tür:","paragraph":"Kalıcı çerezler"},
+									{"strong":"Yöneten:","paragraph":"Biz"}
+								]},
+								{"paragrahps":[
+									{"paragrahp":"Amaç: Bu çerezler, web sitesini kullanırken yaptığınız tercihleri hatırlamamıza olanak sağlar, örneğin giriş bilgilerinizi veya dil tercihlerinizi hatırlamak. Bu çerezlerin amacı, size daha kişisel bir deneyim sunmak ve her seferinde tercihlerinizi yeniden girmeniz gereksinimini ortadan kaldırmaktır."},
+									{"paragrahp":"Kullanılan çerezler ve çerez tercihleriniz hakkında daha fazla bilgi için, Çerez Politikamızı veya Gizlilik Politikamızdaki Çerezler bölümünü ziyaret ediniz."}
+								]}
+							]
+						},
+						{
+							"title":"Kişisel Verilerinizi Kullanımı",
+							"termsDescriptions":[
+								{"paragrahps":[
+									{"paragrahp":"Şirket, Kişisel Verileri aşağıdaki amaçlarla kullanabilir:"}
+								]},
+								{"listparagraph":[
+									{"strong":"Hizmetimizi sağlama ve sürdürme amacıyla:","paragraph":"Hizmetimizin kullanımını izlemek de dahil olmak üzere"},
+									{"strong":"Hesabınızı yönetmek için:","paragraph":"Hizmetimize kullanıcı olarak kaydınızı yönetmek amacıyla. Sağladığınız kişisel veriler, kayıtlı bir kullanıcı olarak size sunulan çeşitli Hizmet özelliklerine erişim sağlayabilir."},
+									{"strong":"Sözleşme yürütme amacıyla:","paragraph":"Satın aldığınız ürünler, maddeler veya hizmetlerin satın alma sözleşmesini geliştirmek, yerine getirmek ve kabul etmek için veya Hizmet aracılığıyla Bizimle herhangi bir diğer sözleşmeyi yerine getirmek amacıyla."},
+									{"strong":"Size ulaşmak için:","paragraph":"E-posta, telefon araması, SMS veya diğer eşdeğer elektronik iletişim şekilleri yoluyla sizinle iletişim kurmak için, mobil uygulama yönlendirme bildirimleri de dahil olmak üzere, işlevsellikler, ürünler veya anlaşmaya dayalı hizmetlerle ilgili güncellemeler veya bilgilendirme mesajları dahil olmak üzere yönlendirilmiş bildirimler."},
+									{"strong":"Size haberler, özel teklifler ve satın aldığınız veya sorduğunuz diğer benzer ürünler, hizmetler ve etkinlikler hakkında genel bilgi sunmak için:","paragraph":"Söz konusu bilgileri almamayı tercih etmediğiniz sürece."},
+									{"strong":"Taleplerinizi yönetmek için:","paragraph":"Bize yönelik taleplerinizi yerine getirmek ve yönetmek için."},
+									{"strong":"İş transferleri için:","paragraph":"Varlıklarımızın bazı veya tümünün birleştirme, satış, yeniden yapılandırma, yeniden düzenleme, sonlandırma veya diğer satış veya transferi, işletme olarak veya iflas, tasfiye veya benzer bir işlem olarak değerlendirildiğinde, Hizmetimiz kullanıcılarının saklanan Kişisel Verileri de dahil olmak üzere aktarılan varlıklar arasında olabilir."},
+									{"strong":"Diğer amaçlar için:","paragraph":"Verilerinizi veri analizi, kullanım eğilimlerini belirleme, promosyonel kampanyalarımızın etkinliğini değerlendirme ve Hizmetimiz, ürünlerimiz, hizmetlerimiz, pazarlama ve deneyiminizi değerlendirme ve iyileştirme gibi diğer amaçlarla kullanabiliriz."}
+								]},
+								{"paragrahps":[
+									{"paragrahp":"Aşağıdaki durumlarda kişisel bilgilerinizi paylaşabiliriz:"}
+								]},
+								{"listparagraph":[
+									{"strong":"Hizmet sağlayıcılarıyla:","paragraph":"Hizmetimizin kullanımını izlemek ve analiz etmek, sizinle iletişim kurmak amacıyla kişisel bilgilerinizi hizmet sağlayıcılarımızla paylaşabiliriz."},
+									{"strong":"İş devri durumunda:","paragraph":"Şirketin varlıklarının birleşme, satış, finansman veya başka bir şirkete işin tamamının veya bir kısmının devri sırasında veya ilgili görüşmelerde kişisel bilgilerinizi paylaşabilir veya aktarabiliriz."},
+									{"strong":"Ortaklarla:","paragraph":"İnfoakışı Kuruluşumuzun ana şirketi ve bizim tarafımızdan kontrol edilen veya ortak kontrol altında bulunan diğer bağlı şirketler, ortak girişim ortakları veya diğer şirketler de dahil olmak üzere, bilgilerinizi ortaklarımızla paylaşabiliriz ve bu durumda bu Gizlilik Politikasına uymalarını talep ederiz."},
+									{"strong":"İş ortaklarıyla:","paragraph":"Belirli ürünler, hizmetler veya promosyonlar sunmak için iş ortaklarımızla bilgilerinizi paylaşabiliriz."},
+									{"strong":"Diğer kullanıcılarla:","paragraph":"Kişisel bilgilerinizi veya diğer kullanıcılarla herhangi bir şekilde etkileşimde bulunduğunuzda bu bilgilerin tüm kullanıcılar tarafından görülebileceği ve kamuoyuna açıklanabileceği kamusal alanlarda paylaşabilirsiniz."},
+									{"strong":"Onayınızla:","paragraph":"Onayınızla diğer herhangi bir amaç için kişisel bilgilerinizi açıklayabiliriz."}
+								]}
+							]
+						},
+						{
+							"title":"Kişisel verilerinizi saklama",
+							"termsDescriptions":[
+							{"paragrahps":[
+							{"paragrahp":"Şirket, Kişisel verilerinizi yalnızca bu Gizlilik Politikasında belirtilen amaçlar için gerekli olan süre boyunca saklayacaktır. Kişisel verilerinizi yasal yükümlülüklerimizi yerine getirmek (örneğin, uygulanabilir yasaları yerine getirmek için verilerinizi saklamamız gerektiğinde) veya anlaşmazlıkları çözmek ve yasal anlaşmalarımızı ve politikalarımızı uygulamak için gereken sürece kadar saklayacak ve kullanacaktır."},
+							{"paragrahp":"Şirket ayrıca iç analiz amaçlarıyla kullanım verilerini saklayacaktır. Kullanım verileri genellikle daha kısa bir süre saklanır, ancak bu verilerin güvenliği güçlendirmek veya hizmetimizin işlevselliğini iyileştirmek için kullanıldığında veya bu verileri daha uzun süre saklama yasal olarak gerektiğinde, daha uzun süre saklanabilir."}
+							]}
+							]
+						},
+						{
+							"title":"Kişisel verilerin aktarımı",
+							"termsDescriptions":[
+							{"paragrahps":[
+							{"paragrahp":"Bilgileriniz, Kişisel veriler de dahil olmak üzere, Şirket'in operasyon ofislerinde ve işleme katılan diğer yerlerde işlenmektedir. Bu, bilgilerin, veri koruma yasalarının yargı alanınızda geçerli olanlardan farklı olabileceği bir eyalet, il, ülke veya diğer hükümet yargı yetkisine sahip bilgisayarlara aktarılabilir ve saklanabilir anlamına gelir."},
+							{"paragrahp":"Bu Gizlilik Politikasına onay vermeniz ve bu tür bilgileri sunmanız, bu aktarımı kabul ettiğiniz anlamına gelir."},
+							{"paragrahp":"Şirket, Kişisel verilerinizi bu Gizlilik Politikasına uygun olarak ve güvenli bir şekilde işlemek için gerekli olan tüm makul önlemleri alacaktır ve verilerinizin ve diğer kişisel bilgilerinizin güvenliği de dahil olmak üzere, kontrol için uygun önlemler mevcut olmadıkça, Kişisel verilerinizin başka bir kuruluşa veya ülkeye aktarılmasını engelleyecektir."}
+							]}
+							]
+						},
+						{
+							"title":"Kişisel verilerinizin silinmesi",
+							"termsDescriptions":[
+							{"paragrahps":[
+							{"paragrahp":"Sizin için topladığımız Kişisel verilerin silinmesini talep etme hakkınız bulunmaktadır."},
+							{"paragrahp":"Hizmetimiz, Hizmet'ten belirli bilgilerinizi silme olanağı sunabilir."},
+							{"paragrahp":"Hesabınıza giriş yaparak veya varsa hesap ayarlarını ziyaret ederek kişisel bilgilerinizi yönetmenizi sağlayan hesap ayarları bölümünü kullanarak istediğiniz zaman bilgilerinizi güncelleyebilir, değiştirebilir veya silebilirsiniz. Ayrıca bize başvurarak bize verdiğiniz kişisel bilgilere erişim, düzeltme veya silme talebinde bulunabilirsiniz."},
+							{"paragrahp":"Ancak, yasal bir yükümlülüğümüz veya hukuki dayanağımız olduğunda belirli bilgileri saklamamız gerekebileceğini lütfen unutmayın."}
+							]}
+							]
+						},
+						{
+							"title": "Kişisel verilerinizin açıklanması",
+							"termsDescriptions":[
+							{"listparagraph":[
+							{"strong":"İşlemlerle ilgili bilgiler:","paragraph":"Şirket, varlıkların birleşmesi, devralınması veya satışında yer aldığında kişisel verileriniz aktarılabilir. Kişisel verilerinizin aktarılması ve farklı bir Gizlilik Politikasının konusu haline gelmeden önce size bildirimde bulunulacaktır."},
+							{"strong":"Makamlar:","paragraph":"Belirli koşullar altında, Şirket, yasal olarak talep edilmesi veya kamu makamlarının geçerli taleplerine yanıt olarak kişisel verilerinizi açıklamak zorunda kalabilir."},
+							{"strong":"Diğer yasal gereksinimler","paragraph":"Şirket, aşağıdakiler için gerekli olduğuna inandığı durumlarda kişisel verilerinizi açıklayabilir:"}
+							]},
+							{"listparagraph":[
+							{"paragraph":"Kanuni yükümlülüklere uyum sağlamak"},
+							{"paragraph":"Şirketin haklarını ve mülkiyetini korumak ve savunmak"},
+							{"paragraph":"Hizmetle ilgili olası yasa dışı faaliyetleri önlemek veya soruşturmak"},
+							{"paragraph":"Hizmetin kullanıcılarının veya genel halkın kişisel güvenliğini korumak"},
+							{"paragraph":"Hukuki sorumluluğa karşı koruma sağlamak"}
+							]}
+							]
+						},
+						{
+							"title": "Kişisel verilerinizin güvenliği",
+							"termsDescriptions":[
+							{"paragrahps":[
+							{"paragrahp":"Kişisel verilerinizin güvenliği bizim için önemlidir, ancak unutmayın ki internet üzerinden iletişim veya elektronik depolama yöntemi %100 güvenli değildir. Kişisel verilerinizi korumak için ticari olarak kabul edilebilir yöntemleri kullanmaya çalışsak da, bunların mutlak güvenliğini garanti edemeyiz."}
+							]}
+							]
+						}
+					]
+				},
+				{
+					"title": "Çocukların Gizliliği",
+					"paragrahps":[
+					{"paraItems":"Hizmetimiz 13 yaşın altındaki herhangi bir kişiye yönelik değildir. Bilerek 13 yaşın altındaki herhangi bir kişiden kişisel bilgi toplamıyoruz. Eğer bir ebeveyn veya vasipseniz ve çocuğunuzun bize kişisel bilgi verdiğini biliyorsanız, lütfen bizimle iletişime geçin. Eğer ebeveyn izni kontrolü olmaksızın 13 yaşın altındaki bir kişiden kişisel bilgi topladığımızı tespit edersek, bu bilgiyi sunucularımızdan kaldırmak için adımlar atarız."},
+					{"paraItems":"Eğer bilginizi işlemek için yasal bir dayanak olarak rızaya güvenmek zorunda kalıyorsak ve ülkeniz ebeveyn rızası gerektiriyorsa, bu bilgiyi toplamadan ve kullanmadan önce ebeveyninizin rızasını talep edebiliriz."}
+					]
+				},
+				{
+					"title": "Diğer Web Sitelerine Bağlantılar",
+					"paragrahps":[
+					{"paraItems":"Hizmetimiz, tarafımızca kontrol edilmeyen diğer web sitelerine bağlantılar içerebilir. Bir üçüncü taraf bağlantısına tıklarsanız, üçüncü tarafın web sitesine yönlendirileceksiniz. Ziyaret ettiğiniz her web sitesinin Gizlilik Politikasını dikkatlice incelemenizi öneririz."},
+					{"paraItems":"Üçüncü taraf web sitelerinin içeriğinden, gizlilik politikalarından veya uygulamalarından sorumlu değiliz ve kontrolümüz altında değillerdir."}
+					]
+				},
+				{
+					"title": "Bu Gizlilik Politikasındaki Değişiklikler",
+					"paragrahps":[
+					{"paraItems":"Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Yeni Gizlilik Politikamızı bu sayfada yayımlayarak tüm değişiklikleri size bildireceğiz."},
+					{"paraItems":"Değişiklik yürürlüğe girmeden önce size e-posta yoluyla ve/veya hizmetimizde açık bir bildirimle bilgi vereceğiz ve Gizlilik Politikasının Son Güncelleme tarihini güncelleyeceğiz."},
+					{"paraItems":"Herhangi bir değişiklik için bu Gizlilik Politikasını düzenli olarak gözden geçirmenizi öneririz. Bu Gizlilik Politikasındaki değişiklikler bu sayfada yayımlandıklarında yürürlüğe girer."}
+					]
+				},
+				{
+					"title": "Bizimle İletişime Geçin",
+					"subtitles":[
+					{"termsDescriptions":[
+					{"paragrahps":[
+					{"paragrahp":"Bu Gizlilik Politikası ile ilgili sorularınız varsa, bizimle iletişime geçebilirsiniz:"}
+					]},
+					{"listparagraph":[
+					{"strong":"E-posta ile:","link":"office@sdm-bg.com"},
+					{"strong":"Web sitemizin bu sayfasını ziyaret ederek:","link":"https://sdm-bg.com/contacts"},
+					{"strong":"Telefonla:","paragraph":"+359 887 729 228"}
+					]}
+					]}
+					]
+				}
+			]	
+
+		},
+		{
+			"id":"terms-conditions",
+			"descriptions":[
+				{
+					"title": "Kurallar ve Koşullar",
+					"paragrahps":[
+					{"paraItems":"Son Güncelleme: 2 Haziran 2023"},
+					{"paraItems":"Lütfen hizmetimizi kullanmadan önce bu kuralları ve koşulları dikkatlice okuyun."}
+					]
+				},
+				{
+					"title":"Yorumlama ve tanımlar",
+					"subtitles":[
+						{
+							"title": "Yorumlama",
+							"paragrahps": [
+							{"paraItems": "Baş harfi büyük olan kelimeler, aşağıdaki koşullarda belirlenen anlamlara sahiptir. Aşağıdaki tanımlar, tekil veya çoğul olarak görünseler de aynı anlama sahiptir."}
+							]
+						},
+						{
+							"title": "Tanımlar",
+							"termsDescriptions": [
+								{"paragrahps": [
+								{"paragrahp": "Bu Genel Şartlar kapsamında:"}
+								]},
+								{"listparagraph": [
+									{"strong": "Devlet", "paragraph": "şu şekilde anlaşılır: Bulgaristan"},
+									{"strong": "Şirket", "paragraph": "(bu Sözleşmede Şirket, Biz, Bizi veya Bizim olarak anılan) SDM BG CONSULT OOD, ŞUMEN ŞEHİR, OBOŞE MEYDANI 17 adresini ifade eder."},
+									{"strong": "Cihaz", "paragraph": "bilgisayar, cep telefonu veya dijital tablet gibi Hizmete erişimi olan herhangi bir cihazı ifade eder."},
+									{"strong": "Hizmet", "paragraph": "websitesini ifade eder."},
+									{"strong": "Kurallar ve Koşullar", "paragraph": "(aynı zamanda Koşullar olarak da adlandırılır) Hizmetin kullanımı ile ilgili olarak Şirket ile siz arasındaki tüm anlaşmayı temsil eder."},
+									{"strong": "Üçüncü Taraf Sosyal Medya Hizmeti", "paragraph": "Hizmet tarafından gösterilebilen, dahil edilebilen veya sunulan herhangi bir üçüncü taraf tarafından sunulan hizmet veya içeriği (veriler, bilgiler, ürünler veya hizmetler dahil) ifade eder."},
+									{"strong": "Web Sitesi", "paragraph": "ŞDM BG CONSULT'a ait olan ve şu adresten erişilebilen bir siteyi ifade eder:", "link": "https://sdm-bg.com"},
+									{"strong": "Siz", "paragraph": "Hizmete erişen veya kullanan gerçek kişi veya geçerli olduğu durumlarda bu kişi adına erişen veya Hizmeti kullanan herhangi bir şirket veya başka bir yasal kişiyi ifade eder."}
+								]}
+							]
+						}
+					]
+				},
+				{
+					"title": "Kabul",
+					"paragrahps": [
+					{"paraItems": "Bu Hizmetin kullanımını düzenleyen ve Şirket ile siz arasındaki anlaşmayı oluşturan Kurallar ve Koşullardır. Bu Genel Şartlar, Hizmetin kullanımıyla ilgili olarak tüm kullanıcıların haklarını ve yükümlülüklerini belirler."},
+					{"paraItems": "Hizmete erişiminiz ve kullanımınız, bu Kurallar ve Koşulları kabul etmenize ve uygulamanıza bağlıdır. Bu Kurallar ve Koşullar, Hizmete erişen veya kullanan tüm ziyaretçiler, kullanıcılar ve diğerleri için geçerlidir."},
+					{"paraItems": "Hizmete erişiminiz veya kullanımınızla ilgili olarak bu Kurallar ve Koşullara bağlı olmayı kabul ediyorsunuz. Eğer bu Kurallar ve Koşulların herhangi bir kısmını kabul etmiyorsanız, Hizmete erişme hakkınız yoktur."},
+					{"paraItems": "18 yaşından büyük olduğunuzu beyan edersiniz. Şirket, 18 yaşın altındaki kişilerin Hizmeti kullanmasına izin vermez."},
+					{"paraItems": "Hizmete erişiminiz ve kullanımınız aynı zamanda Şirket'in Gizlilik Politikasını kabul etmenize ve uygulamanıza bağlıdır. Gizlilik Politikamız, Hizmeti veya Web Sitesini kullanırken kişisel bilgilerinizin toplanması, kullanılması ve açıklanmasıyla ilgili politika ve prosedürlerimizi açıklar ve gizlilik haklarınızı ve yasaların sizi nasıl koruduğunu anlatır. Lütfen Hizmetimizi kullanmadan önce Gizlilik Politikamızı dikkatlice okuyun."}
+					]
+				},
+				{
+					"title": "Diğer Web Sitelerine Bağlantılar",
+					"paragrahps": [
+					{"paraItems": "Hizmetimiz, Şirket tarafından sahip olunmayan veya kontrol edilmeyen üçüncü taraf web sitelerine veya hizmetlere bağlantılar içerebilir."},
+					{"paraItems": "Şirket, üçüncü taraf web sitelerinin veya hizmetlerin içeriğinden, gizlilik politikalarından veya uygulamalarından sorumlu değildir ve bunları kontrol etmez. Ayrıca, söz konusu web sitelerinde veya hizmetlerde bulunan veya üzerinden elde edilen herhangi bir içerik, mal veya hizmetin kullanımı veya güvenilmesi sonucunda ortaya çıkan veya iddia edilen herhangi bir zarar veya kayıp için Şirket'in doğrudan veya dolaylı olarak sorumlu olmayacağını teyit edersiniz ve kabul edersiniz."},
+					{"paraItems": "Ziyaret ettiğiniz tüm üçüncü taraf web sitelerinin veya hizmetlerin şartlarını ve gizlilik kurallarını dikkatlice okumanızı şiddetle tavsiye ederiz."}
+					]
+				},
+				{
+					"title": "Sözleşmenin Sonlandırılması",
+					"paragrahps": [
+					{"paraItems": "Şirket, bu Kurallar ve Koşulları ihlal etmeniz dahil olmak üzere herhangi bir nedenle, önceden bildirim veya sorumluluk olmaksızın erişiminizi hemen sonlandırabilir veya askıya alabilir."},
+					{"paraItems": "Hizmeti kullanma hakkınız, sonlandırma durumunda derhal sona erecektir."}
+					]
+				},
+				{
+					"title": "Uygulanabilir Hukuk",
+					"paragrahps": [
+					{"paraItems": "Bu Koşullar ve Hizmetinizi düzenleyen yasa, çatışma hükümlerini hariç tutarak ülkenin yasaları olacaktır. Uygulama kullanımınız yerel, eyalet, ulusal veya uluslararası diğer yasalara tabi olabilir."}
+					]
+				},
+				{
+					"title": "Anlaşmazlıkların Çözülmesi",
+					"paragrahps": [
+					{"paraItems": "Hizmetle ilgili endişeniz veya anlaşmazlığınız varsa, ilk olarak Şirket ile resmi olmayan bir şekilde anlaşmazlığı çözmeye çalışmayı kabul edersiniz."}
+					]
+				},
+				{
+					"title": "Avrupa Birliği (AB) Kullanıcıları İçin",
+					"paragrahps": [
+					{"paraItems": "Eğer Avrupa Birliği'nden bir kullanıcıysanız, ikamet ettiğiniz ülkenin zorunlu yasal hükümlerinden yararlanacaksınız."}
+					]
+				},
+				{
+					"title": "Amerika Birleşik Devletleri Kanunlarına Uyum",
+					"paragrahps": [
+					{"paraItems": "Beyan ve taahhüt edersiniz ki (i) Amerika Birleşik Devletleri hükümetinin ambargo uyguladığı bir ülkede bulunmuyorsunuz veya Amerika Birleşik Devletleri hükümeti tarafından 'terörist destekleyen ülke' olarak belirlenen bir ülkede bulunmuyorsunuz ve (ii) Amerika Birleşik Devletleri hükümetinin yasaklı veya kısıtlı ülkeler listesinde yer almıyorsunuz."}
+					]
+				},
+				{
+					"title":"Bölünebilirlik ve Feragat",
+					"subtitles":[
+					{
+					"title":"Bölünebilirlik",
+					"paragrahps":[
+					{"paraItems":"Bu Şartlar'daki hükümlerden herhangi biri uygulanamaz veya geçersiz kabul edilirse, ilgili hüküm mümkün olan en yüksek derecede geçerli hukuka uygun bir şekilde değiştirilir ve yorumlanır ve diğer hükümler tam kuvvet ve etkisini sürdürür."}
+					]
+					},
+					{
+					"title":"Feragat",
+					"paragrahps":[
+					{"paraItems":"Burada belirtilenler dışında, bu Şartlar uyarınca herhangi bir hakkın kullanılmaması veya bir yükümlülüğün yerine getirilmesinin talep edilmemesi, ilgili tarafın bu hakkı daha sonra herhangi bir zamanda kullanma yeteneğini etkilemeyecektir, ve ihlalden feragat, sonraki herhangi bir ihlalden feragat anlamına gelmez."}
+					]
+					}
+					]
+				},
+				{
+					"title":"Sözlü Çeviri",
+					"paragrahps":[
+					{"paraItems":"Bu Kurallar ve Koşullar, size Hizmetimizde erişilebilir hale getirdiysek, çevrilebilir. Herhangi bir anlaşmazlık durumunda, İngilizce orijinal metnin üstünlüğünü kabul edersiniz."}
+					]
+				},
+				{
+					"title":"Bu Kuralların ve Koşulların Değiştirilmesi",
+					"paragrahps":[
+					{"paraItems":"Biz, kendi takdirimize bağlı olarak, bu Koşulları herhangi bir zamanda değiştirme veya değiştirme hakkını saklı tutarız. Eğer değişiklik önemli ise, yeni koşulların yürürlüğe girmesinden en az 30 gün önce bildirimde bulunmak için makul çaba sarf edeceğiz. Bir değişikliğin önemli olup olmadığına ilişkin karar, bizim takdirimize bağlı olacaktır."},
+					{"paraItems":"Bu revizyonlar yürürlüğe girdikten sonra, erişime devam etmeye veya hizmetimizi kullanmaya devam ederek, değiştirilmiş koşullara bağlı olduğunuzu kabul edersiniz. Yeni koşullara tamamen veya kısmen katılmıyorsanız, lütfen web sitesini ve Hizmeti kullanmayı durdurun."}
+					]
+				},
+				{
+					"title":"Bizimle İletişime Geçin",
+					"subtitles":[
+					{
+					"termsDescriptions":[
+					{"paragrahps":[
+					{"paragrahp":"Bu Gizlilik Politikası ile ilgili herhangi bir sorunuz varsa, bizimle iletişime geçebilirsiniz:"}
+					]},
+					{"listparagraph":[
+					{"strong":"E-posta ile:","link":"office@sdm-bg.com"},
+					{"strong":"Web sitemizdeki bu sayfayı ziyaret ederek:","link":"https://sdm-bg.com/contacts"},
+					{"strong":"Telefonla:","paragraph":"+359 887 729 228"}
+					]}
+					]
+					}
+					]
+				}
+			]
+		},
+		{
+		"id":"cookies-policy",
+		"descriptions":[
+			{
+				"title":"Çerez Politikası",
+				"paragrahps":[
+				{"paraItems":"Son Güncelleme: 2 Haziran 2023"},
+				{"paraItems":"Bu Çerez Politikası, çerezlerin ne olduğunu ve nasıl kullandığımızı açıklar. Çerezlerin türlerini veya çerezler aracılığıyla topladığımız bilgileri ve bu bilgilerin nasıl kullanıldığını anlamanız için bu politikayı okumanız gerekmektedir."},
+				{"paraItems":"Çerezler genellikle kullanıcıyı tanımlayan herhangi bir bilgi içermez, ancak sizin için sakladığımız kişisel bilgiler, çerezlerde saklanan ve çerezler aracılığıyla elde edilen bilgilerle ilişkilendirilebilir. Kişisel verilerinizi nasıl kullandığımızı, sakladığımızı ve koruduğumuzu daha fazla bilgi için Gizlilik Politikamıza göz atın."},
+				{"paraItems":"Kullanılan çerezlerde posta adresleri, hesap şifreleri vb. gibi hassas kişisel bilgileri saklamıyoruz."}
+				]
+			},
+			{
+				"title": "Çeviri ve Tanımlar",
+				"subtitles": [
+				{
+				"title": "Yorumlama",
+				"paragrahps": [
+				{"paraItems": "Büyük harfle başlayan kelimeler, aşağıdaki şartlar altında tanımlanan anlamlara sahiptir. Aşağıdaki tanımlar, tekil veya çoğul hallerinde olsun, aynı anlama gelir."}
+				]
+				},
+				{
+				"title": "Tanımlar",
+				"termsDescriptions": [
+				{
+				"paragrahps": [
+				{"paragrahp": "Bu Çerez Politikası kapsamında aşağıdaki amaçlar için geçerlidir:"}
+				]
+				},
+				{
+				"listparagraph": [
+				{"strong": "Şirket", "paragraph": "(bu Çerez Politikası'nda “Şirket”, “Biz”, “Bize” veya “Bizim” olarak anılacak şekilde), SDM BG CONSULT LLC, SHUMEN, OBORISHTE 17'ye atıfta bulunur."},
+				{"strong": "Çerezler", "paragraph": "bu web sitesinde gezinme geçmişinizle ilgili ayrıntıları içeren ve web sitesi tarafından bilgisayarınıza, mobil cihazınıza veya diğer cihazlara yerleştirilen küçük dosyaları ifade eder."},
+				{"strong": "Site", "paragraph": "SDM BG CONSULT'a erişilebilen", "link": "https://sdm-bg.com"},
+				{"strong": "Siz", "paragraph": "Web sitesine erişim sağlayan veya kullanan gerçek kişi veya ilgili şirket veya tüzel kişiyi ifade eder."}
+				]
+				}
+				]
+				}
+				]
+			},
+			{
+				"title":"Използването на бисквитките",
+				"subtitles":[
+					{
+						"title": "İzleme Teknolojileri ve Çerezler",
+						"termsDescriptions": [
+						{
+						"paragrahps": [
+						{"paragrahp": "Hizmetimizdeki faaliyetleri izlemek ve belirli bilgileri saklamak amacıyla çerezler ve benzer izleme teknolojilerini kullanıyoruz. Kullanılan izleme teknolojileri, bilgi toplama ve izleme için etiketler, işaretler ve betikler içerir ve hizmetimizi geliştirmek ve analiz etmek için kullanılır. Kullandığımız teknolojiler şunları içerebilir:"}
+						]
+						},
+						{
+						"listparagraph": [
+						{"strong": "Çerezler veya Tarayıcı Çerezleri", "paragraph": "Çerez, cihazınıza yerleştirilen küçük bir dosyadır. Tarayıcınıza tüm çerezleri reddetmesini veya bir çerez gönderildiğinde size bildirmesini talimat verebilirsiniz. Ancak çerezleri kabul etmezseniz, hizmetimizin bazı bölümlerini kullanamayabilirsiniz. Tarayıcınızın ayarlarını çerezleri reddetmek üzere değiştirmemişseniz, hizmetimiz çerezler kullanabilir."},
+						{"strong": "Web İşaretleri", "paragraph": "Hizmetimizin belirli bölümleri ve e-postalarımız, web işaretleri olarak bilinen küçük elektronik dosyaları içerebilir (ayrıca temiz gifler, piksel etiketleri ve tek piksel gifler olarak da adlandırılır). Bu dosyalar, şirketin bu sayfaları veya e-postaları ziyaret eden kullanıcıları saymasına olanak sağlar ve web sitesiyle ilgili diğer istatistikleri (örneğin, belirli bir bölümün popülaritesini kaydetme ve sistem ve sunucu bütünlüğünü kontrol etme) sağlar."}
+						]
+						}
+						]
+					},
+					{
+						"title": "Gerekli / Temel Çerezler",
+						"termsDescriptions": [
+						  {
+							"paragrahps": [
+							  {"paragrahp": "Çerezler 'kalıcı' veya 'oturum' çerezleri olabilir. Kalıcı çerezler çevrimdışıyken kişisel bilgisayarınızda veya mobil cihazınızda kalırken, oturum çerezleri web tarayıcınızı kapattığınızda hemen silinir."}
+							]
+						  },
+						  {
+							"listparagraph": [
+							{"strong": "Tür:", "paragraph": "Oturum Çerezleri"},
+							{"strong": "Yöneten:", "paragraph": "Biz"}
+							]
+						  },
+						  {
+							"paragrahps": [
+							  {"paragrahp": "Bu çerezler, web sitesi aracılığıyla erişilebilen hizmetleri size sunmak ve bazı özelliklerini kullanmanıza izin vermek için önemlidir. Kullanıcıları doğrulamaya yardımcı olur ve kullanıcı hesaplarının yanıltıcı kullanımını önler. Bu çerezler olmadan istediğiniz hizmetler sunulamaz ve sadece bu hizmetleri size sunmak için bu çerezleri kullanırız."}
+							]
+						  }
+						]
+					},
+					{
+						"title": "Çerez Politikası / Bildirim Çerezleri",
+						"termsDescriptions": [
+						  {
+							"listparagraph": [
+							  {"strong": "Tür:", "paragraph": "Kalıcı Çerezler"},
+							  {"strong": "Yöneten:", "paragraph": "Biz"}
+							]
+						  },
+						  {
+							"paragrahps": [
+							{"paragrahp": "Amaç: Bu çerezler, kullanıcıların web sitesinde çerez kullanımını kabul edip etmediğini belirler."}
+							]
+						  }
+						]
+					},
+					{
+						"title": "Fonksiyonellik Çerezleri",
+						"termsDescriptions": [
+						  {
+							"listparagraph": [
+							  {"strong": "Tür:", "paragraph": "Kalıcı Çerezler"},
+							  {"strong": "Yöneten:", "paragraph": "Biz"}
+							]
+						  },
+						  {
+							"paragrahps": [
+							{"paragrahp": "Amaç: Bu çerezler, web sitesini kullanırken yaptığınız seçimleri hatırlamamıza olanak tanır, örneğin giriş bilgilerinizi veya dil tercihlerinizi hatırlama. Bu çerezlerin amacı, size daha kişiselleştirilmiş bir deneyim sunmak ve her seferinde tercihlerinizi yeniden girmeniz gereksinimini ortadan kaldırmaktır."},
+							{"paragrahp": "Kullanmış olduğumuz çerezler ve çerez tercihleriniz hakkında daha fazla bilgi için lütfen Çerez Politikamızı veya Gizlilik Politikamızdaki Çerezler bölümünü ziyaret edin."}
+							]
+						  }
+						]
+					},
+					{
+						"title": "Çerez Tercihleriniz",
+						"termsDescriptions": [
+						  {
+							"paragrahps": [
+							  {"paragrahp": "Web sitesinde çerez kullanımından kaçınmayı tercih ederseniz, öncelikle tarayıcınızda çerez kullanımını devre dışı bırakmanız ve ardından bu web sitesiyle ilgili tarayıcınızda kaydedilen çerezleri silmeniz gerekmektedir. Çerez kullanımını her zaman önlemek için bu seçeneği kullanabilirsiniz."},
+							  {"paragrahp": "Çerezlerimizi kabul etmezseniz, web sitesini kullanırken bazı rahatsızlıklar yaşayabilirsiniz ve bazı özellikler düzgün çalışmayabilir."},
+							  {"paragrahp": "Çerezleri silmek veya tarayıcınıza çerezleri silme veya reddetme talimatı vermek isterseniz, lütfen tarayıcınızın yardım sayfalarını ziyaret edin."}
+							]
+						  },
+						  {
+							"listparagraph": [
+							  {"paragraph": "Google Chrome web tarayıcısı için lütfen bu Google sayfasını ziyaret edin:", "link": "https://support.google.com/accounts/answer/32050"},
+							  {"paragraph": "Internet Explorer web tarayıcısı için lütfen bu Microsoft sayfasını ziyaret edin:", "link": "http://support.microsoft.com/kb/278835"},
+							  {"paragraph": "Mozilla Firefox web tarayıcısı için lütfen bu Mozilla sayfasını ziyaret edin:", "link": "https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored"},
+							  {"paragraph": "Safari web tarayıcısı için lütfen bu Apple sayfasını ziyaret edin:", "link": "https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"}
+							]
+						  },
+						  {
+							"paragrahps": [
+							{"paragrahp": "Diğer web tarayıcıları için lütfen ilgili web tarayıcısının resmi web sitelerini ziyaret edin."}
+							]
+						  }
+						]
+					}
+				]
+			},
+			{
+				"title": "Bizimle İletişime Geçin",
+				"subtitles": [
+				  {
+					"termsDescriptions": [
+					  {
+						"paragrahps": [
+						  {"paragrahp": "Bu Çerez Politikası ile ilgili herhangi bir sorunuz varsa, bizimle iletişime geçebilirsiniz:"}
+						]
+					  },
+					  {
+						"listparagraph": [
+						  {"strong": "E-posta ile:", "link": "office@sdm-bg.com"},
+						  {"strong": "Web sitemizdeki bu sayfayı ziyaret ederek:", "link": "https://sdm-bg.com/contacts"},
+						  {"strong": "Telefonla:", "paragraph": "+359 887 729 228"}
+						]
+					  }
+					]
+				  }
+				]
+			}
+		]
+		}
+		]
 	}
 ]
