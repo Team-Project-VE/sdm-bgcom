@@ -13,11 +13,11 @@
 	{	"genMenu": "портфолио"	, "links":"/portfolio"},
 	{	"genMenu": "услуги"	, "links":"/services", "dropMenu":[
 
-		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "workDescription":"Имате идея за страхотен и мотивиращ бизнес? Ние можем да Ви помогнем при внедряването с помощта на съвременни методи и технологии","imgName":"srv1.webp"},
-		{"dropMenuName": "уеб разработка", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "workDescription":"Имате работещ бизнес, но нещо не е наред? нуждае се  от модерна технология за контрол и взаимодействие с вашите клиенти, ние затова сме тук","imgName":"srv2.webp"},
-		{"dropMenuName": "уеб подръжка", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "workDescription":"Уеб подръжката е като гаранцията на новия ви автомобил, а нашите експерти са на разположение 24/7, готови да отговорят в случай на нужда","imgName":"srv3.webp"},
-		{"dropMenuName": "лого дизайн", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "workDescription":"Имате идея! Искате нещо впечатляващо, нещо различно, което пленява от пръв поглед? Вашето лого е наша работа","imgName":"srv4.webp"},
-		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "workDescription":"Искате по-голяма аудитория за вашия бизнес? Имате ли свой бизнес? Ние сме готови да направим нещо впечатляващо за вас","imgName":"srv5.webp"}
+		{"dropMenuName": "уеб дизайн", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "offersLinks": "offers", "workDescription":"Имате идея за страхотен и мотивиращ бизнес? Ние можем да Ви помогнем при внедряването с помощта на съвременни методи и технологии","imgName":"srv1.webp"},
+		{"dropMenuName": "уеб разработка", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "offersLinks": "offers", "workDescription":"Имате работещ бизнес, но нещо не е наред? нуждае се  от модерна технология за контрол и взаимодействие с вашите клиенти, ние затова сме тук","imgName":"srv2.webp"},
+		{"dropMenuName": "уеб подръжка", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "offersLinks": "offers", "workDescription":"Уеб подръжката е като гаранцията на новия ви автомобил, а нашите експерти са на разположение 24/7, готови да отговорят в случай на нужда","imgName":"srv3.webp"},
+		{"dropMenuName": "лого дизайн", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "offersLinks": "offers", "workDescription":"Имате идея! Искате нещо впечатляващо, нещо различно, което пленява от пръв поглед? Вашето лого е наша работа","imgName":"srv4.webp"},
+		{"dropMenuName": "дизайн на визитки", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "offersLinks": "offers", "workDescription":"Искате по-голяма аудитория за вашия бизнес? Имате ли свой бизнес? Ние сме готови да направим нещо впечатляващо за вас","imgName":"srv5.webp"}
 	]},
 	{	"genMenu": "оферти"	, "links":"/offers"},
 	{	"genMenu": "за нас"	, "links":"/about-us"},
@@ -130,58 +130,54 @@
 		{"webDesign":[
 			{"titlePlan":"стандарт"},
 			{"infoPlan":"подходящ за уебсайт с базов дизайн и функционалност, който да предостави основната информация за Вашия бизнес или услуга"},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-design-plans/standart"}
+			{"btnLinkOffers":"виж"}
 		]},			
 		{"webDesign":[
 			{"titlePlan":"премиум"},
 			{"infoPlan":"уебсайт с персонализиран дизайн и по-сложна функционалност. Подходящ за по-големи бизнеси или тези, които искат да се отличат в онлайн пространството"},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-design-plans/premium"}
+			{"btnLinkOffers":"виж"}
 		]},
 		{"webDesign":[
 			{"titlePlan":"бизнес"},
 			{"infoPlan":"Идеален за големи компании или онлайн магазини, където има нужда от многофункционален и сложен уебсайт с персонализиран дизайн, напълно адаптивен за мобилни устройства и с множество функционалности"},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-design-plans/business"}
+			{"btnLinkOffers":"виж"}
 		]}
 	],
 	"webOffers_2":[
 		{"webDevolmpent":[
 			{"titlePlan":"стандарт"},
 			{"infoPlan":"до 5 страници, оптимизиран дизайн за мобилни устройства, подходящ за малки и средни предприятия."},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-dev-plans/standart"}
-
+			{"btnLinkOffers":"виж"}
 		]}, 
 		{"webDevolmpent":[
 			{"titlePlan":"премиум"},
 			{"infoPlan":" до 10 страници, допълнителни функционалности и персонализиран дизайн, подходящ за по-големи компании."},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-dev-plans/premium"}
+			{"btnLinkOffers":"виж"}
 		]},
 		{"webDevolmpent":[
 			{"titlePlan":"бизнес"},
 			{"infoPlan":"до 20 страници, персонализиран дизайн, интеграция на социални медии и SEO оптимизация, най-добър за онлайн магазини и големи проекти"},
-			{"btnLinkOffers":"виж"},
-			{"link":"web-dev-plans/business"}
+			{"btnLinkOffers":"виж"}
 		]}		
 	],
 	"webOffers_3":[
 		{"webSupport":[
 			{"titlePlan":"стандарт"},
 			{"infoPlan":"включва редовна проверка на функционалността и елементите на дизайна, както и обновяване на съдържанието според вашите желания"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "web-support-plans/standart"}
 		]}, 
 		{"webSupport":[
 			{"titlePlan":"премиум"},
 			{"infoPlan":"включва всичко от стандартния план, както и персонализирана поддръжка и бърза реакция на проблеми, които може да възникнат"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "web-support-plans/premium"}
 		]},
 		{"webSupport":[
 			{"titlePlan":"бизнес"},
 			{"infoPlan":" е идеален за онлайн магазини и големи проекти, който включва персонализирана поддръжка, SEO оптимизация, бърза реакция на проблеми и поддръжка на социални медии"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "web-support-plans/business"}
 		]}		
 	]
 	},
@@ -189,19 +185,22 @@
 	"logoOffers_1":[	
 		{"logoDesign":[
 			{"infoPlan":"Професионална разработка на лого, предоставено в различни формати"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "logo-design-plans/standart"}
 		]}
 	],
 	"logoOffers_2":[		
 		{"logoDesign":[
 			{"infoPlan":"Персонализирана услуга за лого дизайн, включваща уникална идентичност, дизайн варианти и до 3 ревизи на разработката"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "logo-design-plans/premium"}
 		]}
 	],
 	"logoOffers_3":[
 		{"logoDesign":[
 			{"infoPlan":"Включва всички предимства на премиум пакета, както и допълнителни не ограничени ревизии, за да удовлетвори нуждите на  компании, които търсят визуална идентичност"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "logo-design-plans/business"}
 		]}
 	]
 	},
@@ -209,19 +208,22 @@
 	"cardOffers_1":[	
 		{"cardDesign":[
 			{"infoPlan":"включва елегантен и професионален дизайн, който ще отразява вашето стилно представяне"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "business-cards-plans/standart"}
 		]}
 	],
 	"cardOffers_2":[		
 		{"cardDesign":[
 			{"infoPlan":"Премиум пакетът предлага персонализирана услуга за дизайн с по-голямо внимание към детайлите и различни варианти на дизайн"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "business-cards-plans/premium"}
 		]}
 	],
 	"cardOffers_3":[
 		{"cardDesign":[
 			{"infoPlan":"включва всички предимства на премиум пакета, плюс неограничени ревизии"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url": "business-cards-plans/business"}
 		]}
 	]
 	},
@@ -672,7 +674,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
 			"price": 300,
 			"currency":"BGN"
@@ -691,7 +693,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
 			"price": 560,
 			"currency":"BGN"
@@ -710,7 +712,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"До 20 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
+				{"description":"Поддръжка и обновяване", "symbol":"fa-sharp fa-solid fa-check green"} 
 			],
 			"price": 800,
 			"currency":"BGN"
@@ -731,7 +733,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-xmark red"},
-				{"description":"+1 месец подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+1 месец поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 650,
 			"currency":"BGN"
@@ -750,7 +752,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"До 5 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"+2 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+2 месеца поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1000,
 			"currency":"BGN"
@@ -769,7 +771,7 @@
 				{"description":"Функционалност за ел. търговия", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"База данни и управление", "symbol":"fa-sharp fa-solid fa-check green"},
 				{"description":"До 15 страници съдържание", "symbol":"fa-sharp fa-solid fa-check green"},
-				{"description":"+3 месеца подръжка", "symbol":"fa-sharp fa-solid fa-check green"}
+				{"description":"+3 месеца поддръжка", "symbol":"fa-sharp fa-solid fa-check green"}
 			],
 			"price": 1350,
 			"currency":"BGN"
