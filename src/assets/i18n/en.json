@@ -174,9 +174,7 @@
     ],
     "popularLinksTitle": "Popular Links",
     "popularLinks": [
-      { "title": "Python Course", "link": "python-course" },
       { "title": "Web Support", "link": "websupp-service" },
-      { "title": "Courses", "link": "home/#course" },
       { "title": "Portfolio", "link": "portfolio" },
       { "title": "Web Development", "link": "webdev-service" },
       { "title": "Logo design", "link": "logodesign-service" }
@@ -190,8 +188,6 @@
       { "title": "Terms", "link": "policies/terms-conditions" },
       { "title": "Privacy Policy", "link": "policies/privacy-policy" },
       { "title": "Cookie Policy", "link": "policies/cookies-policy" },
-      { "title": "Certificates", "link": "#" },
-      { "title": "Duration of study", "link": "#" },
       { "title": "Our Goals", "link": "home/#goals" }
     ],
     "footerRightsReserved": "@ All Rights Reserved, 2023"
@@ -263,7 +259,7 @@
             "infoPlan": "suitable for a website with basic design and functionality to provide the basic information about your business or service"
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-design-plans/standart" }
+          { "url": "web-design-plans/standart" }
         ]
       },
       {
@@ -273,7 +269,7 @@
             "infoPlan": "a website with a custom design and more sophisticated functionality. Suitable for larger businesses or those who want to stand out online"
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-design-plans/premium" }
+          { "url": "web-design-plans/premium" }
         ]
       },
       {
@@ -283,7 +279,7 @@
             "infoPlan": "Ideal for large companies or online stores that need a multi-functional and complex website with a custom design, fully responsive for mobile devices and with multiple functionalities"
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-design-plans/business" }
+          { "url": "web-design-plans/business" }
         ]
       }
     ],
@@ -295,7 +291,7 @@
             "infoPlan": "up to 5 pages, mobile-optimized design, suitable for SMBs."
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-dev-plans/standart" }
+          { "url": "web-dev-plans/standart" }
         ]
       },
       {
@@ -305,7 +301,7 @@
             "infoPlan": " up to 10 pages, additional functionalities and a custom design suitable for larger companies."
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-dev-plans/premium" }
+          { "url": "web-dev-plans/premium" }
         ]
       },
       {
@@ -315,7 +311,7 @@
             "infoPlan": "up to 20 pages, custom design, social media integration and SEO optimization, best for online stores and large projects"
           },
           { "btnLinkOffers": "see" },
-          { "link": "web-dev-plans/business" }
+          { "url": "web-dev-plans/business" }
         ]
       }
     ],
@@ -326,7 +322,8 @@
           {
             "infoPlan": "includes regular checking of functionality and design elements, as well as updating content according to your wishes"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/standart"}
         ]
       },
       {
@@ -335,7 +332,8 @@
           {
             "infoPlan": "includes everything from the standard plan as well as personalized support and quick response to issues that may arise"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/premium"}
         ]
       },
       {
@@ -344,7 +342,8 @@
           {
             "infoPlan": " is ideal for online stores and large projects, which includes personalized support, SEO optimization, fast response to issues and social media support"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/business"}
         ]
       }
     ]
@@ -360,7 +359,8 @@
           {
             "infoPlan": "Professional logo development provided in various formats"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/standart"}
         ]
       }
     ],
@@ -370,7 +370,8 @@
           {
             "infoPlan": "Custom logo design service including unique identity, design options and up to 3 design revisions"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/premium"}
         ]
       }
     ],
@@ -380,7 +381,8 @@
           {
             "infoPlan": "Includes all the benefits of the premium package as well as additional unlimited revisions to meet the needs of companies looking for a visual identity"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/business"}
         ]
       }
     ]
@@ -396,7 +398,8 @@
           {
             "infoPlan": "includes a sleek and professional design that will reflect your stylish presentation"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/standart"}
         ]
       }
     ],
@@ -406,7 +409,8 @@
           {
             "infoPlan": "Premium package offers a personalized design service with greater attention to detail and different design options"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/premium"}
         ]
       }
     ],
@@ -416,7 +420,8 @@
           {
             "infoPlan": "includes all the benefits of the premium package, plus unlimited revisions"
           },
-          { "btnLinkOffers": "see" }
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/business"}
         ]
       }
     ]
@@ -1236,8 +1241,8 @@
   {
     "planWebDesign": [
       {
-        "id": "standard",
-        "name": "standard",
+        "id": "standart",
+        "name": "standart",
         "plan": "plan",
         "background": "#409fd7",
         "options": [
@@ -1378,8 +1383,8 @@
   {
     "planWebDev": [
       {
-        "id": "standard",
-        "name": "standard",
+        "id": "standart",
+        "name": "standart",
         "plan": "plan",
         "background": "#409fd7",
         "options": [
@@ -1520,8 +1525,8 @@
   {
     "planBusinessCards": [
       {
-        "id": "standard",
-        "name": "standard",
+        "id": "standart",
+        "name": "standart",
         "plan": "plan",
         "background": "#409fd7",
         "options": [
@@ -1662,8 +1667,8 @@
   {
     "planLogoDesign": [
       {
-        "id": "standard",
-        "name": "standard",
+        "id": "standart",
+        "name": "standart",
         "plan": "plan",
         "background": "#409fd7",
         "options": [
@@ -1804,8 +1809,8 @@
   {
     "planWebSupport": [
       {
-        "id": "standard",
-        "name": "standard",
+        "id": "standart",
+        "name": "standart",
         "plan": "plan",
         "background": "#409fd7",
         "options": [
@@ -2194,13 +2199,13 @@
     ]
   },
   {
-    "policies ": [
+    "policies": [
       {
         "id": "privacy-policy",
-        "descriptions ": [
+        "descriptions": [
           {
             "title": "Privacy Policy",
-            "paragrahps ": [
+            "paragrahps": [
               { "paraItems": "Last updated: 02 Jun 2023." },
               {
                 "paraItems": "This Privacy Policy describes our policies and procedures regarding the collection, use and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you."
@@ -2212,10 +2217,10 @@
           },
           {
             "title": "Interpretation and Definitions",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Interpretation",
-                "paragrahps ": [
+                "paragrahps": [
                   {
                     "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
                   }
@@ -2223,16 +2228,16 @@
               },
               {
                 "title": "Definitions",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "For the purposes of this Privacy Policy:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "Account",
                         "paragraph": "means a unique account created for You to access our Service or parts of our Service."
@@ -2290,19 +2295,19 @@
           },
           {
             "title": "Collection and Use of Your Personal Data - Types of Data Collected",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Personal Data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "While using our service, we may ask you to provide us with certain personal information that can be used to contact or identify you. Personal information may include, but is not limited to:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "paragraph": "Email address" },
                       { "paragraph": "First and last name" },
                       { "paragraph": "Phone number" },
@@ -2313,9 +2318,9 @@
               },
               {
                 "title": "Usage Data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Usage data is collected automatically when you use the Service."
                       },
@@ -2334,16 +2339,16 @@
               },
               {
                 "title": "Tracking Technologies and Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "We use cookies and similar tracking technologies to track activity on our service and store certain information. The tracking technologies used are beacons, tags and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "Cookies or Browser Cookies.",
                         "paragraph": "A cookie is a small file placed on your device. You can instruct your browser to refuse all cookies or indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some parts from our service. Unless you have adjusted your browser settings to refuse cookies, our service may use cookies."
@@ -2358,22 +2363,22 @@
               },
               {
                 "title": "Necessary / Essential Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Cookies can be ' persistent' or 'session'. Persistent cookies remain on your PC or mobile device when you are offline, while session cookies are deleted as soon as you close your web browser."
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Session cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "These cookies are essential to provide you with services available through the website and to allow you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these cookies the services you have requested cannot be provided and we only use these cookies to provide you with these services."
                       }
@@ -2383,15 +2388,15 @@
               },
               {
                 "title": "Cookie Policy / Notification Acceptance Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Persistent cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Purpose: These cookies identify whether users have accepted the use of cookies on the website."
                       }
@@ -2401,15 +2406,15 @@
               },
               {
                 "title": "Functionality Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Persistent cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Purpose: These cookies allow us to remember the choices you make when using the website, such as remembering your login details or language preferences. The purpose of these cookies is to provide you with a more personal experience and avoid the need to re-enter your preferences each time you use the website"
                       },
@@ -2422,16 +2427,16 @@
               },
               {
                 "title": "Use of your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "The Company may use Personal Data for the following purposes:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "To provide and maintain our Service",
                         "paragraph": "including to monitor the use of our Service"
@@ -2467,14 +2472,14 @@
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "We may share your personal information in the following situations:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "With service providers:",
                         "paragraph": "We may share your personal information with service providers to monitor and analyze your use of our service to contact you."
@@ -2505,9 +2510,9 @@
               },
               {
                 "title": "Keeping your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "The Company will only retain your personal data for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies."
                       },
@@ -2520,7 +2525,7 @@
               },
               {
                 "title": "Transfer of your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
                     "paragrahps ": [
                       {
@@ -2538,9 +2543,9 @@
               },
               {
                 "title": "Delete your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "You have the right to delete or request that we assist in the deletion of Personal Data we have collected about you."
                       },
@@ -2559,9 +2564,9 @@
               },
               {
                 "title": "Disclosure of your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "Business Transactions:",
                         "paragraph": "If the Company is involved in a merger, acquisition, or asset sale, your personal information may be transferred. We will provide notice before your personal information is transferred and become subject to a different Privacy Policy."
@@ -2577,7 +2582,7 @@
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "paragraph": "Comply with legal obligation" },
                       {
                         "paragraph": "Protection and Protection of Company's Rights or Property"
@@ -2595,9 +2600,9 @@
               },
               {
                 "title": "Security of your personal data",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "The security of your personal data is important to Us, but please remember that no method of transmission over the Internet or method of electronic storage is 100% secure. Although we strive to use commercially acceptable means to protect Your personal data, we cannot guarantee its absolute security."
                       }
@@ -2609,7 +2614,7 @@
           },
           {
             "title": "Children's Privacy",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "Our Service does not address anyone under the age of 13. We do not knowingly collect personal information from anyone under the age of 13. If you are a parent or guardian and you know that your child has provided us with personal information, please contact us. If we learn that we have collected personal information from a person under the age of 13 without verifying parental consent, we take steps to remove that information from our servers."
               },
@@ -2620,7 +2625,7 @@
           },
           {
             "title": "Links to Other Websites",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit."
               },
@@ -2631,7 +2636,7 @@
           },
           {
             "title": "Changes to this Privacy Policy",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
               },
@@ -2645,18 +2650,18 @@
           },
           {
             "title": "Contact Us",
-            "subtitles ": [
+            "subtitles": [
               {
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "If you have any questions about this Privacy Policy, you can contact us:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "By email:", "link": "office@sdm-bg.com" },
                       {
                         "strong": "By visiting this page on our website:",
@@ -2673,10 +2678,10 @@
       },
       {
         "id": "terms-conditions",
-        "descriptions ": [
+        "descriptions": [
           {
             "title": "Terms and Conditions",
-            "paragrahps ": [
+            "paragrahps": [
               { "paraItems": "Last updated: 02 Jun 2023." },
               {
                 "paraItems": "Please read these terms and conditions carefully before using our service."
@@ -2685,10 +2690,10 @@
           },
           {
             "title": "Interpretation and Definitions",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Interpretation",
-                "paragrahps ": [
+                "paragrahps": [
                   {
                     "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
                   }
@@ -2696,16 +2701,16 @@
               },
               {
                 "title": "Definitions",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "For the purposes of these Terms and Conditions:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "Country",
                         "paragraph": "applies to: Bulgaria"
@@ -2747,7 +2752,7 @@
           },
           {
             "title": "Recognition",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "These are the Terms and Conditions governing the use of this Service and the agreement between you and the Company. These Terms and Conditions set out the rights and obligations of all users with respect to the use of the Service."
               },
@@ -2767,7 +2772,7 @@
           },
           {
             "title": "Links to Other Websites",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "Our Service may contain links to third-party websites or services that are not owned or controlled by the Company."
               },
@@ -2781,7 +2786,7 @@
           },
           {
             "title": "Termination of contract",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "We may terminate or suspend your access immediately, without prior notice or liability, for any reason, including without limitation, if you violate these Terms and Conditions."
               },
@@ -2792,7 +2797,7 @@
           },
           {
             "title": "Applicable Law",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "The laws of the country, excluding its conflict of laws rules, will govern these Terms and your use of the Service. Your use of the Application may be subject to other local, state, national or international laws."
               }
@@ -2800,7 +2805,7 @@
           },
           {
             "title": "Dispute Resolution",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "If you have a concern or dispute regarding the Service, You agree to first try to resolve the dispute informally by contacting the Company."
               }
@@ -2808,7 +2813,7 @@
           },
           {
             "title": "For European Union (EU) users.",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "If you are a user from the European Union, you will benefit from all mandatory provisions of the law of the country in which you reside."
               }
@@ -2816,7 +2821,7 @@
           },
           {
             "title": "Compliance with United States Law",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "You represent and warrant that (i) you are not located in a country that is embargoed by the United States Government or that is designated by the United States Government as a terrorist supporting country, and ( ii) you are not on the United States government's list of prohibited or restricted countries."
               }
@@ -2824,10 +2829,10 @@
           },
           {
             "title": "Severability and Waiver",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Separability",
-                "paragrahps ": [
+                "paragrahps": [
                   {
                     "paraItems": "If any provision of these Terms is held to be unenforceable or invalid, such provision shall be modified and construed to achieve the purposes of such provision to the fullest extent possible under applicable law, and the remaining provisions shall continue be in full force and effect."
                   }
@@ -2835,7 +2840,7 @@
               },
               {
                 "title": "Cancel",
-                "paragrahps ": [
+                "paragrahps": [
                   {
                     "paraItems": "Except as provided herein, failure to exercise a right or require performance of an obligation under these Terms shall not affect a party's ability to exercise such right or require such performance at any time thereafter, nor shall the waiver of a breach constitutes a waiver of any subsequent breach."
                   }
@@ -2845,7 +2850,7 @@
           },
           {
             "title": "Interpretation",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "These Terms and Conditions may have been translated if we have made them available to you on our Service. You agree that the original English text prevails in the event of a dispute."
               }
@@ -2853,7 +2858,7 @@
           },
           {
             "title": "Changes to these Terms and Conditions",
-            "paragrahps ": [
+            "paragrahps": [
               {
                 "paraItems": "We reserve the right, in our sole discretion, to modify or replace these Terms at any time. If the revision is material, we will use reasonable efforts to provide at least 30 days' notice before the new terms become effective. What constitutes a material change will be determined at our sole discretion."
               },
@@ -2864,18 +2869,18 @@
           },
           {
             "title": "Contact Us",
-            "subtitles ": [
+            "subtitles": [
               {
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "If you have any questions about this Privacy Policy, you can contact us:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "By email:", "link": "office@sdm-bg.com" },
                       {
                         "strong": "By visiting this page on our website:",
@@ -2892,10 +2897,10 @@
       },
       {
         "id": "cookies-policy",
-        "descriptions ": [
+        "descriptions": [
           {
             "title": "Cookie Policy",
-            "paragrahps ": [
+            "paragrahps": [
               { "paraItems": "Last updated: 02 Jun 2023." },
               {
                 "paraItems": "This Cookie Policy explains what cookies are and how we use them. You should read this policy to understand what type of cookies we use or the information we collect using cookies and how that information is used. "
@@ -2910,10 +2915,10 @@
           },
           {
             "title": "Interpretation and Definitions",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Interpretation",
-                "paragrahps ": [
+                "paragrahps": [
                   {
                     "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
                   }
@@ -2921,14 +2926,14 @@
               },
               {
                 "title": "Definitions",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       { "paragrahp": "For the purposes of this Cookie Policy:" }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "The Company",
                         "paragraph": "(referred to as The Company , We, Us or Our in this Cookie Policy) refers to SDM BG CONSULT OOD, SHUMEN, OBORISHTE square 17."
@@ -2954,19 +2959,19 @@
           },
           {
             "title": "The use of cookies",
-            "subtitles ": [
+            "subtitles": [
               {
                 "title": "Tracking Technologies and Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "We use cookies and similar tracking technologies to track activity on our service and store certain information. The tracking technologies used are beacons, tags and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "strong": "Cookies or Browser Cookies.",
                         "paragraph": "A cookie is a small file placed on your device. You can instruct your browser to refuse all cookies or indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some parts from our service. Unless you have adjusted your browser settings to refuse cookies, our service may use cookies."
@@ -2981,22 +2986,22 @@
               },
               {
                 "title": "Necessary / Essential Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Cookies can be ' persistent' or 'session'. Persistent cookies remain on your PC or mobile device when you are offline, while session cookies are deleted as soon as you close your web browser."
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Session cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "These cookies are essential to provide you with services available through the website and to allow you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these cookies the services you have requested cannot be provided and we only use these cookies to provide you with these services."
                       }
@@ -3006,15 +3011,15 @@
               },
               {
                 "title": "Cookie Policy / Notification Acceptance Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Persistent cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Purpose: These cookies identify whether users have accepted the use of cookies on the website."
                       }
@@ -3024,15 +3029,15 @@
               },
               {
                 "title": "Functionality Cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "Type:", "paragraph": "Persistent cookies" },
                       { "strong": "Administered by:", "paragraph": "Us" }
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "Purpose: These cookies allow us to remember the choices you make when using the website, such as remembering your login details or language preferences. The purpose of these cookies is to provide you with a more personal experience and avoid the need to re-enter your preferences each time you use the website"
                       },
@@ -3045,9 +3050,9 @@
               },
               {
                 "title": "Your choices about cookies",
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "If you prefer to avoid the use of cookies on the website, you must first disable the use of cookies in your browser and then delete the cookies saved in your browser related to this website. You can use this option to prevent of the use of cookies at any time."
                       },
@@ -3060,7 +3065,7 @@
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       {
                         "paragraph": "For Chrome web browser, please visit this page from Google:",
                         "link": "https://support.google.com/accounts/answer/32050"
@@ -3080,7 +3085,7 @@
                     ]
                   },
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "For any other web browser, please visit the official web pages of your web browser."
                       }
@@ -3092,18 +3097,18 @@
           },
           {
             "title": "Contact Us",
-            "subtitles ": [
+            "subtitles": [
               {
-                "termsDescriptions ": [
+                "termsDescriptions": [
                   {
-                    "paragrahps ": [
+                    "paragrahps": [
                       {
                         "paragrahp": "If you have any questions about this Cookie Policy, you can contact us:"
                       }
                     ]
                   },
                   {
-                    "listparagraph ": [
+                    "listparagraph": [
                       { "strong": "By email:", "link": "office@sdm-bg.com" },
                       {
                         "strong": "By visiting this page on our website:",

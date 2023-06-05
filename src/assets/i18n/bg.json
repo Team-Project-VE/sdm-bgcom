@@ -77,9 +77,7 @@
 		],
 		"popularLinksTitle": "Популярни линкове",
 		"popularLinks": [
-			{ "title": "Курс по Python", "link": "python-course" },
 			{ "title": "Уеб поддръжка", "link": "websupp-service" },
-			{ "title": "Курсове", "link": "home/#course" },
 			{ "title": "Портфолио", "link": "portfolio" },
 			{ "title": "Уеб разработка", "link": "webdev-service" },
 			{ "title": "Лого дизайн", "link": "logodesign-service" }
@@ -93,8 +91,6 @@
 			{ "title": "Общи условия", "link": "policies/terms-conditions" },
 			{ "title": "Политика за поверителност", "link": "policies/privacy-policy" },
 			{ "title": "Политика за бисквитки", "link": "policies/cookies-policy" },
-			{ "title": "Сертификати", "link": "#" },
-			{ "title": "Продължителност на обучението", "link": "#" },
 			{ "title": "Нашите цели", "link": "home/#goals" }
 		],
 		"footerRightsReserved": "@ Всички права запазени, 2023"
@@ -130,34 +126,40 @@
 		{"webDesign":[
 			{"titlePlan":"стандарт"},
 			{"infoPlan":"подходящ за уебсайт с базов дизайн и функционалност, който да предостави основната информация за Вашия бизнес или услуга"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url":"web-design-plans/standart"}
 		]},			
 		{"webDesign":[
 			{"titlePlan":"премиум"},
 			{"infoPlan":"уебсайт с персонализиран дизайн и по-сложна функционалност. Подходящ за по-големи бизнеси или тези, които искат да се отличат в онлайн пространството"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url":"web-design-plans/premium"}
 		]},
 		{"webDesign":[
 			{"titlePlan":"бизнес"},
 			{"infoPlan":"Идеален за големи компании или онлайн магазини, където има нужда от многофункционален и сложен уебсайт с персонализиран дизайн, напълно адаптивен за мобилни устройства и с множество функционалности"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{"url":"web-design-plans/business"}
 		]}
 	],
 	"webOffers_2":[
 		{"webDevolmpent":[
 			{"titlePlan":"стандарт"},
 			{"infoPlan":"до 5 страници, оптимизиран дизайн за мобилни устройства, подходящ за малки и средни предприятия."},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{ "url": "web-dev-plans/standart" }
 		]}, 
 		{"webDevolmpent":[
 			{"titlePlan":"премиум"},
 			{"infoPlan":" до 10 страници, допълнителни функционалности и персонализиран дизайн, подходящ за по-големи компании."},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{ "url": "web-dev-plans/premium" }
 		]},
 		{"webDevolmpent":[
 			{"titlePlan":"бизнес"},
 			{"infoPlan":"до 20 страници, персонализиран дизайн, интеграция на социални медии и SEO оптимизация, най-добър за онлайн магазини и големи проекти"},
-			{"btnLinkOffers":"виж"}
+			{"btnLinkOffers":"виж"},
+			{ "url": "web-dev-plans/business" }
 		]}		
 	],
 	"webOffers_3":[
@@ -1047,7 +1049,6 @@
 				]
 			}
 	]},
-	
 	{"policies":[
 		{	
 			"id":"privacy-policy",

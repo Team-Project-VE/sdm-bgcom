@@ -77,9 +77,7 @@
 		],
 		"popularLinksTitle": "Popüler ilişkiler",
 		"popularLinks": [
-			{ "title": "Python kursu", "link": "python-course" },
 			{ "title": "web desteği", "link": "websupp-service" },
-			{ "title": "Kurslar", "link": "home/#course" },
 			{ "title": "portföy", "link": "portfolio" },
 			{ "title": "web Geliştirme", "link": "webdev-service" },
 			{ "title": "Logo tasarımı", "link": "logodesign-service" }
@@ -93,8 +91,6 @@
 			{ "title": "Şartlar ve Koşullar", "link": "policies/terms-conditions" },
 			{ "title": "Gizlilik Politikası", "link": "policies/privacy-policy" },
 			{ "title": "Çerez politikası", "link": "policies/cookies-policy" },
-			{ "title": "Sertifikalar", "link": "#" },
-			{ "title": "eğitim süresi", "link": "#" },
 			{ "title": "hedeflerimiz", "link": "home/#goals" }
 		],
 		"footerRightsReserved": "Tüm hakları saklıdır © 2023"
@@ -131,19 +127,19 @@
 			{"titlePlan":"standart"},
 			{"infoPlan":"işletmeniz veya hizmetiniz hakkında temel bilgileri sağlamak için temel tasarım ve işlevselliğe sahip bir web sitesi için uygundur"},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-design-plans/standart"}
+			{"url":"web-design-plans/standart"}
 		]},			
 		{"webDesign":[
 			{"titlePlan":"premium"},
 			{"infoPlan":"özel bir tasarıma ve daha gelişmiş işlevselliğe sahip bir web sitesi. Daha büyük işletmeler veya çevrimiçi ortamda öne çıkmak isteyenler için uygundur"},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-design-plans/premium"}
+			{"url":"web-design-plans/premium"}
 		]},
 		{"webDesign":[
 			{"titlePlan":"business"},
 			{"infoPlan":"Özel bir tasarıma sahip, tamamen mobil cihazlara duyarlı ve birçok işlevselliğe sahip çok işlevli ve karmaşık bir web sitesine ihtiyaç duyan büyük şirketler veya çevrimiçi mağazalar için ideal"},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-design-plans/business"}
+			{"url":"web-design-plans/business"}
 		]}
 	],
 	"webOffers_2":[
@@ -151,37 +147,40 @@
 			{"titlePlan":"standart"},
 			{"infoPlan":"5 sayfaya kadar, küçük ve orta ölçekli işletmeler için mobil cihazlar için optimize edilmiş tasarım."},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-dev-plans/standart"}
+			{"url":"web-dev-plans/standart"}
 
 		]}, 
 		{"webDevolmpent":[
 			{"titlePlan":"premium"},
 			{"infoPlan":"10 sayfaya kadar, ek işlevler ve daha büyük şirketlere uygun özelleştirilmiş tasarı"},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-dev-plans/premium"}
+			{"url":"web-dev-plans/premium"}
 		]},
 		{"webDevolmpent":[
 			{"titlePlan":"business"},
 			{"infoPlan":"20 sayfaya kadar, özel tasarım, sosyal medya entegrasyonu ve SEO optimizasyonu, çevrimiçi mağazalar ve büyük projeler için en iyisi"},
 			{"btnLinkOffers":"Bir göz at"},
-			{"link":"web-dev-plans/business"}
+			{"url":"web-dev-plans/business"}
 		]}		
 	],
 	"webOffers_3":[
 		{"webSupport":[
 			{"titlePlan":"standart"},
 			{"infoPlan":"işlevsellik ve tasarım öğelerinin düzenli olarak kontrol edilmesini ve içeriğin sizin isteklerinize göre güncellenmesini içerir"},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "web-support-plans/standart"}
 		]}, 
 		{"webSupport":[
 			{"titlePlan":"premium"},
 			{"infoPlan":"standart planın yanı sıra kişiselleştirilmiş destek ve ortaya çıkabilecek sorunlara hızlı yanıt dahil her şeyi içerir"},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "web-support-plans/premium"}
 		]},
 		{"webSupport":[
 			{"titlePlan":"business"},
 			{"infoPlan":"kişiselleştirilmiş destek, SEO optimizasyonu, sorunlara hızlı yanıt ve sosyal medya desteği içeren çevrimiçi mağazalar ve büyük projeler için idealdir."},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "web-support-plans/business"}
 		]}		
 	]
 	},
@@ -190,19 +189,22 @@
 		"logoOffers_1":[	
 			{"logoDesign":[
 				{"infoPlan":"Çeşitli formatlarda sağlanan profesyonel logo tasarımı"},
-				{"btnLinkOffers":"Bir göz at"}
+				{"btnLinkOffers":"Bir göz at"},
+				{"url": "logo-design-plans/standart"}
 			]}
 		],
 		"logoOffers_2":[		
 			{"logoDesign":[
 				{"infoPlan":"Benzersiz bir kimlik, tasarım seçenekleri ve tasarımın 3 adede kadar revizyonunu içeren özelleştirilmiş bir logo tasarım hizmeti"},
-				{"btnLinkOffers":"Bir göz at"}
+				{"btnLinkOffers":"Bir göz at"},
+				{"url": "logo-design-plans/premium"}
 			]}
 		],
 		"logoOffers_3":[
 			{"logoDesign":[
 				{"infoPlan":"Görsel kimlik arayan firmaların ihtiyaçlarını karşılamak için premium paketin tüm avantajlarını ve ek sınırsız revizyonları içerir."},
-				{"btnLinkOffers":"Bir göz at"}
+				{"btnLinkOffers":"Bir göz at"},
+				{"url": "logo-design-plans/business"}
 			]}
 		]
 	},
@@ -210,19 +212,22 @@
 	"cardOffers_1":[	
 		{"cardDesign":[
 			{"infoPlan":"şık sunumunuzu yansıtacak şık ve profesyonel bir tasarıma sahiptir"},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "business-cards-plans/standart"}
 		]}
 	],
 	"cardOffers_2":[		
 		{"cardDesign":[
 			{"infoPlan":"Premium paket, detaylara daha fazla dikkat ve farklı tasarım seçenekleriyle kişiselleştirilmiş bir tasarım hizmeti sunar."},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "business-cards-plans/premium"}
 		]}
 	],
 	"cardOffers_3":[
 		{"cardDesign":[
 			{"infoPlan":"premium paketin tüm avantajlarını ve ayrıca sınırsız revizyonları içerir"},
-			{"btnLinkOffers":"Bir göz at"}
+			{"btnLinkOffers":"Bir göz at"},
+			{"url": "business-cards-plans/business"}
 		]}
 	]
 	},
