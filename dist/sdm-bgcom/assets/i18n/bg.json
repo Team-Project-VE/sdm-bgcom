@@ -851,5 +851,98 @@
 			"price": 700,
 			"currency":"BGN"
 		}
+	]},
+	{	"title":"уеб дизайн", "btnName":"виж още","link":"webdesign-portfolio",
+		"portfolioWebDesign":[
+			{
+				"title":"Проект #1", "modal":"modal_1", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_1.webp", "index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_2.webp", "index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_3.webp", "index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_4.webp", "index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_1/img_5.webp", "index":"5"}	
+				]
+			},
+			{
+				"title":"Проект #2","modal":"modal_2", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_2/img_5.webp","index":"5"}
+				]
+			},
+			{
+				"title":"Проект #3","modal":"modal_3", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_3/img_5.webp","index":"5"}
+				]
+			},
+			{
+				"title":"Проект #4","modal":"modal_4", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_1.webp", "index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_2.webp", "index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_3.webp", "index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_4.webp", "index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_4/img_5.webp", "index":"5"}
+				]
+			},
+			{
+				"title":"Проект #5","modal":"modal_5", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_5/img_5.webp","index":"5"}
+				]
+			},
+			{
+				"title":"Проект #6","modal":"modal_6", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_6/img_5.webp","index":"5"}
+				]
+			},
+			{
+				"title":"Проект #7","modal":"modal_7", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_7/img_5.webp","index":"5"}
+				]
+			},
+			{
+				"title":"Проект #8","modal":"modal_8", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_1.webp", "index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_2.webp", "index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_3.webp", "index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_4.webp", "index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_8/img_5.webp", "index":"5"}
+				]
+			},
+			{
+				"title":"Проект #9","modal":"modal_9", "descriptions":"web design image",
+				"imgOptions":[
+					{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_1.webp","index":"1"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_2.webp","index":"2"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_3.webp","index":"3"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_4.webp","index":"4"},
+					{"img":"../../../../assets/images/portfolio/webdesign/project_9/img_5.webp","index":"5"}
+				]
+			}
 	]}
 ]

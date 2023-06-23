@@ -574,7 +574,7 @@
 				{"description":"UI/UX дизайн", "symbol":"fa-sharp fa-solid fa-xmark red"},
 				{"description":"Подръжка и обновяване", "symbol":"fa-sharp fa-solid fa-xmark red"}
 			],
-			"price": 300,
+			"price": 500,
 			"currency":"BGN"
 		},
 		{

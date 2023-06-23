@@ -43,5 +43,573 @@
         "em":"e-posta",
         "mess":"mesaj",
 		"sendBtn":"Gönder"
+	},
+	{
+		"footerImgUrl": "sdm_logo.webp",
+		"footerLogo": "SDM BG DANIŞMANLIK",
+		"welcomeText": "Sitemize hoş geldiniz! Yeni bir başlangıç yapan bir IT şirketiyiz. Bugünün pazarının gereksinimlerine uygun olarak tüm ihtiyaçlarınızı karşılamak için hazırız, daha fazla bilgi için",
+		"welcomeLink": "buraya",
+		"addressTitle": "Adres",
+		"address": "Şumen, Oboriste Square, No: 17",
+		"phoneTitle": "Telefon",
+		"phoneNumbers": [
+		"+359 887 729 228",
+		"+359 893 871 753"
+		],
+		"emailTitle": "E-posta",
+		"emailAddresses": [
+		"ekrem.mehmedov@sdm-bg.com",
+		"seliha.mehmedova@sdm-bg.com"
+		],
+		"socialMedia": [
+		{ "platform": "twitter", "icon": "fa fa-twitter", "link": "https://twitter.com" },
+		{ "platform": "facebook", "icon": "fa fa-facebook", "link": "https://facebook.com" },
+		{ "platform": "linkedin", "icon": "fa fa-linkedin", "link": "https://linkedin.com" },
+		{ "platform": "instagram", "icon": "fa fa-instagram", "link": "https://instagram.com" }
+		],
+		"quickLinksTitle": "Hızlı Bağlantılar",
+		"quickLinks": [
+		{ "title": "Anasayfa", "link": "#" },
+		{ "title": "Hizmetlerimiz", "link": "#" },
+		{ "title": "Hakkımızda", "link": "#" },
+		{ "title": "Portföy", "link": "#" },
+		{ "title": "Teklif Al", "link": "#" }
+		],
+		"popularLinksTitle": "Popüler Bağlantılar",
+		"popularLinks": [
+		{ "title": "Python Kursu", "link": "#" },
+		{ "title": "Web Destek", "link": "#" },
+		{ "title": "Kurslar", "link": "#" },
+		{ "title": "Portföy", "link": "#" },
+		{ "title": "Web Geliştirme", "link": "#" },
+		{ "title": "Logo Tasarımı", "link": "#" }
+		],
+		"locationTitle": "Konum",
+		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.56738297867068!2d26.915932904042904!3d43.27073902007498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58a67f395c66b%3A0x4eda59530fcee61b!2z0KjRg9C80LXQvQ!5e0!3m2!1str!2str!4v1682021075326!5m2!1str!2str",
+		"locationMapHeight": "180px",
+		"locationMapWidth": "180px",
+		"usefulLinksTitle": "Yararlı Bağlantılar",
+		"usefulLinks": [
+		{ "title": "Genel Şartlar", "link": "#" },
+		{ "title": "Gizlilik Politikası", "link": "#" },
+		{ "title": "Çerez Politikası", "link": "#" },
+		{ "title": "Sertifikalar", "link": "#" },
+		{ "title": "Eğitimin Süresi", "link": "#" },
+		{ "title": "Hedeflerimiz", "link": "#" }
+		],
+		"footerRightsReserved": "@ Tüm hakları saklıdır, 2023"
+		},
+		{
+			"contactsForm": "İletişim Formu",
+			"chooseOption": "-- Lütfen bir seçenek seçin --",
+			"offerRequest": "Teklif Talep Et",
+			"questions": "Teknik Sorular",
+			"else": "Diğer",
+			"nameTitle": "Ad",
+			"surnameTitle": "Soyad",
+			"emailAdressTitle": "E-posta",
+			"phoneNumber": "Telefon Numarası",
+			"subjectTitle": "Konu",
+			"agreeTerms": "Şartları okudum ve kabul ediyorum",
+			"agreeTermsTwo": "",
+			"importantFields": "ZORUNLU ALANLAR",
+			"sendBtnTitle": "Gönder",
+			"clearBtnTitle": "Temizle"
+			},
+			{"getSliderTop":[
+			{"text_1":"ücretsiz danışmanlık","text_2":"yüksek kaliteli hizmet","slideName":"sld1.webp", "bgFon":"#0072B5"},
+			{"text_1":"Masaüstü veya web uygulaması","text_2":"Fikrinizi hayata geçirmeye hazırız","slideName":"sld2.webp", "bgFon":"#A0DAA9"},
+			{"text_1":"Dostane yaklaşım","text_2":"Yeni arkadaşlar edinmeye hazırız","slideName":"sld3.webp", "bgFon":"#B55A30"},
+			{"text_1":"Yaratıcı veya modern şeyleri seviyor musunuz?","text_2":"Fikrinizi hayata geçirmeye hazırız","slideName":"sld4.webp", "bgFon":"#9BB7D4"},
+			{"text_1":"Yeni bir şey istiyor musunuz?","text_2":"Karşınızdayız","slideName":"sld5.webp", "bgFon":"#F5DF4D"}
+			]},
+			{ "offersTitle":"web teklifleri", "webDesTitle":"web tasarımı","webDevTitle":"web geliştirme","webSupportTitle":"web destek",
+			"webDesOffers":"web tasarımı teklifleri","webDevOffers":"web geliştirme teklifleri","webSupportOffers":"web destek teklifleri",
+			"webOffers_1":[
+			{"webDesign":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"İşletmeniz veya hizmetinizle ilgili temel bilgileri sunan temel tasarım ve işlevselliğe sahip bir web sitesi için uygundur"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webDesign":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"Özelleştirilmiş tasarıma ve daha karmaşık işlevselliğe sahip bir web sitesi. Daha büyük işletmeler veya online alanda fark yaratmak isteyenler için uygundur"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webDesign":[
+			{"titlePlan":"iş"},
+			{"infoPlan":"Büyük şirketler veya çevrimiçi mağazalarda ihtiyaç duyulan çok işlevli ve karmaşık bir web sitesi için uygun, tamamen mobil cihazlara duyarlı ve birçok özellik sunan özelleştirilmiş bir tasarıma sahiptir"},
+			{"btnLinkOffers":"görüntüle"}
+			]}
+			],
+			"webOffers_2":[
+			{"webDevolmpent":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"Küçük ve orta ölçekli işletmeler için uygun, 5 sayfaya kadar, mobil cihazlara yönelik optimize edilmiş tasarım"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webDevolmpent":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"Daha büyük şirketler için uygun, 10 sayfaya kadar, ek fonksiyonlar ve özelleştirilmiş tasarım"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webDevolmpent":[
+			{"titlePlan":"iş"},
+			{"infoPlan":"Online mağazalar ve büyük projeler için uygun, 20 sayfaya kadar, özelleştirilmiş tasarım, sosyal medya entegrasyonu ve SEO optimizasyonuyla en iyisi"},
+			{"btnLinkOffers":"görüntüle"}
+			]}
+			],
+			"webOffers_3":[
+			{"webSupport":[
+			{"titlePlan":"standart"},
+			{"infoPlan":"Düzenli olarak işlevselliği ve tasarım öğelerini kontrol etmeyi ve içeriği isteklerinize göre güncellemeyi içerir"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webSupport":[
+			{"titlePlan":"premium"},
+			{"infoPlan":"Standart planın tüm özelliklerini içerir ve özelleştirilmiş destek ve olası sorunlara hızlı yanıt sağlar"},
+			{"btnLinkOffers":"görüntüle"}
+			]},
+			{"webSupport":[
+			{"titlePlan":"iş"},
+			{"infoPlan":"Online mağazalar ve büyük projeler için ideal, özelleştirilmiş destek, SEO optimizasyonu, olası sorunlara hızlı yanıt ve sosyal medya desteği içerir"},
+			{"btnLinkOffers":"görüntüle"}
+			]}
+			]
+			},
+			{
+				"offersTitle": "Logo Teklifleri",
+				"planStan": "Standart",
+				"planPrem": "Premium",
+				"planBuss": "İş",
+				"logoOffers_1": [
+				{
+				"logoDesign": [
+				{
+				"infoPlan": "Farklı formatlarda sunulan profesyonel bir logo tasarımı",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"logoOffers_2": [
+				{
+				"logoDesign": [
+				{
+				"infoPlan": "Teklif, benzersiz bir kimlik, tasarım seçenekleri ve geliştirme için 3 revizyon içeren kişiselleştirilmiş bir logo tasarım hizmeti sunar",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"logoOffers_3": [
+				{
+				"logoDesign": [
+				{
+				"infoPlan": "Premium paketin tüm avantajlarını içerir ve şirketlerin görsel kimlik arayan ihtiyaçlarını karşılamak için sınırsız revizyonlar sunar",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"offersTitle": "Vizit Kartı Teklifleri",
+				"planStan": "Standart",
+				"planPrem": "Premium",
+				"planBuss": "İş",
+				"cardOffers_1": [
+				{
+				"cardDesign": [
+				{
+				"infoPlan": "Stilinizi yansıtacak şık ve profesyonel bir tasarım içerir",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"cardOffers_2": [
+				{
+				"cardDesign": [
+				{
+				"infoPlan": "Premium paket, detaylara daha fazla dikkat gösteren ve farklı tasarım seçenekleri sunan kişiselleştirilmiş bir tasarım hizmeti sunar",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"cardOffers_3": [
+				{
+				"cardDesign": [
+				{
+				"infoPlan": "Premium paketin tüm avantajlarını içerir ve sınırsız revizyonlar sunar",
+				"btnLinkOffers": "görüntüle"
+				}
+				]
+				}
+				],
+				"offersTitle": "Eğitim Kurslarımız",
+				"cplus": [
+				{
+				"title": "C++ Kursu",
+				"img": "CLogo.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/cplusplus-course",
+				"btn": "görüntüle"
+				}
+				],
+				"backend": [
+				{
+				"title": "Back-End Kursu",
+				"img": "backend.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/backend-course",
+				"btn": "görüntüle"
+				}
+				],
+				"frontend": [
+				{
+				"title": "Front-End Kursu",
+				"img": "frontend.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/frontend-course",
+				"btn": "görüntüle"
+				}
+				],
+				"fullstack": [
+				{
+				"title": "Full Stack Kursu",
+				"img": "fullstack.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/fullstack-course",
+				"btn": "görüntüle"
+				}
+				],
+				"python": [
+				{
+				"title": "Python Kursu",
+				"img": "pythonIcon.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/python-course",
+				"btn": "görüntüle"
+				}
+				],
+				"interdes": [
+				{
+				"title": "İç Mimarlık Kursu",
+				"img": "SweeetHome.webp",
+				"descripTitle": "Ne Beklemeli?",
+				"description": "Kursta kazanılacak değerli beceriler, pratik yetenekler ve ideal portföyünüz için proje fikirleri",
+				"link": "/interiordesign-course",
+				"btn": "görüntüle"
+				}
+				]
+				},
+				{		
+	"beginners":"Modül 1 - Başlangıç Düzeyi", "intermediate":"Modül 2 - Orta Düzey", "advanced":"Modül 3 - İleri Düzey",
+	"expert":"Modül 4 - Uzman","individual":"Modül 5 - Bireysel Konu"
+},
+{		
+	"modul_1":"Modül 1", "modul_2":"Modül 2", "modul_3":"Modül 3",
+	"modul_4":"Modül 4","modul_5":"Modül 5",
+	"characteristic_1":"Kurs", "characteristic_2":"Konu Sayısı",
+	"characteristic_3":"Süre","characteristic_4":"Fiyat"
+},
+{		
+	"python":[
+		{
+			"courseTitle":"Python Kursu", "img":"python.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			]
+		}
+	]
+},
+{
+	"cplus":[
+		{
+			"courseTitle":"C++ Kursu", "img":"cplus.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			]
+			}
+		]
+},
+{
+	"frontend":[
+		{
+			"courseTitle":"Frontend Kursu", "img":"frontend.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			]
+		}
+	]
+},
+{
+	"backend":[
+		{
+			"courseTitle":"Backend Kursu", "img":"backend.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			]
+		}
+	]
+},
+{
+	"fullstack":[
+		{
+			"courseTitle":"Full Stack Kursu", "img":"fullstack.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			]
+		}
+	]
+},
+{
+	"interdes":[
+		{
+			"courseTitle":"İç Mimarlık Kursu", "img":"iterdesign.webp",
+			"paragraph_1":"Programlama Kursu 5 Farklı Modülden Oluşur ve Her Bir Modül Programlama Alanında Farklı Bir Bilgi Düzeyine Yöneliktir. Aşağıdaki Modülleri Hazırladık:",
+			"paragraph_2":"Kurs, Her Modül İçin Çok İlginç ve Harika Görevler Sunar, Böylece Programlama Alanında Değerli Bilgiler Kazanırsınız. Her Modül, Pratikte Bilgilerinizi Uygulama İmkanı Sunan Proje Portföyü Hazırlama İle Sona Erer. Kursun Sonunda, Programlama Kursunu Tamamladığınızı Kanıtlayan Bir Sertifika Alacaksınız.",
+			"modul_1":[
+				{"description_1":"Python Temelleri 1","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_2":[
+				{"description_1":"Python Temelleri 2","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_3":[
+				{"description_1":"Python Temelleri 3","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+					{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+			],
+			"modul_4":[
+				{"description_1":"Python Temelleri 4","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}
+			],
+			"modul_5":[
+				{"description_1":"Python Temelleri 5","description_2":"8 Konu","description_3":"25 Saat (1 Saat = 40 Dakika)","description_4":"200 TL" },
+				{"question":"Kurs Kimler İçin Uygundur?","answer":"cevap 1"},
+				{"question":"Neler Öğreneceksiniz?","answer":"cevap 2"},
+				{"question":"Eğitim Yöntemi Nedir?","answer":"cevap 3"},
+				{"question":"Belirli Bir Program Takvimi Var mı?","answer":"cevap 4"},
+				{"question":"Sertifika Nedir?","answer":"cevap 5"}	
+				]
+			}
+		]
 	}
 ]
