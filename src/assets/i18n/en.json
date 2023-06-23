@@ -1,47 +1,3128 @@
 [
-	{	"brandName":"SDM BG CONSULT"},
-	{	"genMenu": "HOME"	, "links":"/home"},
-	{	"genMenu": "courses"	, "links":"/courses", "dropMenu":[
-
-		{"dropMenuName": "python", "link":"/course/python" },
-		{"dropMenuName": "c+", "link":"/course/cplus" },
-		{"dropMenuName": "frond end", "link":"/course/front-end" },
-		{"dropMenuName": "back end", "link":"/course/back-end" },
-		{"dropMenuName": "full stack", "link":"/course/full-stack" },
-		{"dropMenuName": "Interior Design", "link":"/course/interior-design" }
-	]},
-	{	"genMenu": "portfolio"	, "links":"/portfolio"},
-	{	"genMenu": "services"	, "links":"/services", "dropMenu":[
-
-		{"dropMenuName": "Web design", "link":"/services/web-design" },
-		{"dropMenuName": "web development", "link":"/services/web-development" },
-		{"dropMenuName": "web support", "link":"/services/web-support" },
-		{"dropMenuName": "logo design", "link":"/services/logo-design" },
-		{"dropMenuName": "business card design", "link":"/services/business-card-design"}
-	]},
-	{	"genMenu": "offers"	, "links":"/offers"},
-	{	"genMenu": "about us"	, "links":"/aboutus"},
-	{	"genMenu": "contacts"	, "links":"/contacts"},
-	{	"goalsTittle":"our goals", "ourGoals":[
-		{"goals":"1. Simple Design", "goalsDescription":"Striving for a friendly experience", "goalsIcon":"fa fa-users"},
-		{"goals":"2. Best Impression", "goalsDescription":"aim right at the target", "goalsIcon":"fa fa-bullseye"},
-		{"goals":"3. Simple Navigation", "goalsDescription":"We make it easy for users to search", "goalsIcon":"fa fa-list-ul"},
-		{"goals":"4. A Natural Experience", "goalsDescription":"endless pages, cohesive style", "goalsIcon":"fas fa-crosshairs"},
-		{"goals":"5. Selected colors", "goalsDescription":"We appreciate colorful typography", "goalsIcon":"fas fa-palette"},
-		{"goals":"6. Responsive Design", "goalsDescription":"Many devices one design", "goalsIcon":"fas fa-expand-arrows-alt"},
-		{"goals":"7. Multiple Browsers", "goalsDescription":"Same quality in different browsers", "goalsIcon":"fa fa-safari"},
-		{"goals":"8. Zero Errors", "goalsDescription":"verification is a higher form of trust", "goalsIcon":"fas fa-bug"},
-		{"goals":"9. Ensuring Full Control", "goalsDescription":"100% author code written", "goalsIcon":"far fa-file-code"},
-		{"goals":"10. High Quality Content", "goalsDescription":"We strive for engaging content", "goalsIcon":"far fa-file-alt"}
-	]},
-	{"phone":"phone", "adress":"SHUMEN, 17 OBORISHTE Sq", "officeTitle":"OFFICE", "email":"EMAIL"},
-	{
-		"ekoForm":"contact form to - Ekrem Mehmedov", 
-		"seloForm":"contact form to - Seliha Mehmedova",
-		"firstName": "name", 
-		"surname":"surname",
-		"em":"email",
-		"mess":"message",
-		"sendBtn":"send"
-	}
+  { "brandName": "sdm bg consult" },
+  { "genMenu": "home", "links": "/home" },
+  {
+    "genMenu": "courses",
+    "links": "/courses",
+    "dropMenu": [
+      { "dropMenuName": "python", "link": "/python-course" },
+      { "dropMenuName": "c+", "link": "/cplusplus-course" },
+      { "dropMenuName": "frond end", "link": "/frontend-course" },
+      { "dropMenuName": "back end", "link": "/backend-course" },
+      { "dropMenuName": "full stack", "link": "/fullstack-course" },
+      { "dropMenuName": "interior design", "link": "/interiordesign-course" }
+    ]
+  },
+  { "genMenu": "portfolio", "links": "/portfolio" },
+  {
+    "genMenu": "services",
+    "links": "/services",
+    "dropMenu": [
+      {
+        "dropMenuName": "web design",
+        "link": "/webdesign-service",
+        "porfolioLinks": "/webdesign-portfolio",
+        "workDescription": "Have an idea for a great and motivating business? We can help you in the implementation using modern methods and technologies",
+        "imgName": "srv1.webp"
+      },
+      {
+        "dropMenuName": "web development",
+        "link": "/webdev-service",
+        "porfolioLinks": "/webdev-portfolio",
+        "workDescription": "Have a running business but something is wrong? needs modern technology to control and interact with your customers, that's why we're here",
+        "imgName": "srv2.webp"
+      },
+      {
+        "dropMenuName": "web support",
+        "link": "/websupp-service",
+        "porfolioLinks": "/websupp-portfolio",
+        "workDescription": "Web support is like your new car warranty, and our experts are available 24/7, ready to respond in case of need",
+        "imgName": "srv3.webp"
+      },
+      {
+        "dropMenuName": "logo design",
+        "link": "/logodesign-service",
+        "porfolioLinks": "/logodesign-portfolio",
+        "workDescription": "You have an idea! You want something impressive, something different that captivates from first look? Your logo is our work",
+        "imgName": "srv4.webp"
+      },
+      {
+        "dropMenuName": "business card design",
+        "link": "/businesscarddesign-service",
+        "porfolioLinks": "/businesscarddesign-portfolio",
+        "workDescription": "Want a bigger audience for your business? Have your business? We are ready to do something impressive for you",
+        "imgName": "srv5.webp"
+      }
+    ]
+  },
+  { "genMenu": "offers", "links": "/offers" },
+  { "genMenu": "about us", "links": "/about-us" },
+  { "genMenu": "contacts", "links": "/contacts" },
+  {
+    "goalsTittle": "our goals",
+    "ourGoals": [
+      {
+        "goals": "1. Simple design",
+        "goalsDescription": "We strive for a pleasant user experience",
+        "goalsIcon": "fa fa-users"
+      },
+      {
+        "goals": "2. The best impression",
+        "goalsDescription": "The goal is to hit the target exactly",
+        "goalsIcon": "fa fa-bullseye"
+      },
+      {
+        "goals": "3. Simple navigation",
+        "goalsDescription": "We make searching easy for users",
+        "goalsIcon": "fa fa-list-ul"
+      },
+      {
+        "goals": "4. Natural experience",
+        "goalsDescription": "Infinite number of pages with cohesive style",
+        "goalsIcon": "fas fa-crosshairs"
+      },
+      {
+        "goals": "5. Selected colors",
+        "goalsDescription": "We value colorful typography",
+        "goalsIcon": "fas fa-palette"
+      },
+      {
+        "goals": "6. Responsive design",
+        "goalsDescription": "Many devices - one design",
+        "goalsIcon": "fas fa-expand-arrows-alt"
+      },
+      {
+        "goals": "7. Multiple browsers",
+        "goalsDescription": "Same quality across browsers",
+        "goalsIcon": "fa fa-safari"
+      },
+      {
+        "goals": "8. Zero bugs",
+        "goalsDescription": "Verification is a higher form of trust",
+        "goalsIcon": "fas fa-bug"
+      },
+      {
+        "goals": "9. Guaranteed control",
+        "goalsDescription": "100% author code written by us",
+        "goalsIcon": "far fa-file-code"
+      },
+      {
+        "goals": "10. Quality content",
+        "goalsDescription": "We strive for engaging content",
+        "goalsIcon": "far fa-file-alt"
+      }
+    ]
+  },
+  {
+    "phone": "telephone",
+    "adress": "SHUMEN, 17 OBORISHTE Sq.",
+    "officeTitle": "office",
+    "email": "email"
+  },
+  {
+    "ekoForm": "contact form to - Ekrem Mehmedov",
+    "seloForm": "contact form to - Seliha Mehmedova",
+    "firstName": "First Name",
+    "surname": "Surname",
+    "em": "email",
+    "mess": "message",
+    "sendBtn": "send"
+  },
+  {
+    "footerImgUrl": "sdm_logo.webp",
+    "footerLogo": "SDM BG CONSULT",
+    "welcomeText": "Welcome to our site! We are a new start-up IT company. We are ready to provide all your needs as per the requirements of today's market, for more information",
+    "welcomeLink": "here",
+    "addressTitle": "Location",
+    "address": "city of Shumen, oborishte square No. 17",
+    "phoneTitle": "Phone",
+    "phoneNumbers": ["+359 887 729 228", "+359 893 871 753"],
+    "emailTitle": "Email",
+    "emailAddresses": [
+      "ekrem.mehmedov@sdm-bg.com",
+      "seliha.mehmedova@sdm-bg.com"
+    ],
+    "socialMedia": [
+      {
+        "platform": "twitter",
+        "icon": "fa fa-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "platform": "facebook",
+        "icon": "fa fa-facebook",
+        "link": "https://facebook.com"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "fa fa-linkedin",
+        "link": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "icon": "fa fa-instagram",
+        "link": "https://instagram.com"
+      }
+    ],
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": [
+      { "title": "Home", "link": "#" },
+      { "title": "Our Services", "link": "home/#my-works" },
+      { "title": "About us", "link": "about-us" },
+      { "title": "Portfolio", "link": "portfolio" },
+      { "title": "Make an offer", "link": "contacts" }
+    ],
+    "popularLinksTitle": "Popular Links",
+    "popularLinks": [
+      { "title": "Web Support", "link": "websupp-service" },
+      { "title": "Portfolio", "link": "portfolio" },
+      { "title": "Web Development", "link": "webdev-service" },
+      { "title": "Logo design", "link": "logodesign-service" }
+    ],
+    "locationTitle": "Location",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.56738297867068!2d26.915932904042904!3d43.27073902007498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58a67f395c66b%3A0x4eda59530fcee61b!2z0KjRg9C80LXQvQ!5e0!3m2!1sbg!2sbg!4v1682021075326!5m2!1sbg!2sbg",
+    "locationMapHeight": "180px",
+    "locationMapWidth": "180px",
+    "usefulLinksTitle": "Useful Links",
+    "usefulLinks": [
+      { "title": "Terms", "link": "policies/terms-conditions" },
+      { "title": "Privacy Policy", "link": "policies/privacy-policy" },
+      { "title": "Cookie Policy", "link": "policies/cookies-policy" },
+      { "title": "Our Goals", "link": "home/#goals" }
+    ],
+    "footerRightsReserved": "@ All Rights Reserved, 2023"
+  },
+  {
+    "contactsForm": "Contacts Form",
+    "chooseOption": "-- Please choose option --",
+    "offerRequest": "Request an offer",
+    "questions": "Technical questions",
+    "else": "Other",
+    "nameTitle": "Name",
+    "surnameTitle": "Surname",
+    "emailAdressTitle": "Email",
+    "phoneNumber": "Phone Number",
+    "subjectTitle": "Message",
+    "agreeTerms": "I have read and agree to",
+    "agreeTermsTwo": "the terms and conditions.",
+    "importantFields": "MANDATORY FIELDS",
+    "sendBtnTitle": "Send",
+    "clearBtnTitle": "Clear"
+  },
+  {
+    "getSliderTop": [
+      {
+        "text_1": "free consultation",
+        "text_2": "top class service",
+        "slideName": "sld1.webp",
+        "bgFon": "#0072B5"
+      },
+      {
+        "text_1": "Desktop or web app",
+        "text_2": "We are ready to realize your idea",
+        "slideName": "sld2.webp",
+        "bgFon": "#A0DAA9"
+      },
+      {
+        "text_1": "Friendly attitude",
+        "text_2": "We are ready to welcome new friends",
+        "slideName": "sld3.webp",
+        "bgFon": "#B55A30"
+      },
+      {
+        "text_1": "You like creative or trendy things",
+        "text_2": "We are ready to realize your idea",
+        "slideName": "sld4.webp",
+        "bgFon": "#9BB7D4"
+      },
+      {
+        "text_1": "Want something new?",
+        "text_2": "We're across the street",
+        "slideName": "sld5.webp",
+        "bgFon": "#F5DF4D"
+      }
+    ]
+  },
+  {
+    "offersTitle": "web offers",
+    "webDesTitle": "web design",
+    "webDevTitle": "web development",
+    "webSupportTitle": "web support",
+    "webDesOffers": "web design offers",
+    "webDevOffers": "web development offers",
+    "webSupportOffers": "web support offers",
+    "webOffers_1": [
+      {
+        "webDesign": [
+          { "titlePlan": "standard" },
+          {
+            "infoPlan": "suitable for a website with basic design and functionality to provide the basic information about your business or service"
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-design-plans/standart" }
+        ]
+      },
+      {
+        "webDesign": [
+          { "titlePlan": "premium" },
+          {
+            "infoPlan": "a website with a custom design and more sophisticated functionality. Suitable for larger businesses or those who want to stand out online"
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-design-plans/premium" }
+        ]
+      },
+      {
+        "webDesign": [
+          { "titlePlan": "business" },
+          {
+            "infoPlan": "Ideal for large companies or online stores that need a multi-functional and complex website with a custom design, fully responsive for mobile devices and with multiple functionalities"
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-design-plans/business" }
+        ]
+      }
+    ],
+    "webOffers_2": [
+      {
+        "webDevolmpent": [
+          { "titlePlan": "standard" },
+          {
+            "infoPlan": "up to 5 pages, mobile-optimized design, suitable for SMBs."
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-dev-plans/standart" }
+        ]
+      },
+      {
+        "webDevolmpent": [
+          { "titlePlan": "premium" },
+          {
+            "infoPlan": " up to 10 pages, additional functionalities and a custom design suitable for larger companies."
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-dev-plans/premium" }
+        ]
+      },
+      {
+        "webDevolmpent": [
+          { "titlePlan": "business" },
+          {
+            "infoPlan": "up to 20 pages, custom design, social media integration and SEO optimization, best for online stores and large projects"
+          },
+          { "btnLinkOffers": "see" },
+          { "url": "web-dev-plans/business" }
+        ]
+      }
+    ],
+    "webOffers_3": [
+      {
+        "webSupport": [
+          { "titlePlan": "standard" },
+          {
+            "infoPlan": "includes regular checking of functionality and design elements, as well as updating content according to your wishes"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/standart"}
+        ]
+      },
+      {
+        "webSupport": [
+          { "titlePlan": "premium" },
+          {
+            "infoPlan": "includes everything from the standard plan as well as personalized support and quick response to issues that may arise"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/premium"}
+        ]
+      },
+      {
+        "webSupport": [
+          { "titlePlan": "business" },
+          {
+            "infoPlan": " is ideal for online stores and large projects, which includes personalized support, SEO optimization, fast response to issues and social media support"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"web-support-plans/business"}
+        ]
+      }
+    ]
+  },
+  {
+    "offersTitle": "logo offers",
+    "planStan": "standard",
+    "planPrem": "premium",
+    "planBuss": "business",
+    "logoOffers_1": [
+      {
+        "logoDesign": [
+          {
+            "infoPlan": "Professional logo development provided in various formats"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/standart"}
+        ]
+      }
+    ],
+    "logoOffers_2": [
+      {
+        "logoDesign": [
+          {
+            "infoPlan": "Custom logo design service including unique identity, design options and up to 3 design revisions"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/premium"}
+        ]
+      }
+    ],
+    "logoOffers_3": [
+      {
+        "logoDesign": [
+          {
+            "infoPlan": "Includes all the benefits of the premium package as well as additional unlimited revisions to meet the needs of companies looking for a visual identity"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"logo-design-plans/business"}
+        ]
+      }
+    ]
+  },
+  {
+    "offersTitle": "business card offers",
+    "planStan": "standard",
+    "planPrem": "premium",
+    "planBuss": "business",
+    "cardOffers_1": [
+      {
+        "cardDesign": [
+          {
+            "infoPlan": "includes a sleek and professional design that will reflect your stylish presentation"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/standart"}
+        ]
+      }
+    ],
+    "cardOffers_2": [
+      {
+        "cardDesign": [
+          {
+            "infoPlan": "Premium package offers a personalized design service with greater attention to detail and different design options"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/premium"}
+        ]
+      }
+    ],
+    "cardOffers_3": [
+      {
+        "cardDesign": [
+          {
+            "infoPlan": "includes all the benefits of the premium package, plus unlimited revisions"
+          },
+          { "btnLinkOffers": "see" },
+          {"url":"business-cards-plans/business"}
+        ]
+      }
+    ]
+  },
+  {
+    "offersTitle": "our education courses",
+    "cplus": [
+      { "title": "C++ course" },
+      { "img": "CLogo.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/cplusplus-course", "btn": "see" }
+    ],
+    "backend": [
+      { "title": "back end course" },
+      { "img": "backend.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/backend-course", "btn": "see" }
+    ],
+    "frontend": [
+      { "title": "front end course" },
+      { "img": "frontend.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/frontend-course", "btn": "see" }
+    ],
+    "fullstack": [
+      { "title": "full stcak course" },
+      { "img": "fullstack.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/fullstack-course", "btn": "see" }
+    ],
+    "python": [
+      { "title": "python course" },
+      { "img": "pythonIcon.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/python-course", "btn": "see" }
+    ],
+    "interdes": [
+      { "title": "interior design course" },
+      { "img": "SweeetHome.webp" },
+      { "descripTitle": "What to expect?" },
+      {
+        "description": "Valuable course-specific skills, practical skills and project ideas for your ideal portfolio"
+      },
+      { "link": "/interiordesign-course", "btn": "see" }
+    ]
+  },
+  {
+    "beginners": "module 1 - for beginners",
+    "intermediate": "module 2 - intermediate",
+    "advanced": "module 3 - advanced",
+    "expert": "module 4 - experts",
+    "individual": "module 5 - for individual topics"
+  },
+  {
+    "modul_1": "module 1",
+    "modul_2": "module 2",
+    "modul_3": "module 3",
+    "modul_4": "module 4",
+    "modul_5": "module 5",
+    "characteristic_1": "course",
+    "characteristic_2": "number of subjects",
+    "characteristic_3": "duration",
+    "characteristic_4": "price"
+  },
+  {
+    "python": [
+      {
+        "courseTitle": "Курс по Python",
+        "img": "python.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ],
+    "cplus": [
+      {
+        "courseTitle": "Курс по C++",
+        "img": "cplus.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ],
+    "frontend": [
+      {
+        "courseTitle": "Курс по frond end",
+        "img": "frontend.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ],
+    "backend": [
+      {
+        "courseTitle": "Курс по back end",
+        "img": "backend.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ],
+    "fullstack": [
+      {
+        "courseTitle": "Курс по full stack",
+        "img": "fullstack.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ],
+    "interdes": [
+      {
+        "courseTitle": "Курс по интериорен дизайн",
+        "img": "iterdesign.webp",
+        "paragraph_1": "Курсът По Програмиране Е Структуриран В 5 Различни Модула, Като Всеки От Тях Е Насочен Към Различно Ниво На Знания В Програмирането. За Вас Сме Подготвили Следните Модули:",
+        "paragraph_2": "Курсът Предлага Много Интересни И Страхотни Задачи За Всеки Модул, Чрез Които Ще Натрупате Ценни Знания В Областта На Програмирането. Всеки Модул Завършва С Подготовка На Портфолио От Проекти, Което Ще Ви Предостави Възможност Да Приложите Своите Знания В Практика. В Края На Курса Ще Получите Сертификат, Който Ще Доказва, Че Сте Участвали И Завършили Курса По Програмиране.",
+        "modul_1": [
+          {
+            "description_1": "Основи на Python 1",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_2": [
+          {
+            "description_1": "Основи на Python 2",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_3": [
+          {
+            "description_1": "Основи на Python 3",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_4": [
+          {
+            "description_1": "Основи на Python 4",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ],
+        "modul_5": [
+          {
+            "description_1": "Основи на Python 5",
+            "description_2": "8 теми",
+            "description_3": "25 Уч. Ч. (1 Уч. Ч. = 40 Мин.)",
+            "description_4": "200 лв"
+          },
+          { "question": "За кого е предназначен курса?", "answer": "answer 1" },
+          { "question": "На какво ще се науча?", "answer": "answer 2" },
+          { "question": "Какъв е учебният метод?", "answer": "answer 3" },
+          { "question": "Има ли определен график", "answer": "answer 4" },
+          {
+            "question": "Какво представлява сертификатa?",
+            "answer": "answer 5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "businesscard": [
+      {
+        "title": "business card design",
+        "img": "../../../../../assets/images/services_IMG/business-card.webp",
+        "paragrahps": [
+          {
+            "paragraph": "Welcome to our business card design company! We offer innovative and creative solutions that will make your business card memorable and unique. We understand that every business has specific needs and identity, so we offer three plans - Standard , Premium and Business - to match your requirements and budget."
+          },
+          {
+            "paragraph": "The Standard plan includes a basic business card design that reflects your core values and business identity. The Premium plan offers a more detailed design that includes additional visual elements and creative solutions. The Business plan offers a full suite of business card design services , including custom graphics, premium materials, and style and branding consulting."
+          },
+          {
+            "paragraph": "Our services include business card design, branding consulting, custom graphics creation, and more. Our professional designers will work with you to understand your vision and translate it into a visually appealing and professional business card."
+          },
+          {
+            "paragraph": "Our design experts are involved in every detail of the creation of your business card - from the color palette and typography to the choice of materials and the final execution. All our projects are made according to the latest trends in the field of graphic design"
+          },
+          {
+            "paragraph": "Contact us today to start creating your unique and professional business card that will help you stand out and leave a strong impression on your customers!"
+          }
+        ],
+        "packages": [
+          {
+            "title": "Standard",
+            "btnName": "review",
+            "link": "business-cards-plans/standart"
+          },
+          {
+            "title": "Premium",
+            "btnName": "review",
+            "link": "business-cards-plans/premium"
+          },
+          {
+            "title": "Business",
+            "btnName": "review",
+            "link": "business-cards-plans/business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "logodesing": [
+      {
+        "title": "logo design",
+        "img": "../../../../../assets/images/services_IMG/logo-design.webp",
+        "paragrahps": [
+          {
+            "paragraph": "Welcome to our logo design company! We offer creative and unique solutions that will make your brand memorable. We understand that every organization has unique needs and identity, that's why we offer three plans - Standard, Premium and Business - to match your specific requirements and budget."
+          },
+          {
+            "paragraph": "The Standard plan includes a basic logo design that reflects your core values and ideals. The Premium plan offers an advanced design that offers more opportunities for creativity and standing out. The Business plan includes a full logo design, with additional services including custom graphics, brand style consulting and personalization."
+          },
+          {
+            "paragraph": "Our services include logo design, brand style consulting, custom graphics creation, and more. We will work with you to understand your vision and transform it into an expressive and unique logo."
+          },
+          {
+            "paragraph": "Our professional designers are involved in every detail of creating your logo - from color palette and shape to typography and execution. All our projects are made according to the latest trends in graphic design."
+          },
+          {
+            "paragraph": "Contact us today to start the process of creating a unique and memorable logo that will help your brand stand out and attract more customers!"
+          }
+        ],
+        "packages": [
+          {
+            "title": "Standard",
+            "btnName": "view",
+            "link": "logo-design-plans/standart"
+          },
+          {
+            "title": "Premium",
+            "btnName": "view",
+            "link": "logo-design-plans/premium"
+          },
+          {
+            "title": "Business",
+            "btnName": "review",
+            "link": "logo-design-plans/business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "webdes": [
+      {
+        "title": "Web Design",
+        "img": "../../../../../assets/images/services_IMG/web-design.webp",
+        "paragrahps": [
+          {
+            "paragraph": "Welcome to our web design services company! We offer professional design solutions that will make your online presence unforgettable. We understand that every business is unique and that's why we offer three plans - Standard, Premium and Business - so we can meet your individual needs and budget."
+          },
+          {
+            "paragraph": "The Standard plan includes a basic website design that meets the basic needs of your business. The Premium plan includes a more advanced design that offers more options for personalization and visual appeal to customers. The Business plan includes a full design of website, with maximum possibilities for functionality and convenience for your customers."
+          },
+          {
+            "paragraph": "Our services include website design, visual and graphic design, logo design, and other design services. We will work with you carefully to select the plan that meets your needs and preferences."
+          },
+          {
+            "paragraph": "Our professional web designers will take care of every aspect of your website design, from the color palette and fonts to the layout of information. All our projects are made using the latest technologies and trends in web design ."
+          },
+          {
+            "paragraph": "Contact us today to start creating a unique and professional online presence that will help your business stand out from the competition and attract more customers!"
+          }
+        ],
+        "packages": [
+          {
+            "title": "Standard",
+            "btnName": "view",
+            "link": "web-design-plans/standart"
+          },
+          {
+            "title": "Premium",
+            "btnName": "review",
+            "link": "web-design-plans/premium"
+          },
+          {
+            "title": "Business",
+            "btnName": "review",
+            "link": "web-design-plans/business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "webdev": [
+      {
+        "title": "Web Development",
+        "img": "../../../../../assets/images/services_IMG/web-development.webp",
+        "paragrahps": [
+          {
+            "paragraph": "Welcome to our web development company! We offer innovative technology solutions that will turn your vision into reality and enhance your online presence. We understand that every organization has unique needs, so we offer three plans - Standard , Premium and Business - to match your specific requirements and budget."
+          },
+          {
+            "paragraph": "The Standard plan includes basic web development that meets the basic needs of your business. The Premium plan offers advanced functionalities and customization options to capture the interest of a larger audience. The Business plan covers a full range of services for web development, including advanced functionalities and customization options to provide the best user experience for your customers."
+          },
+          {
+            "paragraph": "Our services include web development, programming, website maintenance and management, SEO optimization, mobile app development and much more. Our professional web developers will work with you from start to finish to ensure that the product meets your needs and expectations."
+          },
+          {
+            "paragraph": "Our web development experts are dedicated to every element of creating your website, from architecture and navigation to functionality and performance. All our projects are developed using the latest technologies and practices in the field of web development."
+          },
+          {
+            "paragraph": "Contact us today to start creating a strong and functional online presence that will contribute to the success of your business and help you always be one step ahead of the competition!"
+          }
+        ],
+        "packages": [
+          {
+            "title": "Standard",
+            "btnName": "view",
+            "link": "web-dev-plans/standart"
+          },
+          {
+            "title": "Premium",
+            "btnName": "review",
+            "link": "web-dev-plans/premium"
+          },
+          {
+            "title": "Business",
+            "btnName": "review",
+            "link": "web-dev-plans/business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "websupport": [
+      {
+        "title": "Web Support",
+        "img": "../../../../../assets/images/services_IMG/web-support.webp",
+        "paragrahps": [
+          {
+            "paragraph": "Welcome to our web support company! We offer effective solutions that will keep your website running smoothly and smoothly. We understand that every organization has unique needs, which is why we offer three plans - Standard, Premium and Business - to match your specific requirements and budget."
+          },
+          {
+            "paragraph": "The Standard plan includes basic maintenance and updates to your website, ensuring the continuity of its operation. The Premium plan offers more services, including quick responses to problems, regular updates and more extensive technical support. The Business plan includes full website maintenance, with a first-class support service and making all necessary updates and changes."
+          },
+          {
+            "paragraph": "Our web support professionals are committed to your success and take care of every aspect of maintaining your website - from its performance and security to its adaptability and speed. All of our projects are executed with an emphasis on the latest web industry standards and practices."
+          },
+          {
+            "paragraph": "Contact us today to start keeping your website in top shape, ensuring it's always ready to meet your business needs and attract new customers. With our web maintenance services , you will always be one step ahead of the competition!"
+          }
+        ],
+        "packages": [
+          {
+            "title": "Standard",
+            "btnName": "view",
+            "link": "web-support-plans/standart"
+          },
+          {
+            "title": "Premium",
+            "btnName": "review",
+            "link": "web-support-plans/premium"
+          },
+          {
+            "title": "Business",
+            "btnName": "review",
+            "link": "web-support-plans/business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planWebDesign": [
+      {
+        "id": "standart",
+        "name": "standart",
+        "plan": "plan",
+        "background": "#409fd7",
+        "options": [
+          {
+            "description": "custom web design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "full device adaptability",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "SEO optimization",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Up to 5 pages of content",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "UI/UX design",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Maintenance & Update",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 300,
+        "currency": "BGN"
+      },
+      {
+        "id": "premium",
+        "name": "premuim",
+        "plan": "plan",
+        "background": "#0EB4A6",
+        "options": [
+          {
+            "description": "custom web design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "full device adaptability",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "SEO optimization",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Up to 5 pages of content",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "UI/UX design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Maintenance & Update",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 560,
+        "currency": "BGN"
+      },
+      {
+        "id": "business",
+        "name": "business",
+        "plan": "plan",
+        "background": "#9BC241",
+        "options": [
+          {
+            "description": "custom web design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "full device adaptability",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "SEO optimization",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Up to 20 pages of content",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "UI/UX design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Maintenance and Update",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 800,
+        "currency": "BGN"
+      }
+    ]
+  },
+  {
+    "planWebDev": [
+      {
+        "id": "standart",
+        "name": "standart",
+        "plan": "plan",
+        "background": "#409fd7",
+        "options": [
+          {
+            "description": "Website design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "SEO optimizations",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Analytics and statistics",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Database and Management",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Up to 5 pages of content",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "+1 month support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 650,
+        "currency": "BGN"
+      },
+      {
+        "id": "premium",
+        "name": "premuim",
+        "plan": "plan",
+        "background": "#0EB4A6",
+        "options": [
+          {
+            "description": "Website design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "SEO optimization",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Analytics and statistics",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Database and Management",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Up to 5 pages of content",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "+2 months support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 1000,
+        "currency": "BGN"
+      },
+      {
+        "id": "business",
+        "name": "business",
+        "plan": "plan",
+        "background": "#9BC241",
+        "options": [
+          {
+            "description": "Website design",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "SEO optimizations",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Management CMS",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Social Integration",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Analytics and statistics",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "E-commerce functionality",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Database and Management",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Up to 15 pages of content",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "+3 months support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 1350,
+        "currency": "BGN"
+      }
+    ]
+  },
+  {
+    "planBusinessCards": [
+      {
+        "id": "standart",
+        "name": "standart",
+        "plan": "plan",
+        "background": "#409fd7",
+        "options": [
+          {
+            "description": "A selection of predefined designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize color scheme and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Add text and logo",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "More choice for designs",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Fully customizable templates",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Add multiple logos and images",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Integration with design and publishing software",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Use specialized fonts",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 100,
+        "currency": "BGN"
+      },
+      {
+        "id": "premium",
+        "name": "premium",
+        "plan": "plan",
+        "background": "#0EB4A6",
+        "options": [
+          {
+            "description": "A selection of predefined designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize color scheme and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Add text and logo",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "More choice for designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Fully customizable templates",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Add multiple logos and images",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Integration with design and publishing software",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Use specialized fonts",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 150,
+        "currency": "BGN"
+      },
+      {
+        "id": "business",
+        "name": "business",
+        "plan": "plan",
+        "background": "#9BC241",
+        "options": [
+          {
+            "description": "A selection of predefined designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize color scheme and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Add text and logo",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "More choice for designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Fully customizable templates",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Add multiple logos and images",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Integration with design and publishing software",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Use specialized fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 200,
+        "currency": "BGN"
+      }
+    ]
+  },
+  {
+    "planLogoDesign": [
+      {
+        "id": "standart",
+        "name": "standart",
+        "plan": "plan",
+        "background": "#409fd7",
+        "options": [
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize logo colors and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Basic graphics and icons",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Customizable Logo Templates",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Multiple elements and layers in the logo",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Integration with professional software",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Logo custom fonts and effects",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 100,
+        "currency": "BGN"
+      },
+      {
+        "id": "premium",
+        "name": "premium",
+        "plan": "plan",
+        "background": "#0EB4A6",
+        "options": [
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize logo colors and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Basic graphics and icons",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid check green"
+          },
+          {
+            "description": "Customizable Logo Templates",
+            "symbol": "fa-sharp fa-solid check green"
+          },
+          {
+            "description": "Multiple elements and layers in the logo",
+            "symbol": "fa-sharp fa-solid check green"
+          },
+          {
+            "description": "Integration with professional software",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Logo custom fonts and effects",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 200,
+        "currency": "BGN"
+      },
+      {
+        "id": "business",
+        "name": "business",
+        "plan": "plan",
+        "background": "#9BC241",
+        "options": [
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customize logo colors and fonts",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Basic graphics and icons",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "A selection of predefined logo designs",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Customizable Logo Templates",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Multiple elements and layers in the logo",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Integration with professional software",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Advanced editing options",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Logo custom fonts and effects",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 300,
+        "currency": "BGN"
+      }
+    ]
+  },
+  {
+    "planWebSupport": [
+      {
+        "id": "standart",
+        "name": "standart",
+        "plan": "plan",
+        "background": "#409fd7",
+        "options": [
+          {
+            "description": "Website backup",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Website accessibility monitoring",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Advanced Backup and Restore",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Security monitoring and protection",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Platform and module updates",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "24/7 support and quick response",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Custom features and development",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Optimization for performance and SEO",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 300,
+        "currency": "BGN"
+      },
+      {
+        "id": "premium",
+        "name": "premium",
+        "plan": "plan",
+        "background": "#0EB4A6",
+        "options": [
+          {
+            "description": "Website backup",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Website accessibility monitoring",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Advanced Backup and Restore",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Security monitoring and protection",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Platform and module updates",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "24/7 support and quick response",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Custom features and development",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          },
+          {
+            "description": "Optimization for performance and SEO",
+            "symbol": "fa-sharp fa-solid fa-xmark red"
+          }
+        ],
+        "price": 500,
+        "currency": "BGN"
+      },
+      {
+        "id": "business",
+        "name": "business",
+        "plan": "plan",
+        "background": "#9BC241",
+        "options": [
+          {
+            "description": "Website backup",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Website accessibility monitoring",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Content Support",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Advanced Backup and Restore",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Security monitoring and protection",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Platform and module updates",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "24/7 support and quick response",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Custom features and development",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          },
+          {
+            "description": "Optimization for performance and SEO",
+            "symbol": "fa-sharp fa-solid fa-check green"
+          }
+        ],
+        "price": 700,
+        "currency": "BGN"
+      }
+    ]
+  },
+  {
+    "title": "web design",
+    "btnName": "see more",
+    "link": "web design-portfolio",
+    "portfolioWebDesign": [
+      {
+        "title": "Project #1",
+        "modal": "modal_1",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_1/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_1/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_1/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_1/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_1/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #2",
+        "modal": "modal_2",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_2/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_2/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_2/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_2/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_2/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #3",
+        "modal": "modal_3",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_3/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_3/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_3/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_3/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_3/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #4",
+        "modal": "modal_4",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_4/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_4/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_4/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_4/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_4/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #5",
+        "modal": "modal_5",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_5/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_5/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_5/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_5/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_5/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #6",
+        "modal": "modal_6",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_6/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_6/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_6/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_6/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_6/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #7",
+        "modal": "modal_7",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_7/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_7/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_7/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_7/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_7/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #8",
+        "modal": "modal_8",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_8/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_8/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_8/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_8/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_8/img_5.webp",
+            "index": "5"
+          }
+        ]
+      },
+      {
+        "title": "Project #9",
+        "modal": "modal_9",
+        "descriptions": "web design image",
+        "imgOptions": [
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_9/img_1.webp",
+            "index": "1"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_9/img_2.webp",
+            "index": "2"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_9/img_3.webp",
+            "index": "3"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_9/img_4.webp",
+            "index": "4"
+          },
+          {
+            "img": "../../../../assets/images/portfolio/webdesign/project_9/img_5.webp",
+            "index": "5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "policies": [
+      {
+        "id": "privacy-policy",
+        "descriptions": [
+          {
+            "title": "Privacy Policy",
+            "paragrahps": [
+              { "paraItems": "Last updated: 02 Jun 2023." },
+              {
+                "paraItems": "This Privacy Policy describes our policies and procedures regarding the collection, use and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you."
+              },
+              {
+                "paraItems": "We use your personal data to provide and improve the Service. By using the Service, you consent to the collection and use of information in accordance with this Privacy Policy."
+              }
+            ]
+          },
+          {
+            "title": "Interpretation and Definitions",
+            "subtitles": [
+              {
+                "title": "Interpretation",
+                "paragrahps": [
+                  {
+                    "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
+                  }
+                ]
+              },
+              {
+                "title": "Definitions",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "For the purposes of this Privacy Policy:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "Account",
+                        "paragraph": "means a unique account created for You to access our Service or parts of our Service."
+                      },
+                      {
+                        "strong": "Partner",
+                        "paragraph": "means an entity that controls, is controlled by or is under common control with a party, where control means ownership of 50% or more of the stock, equity interest or other valuable papers that have the right to vote in the election of directors or other governing body."
+                      },
+                      {
+                        "strong": "The Company",
+                        "paragraph": "(referred to as The Company , We, Us or Our in this Agreement) refers to SDM BG CONSULT OOD, SHUMEN, PL. MANURE 17."
+                      },
+                      {
+                        "strong": "Cookies",
+                        "paragraph": "are small files placed on your computer, mobile device or other device by a website containing details of your browsing history on that website among its many uses."
+                      },
+                      {
+                        "strong": "Country",
+                        "paragraph": "applies to: Bulgaria."
+                      },
+                      {
+                        "strong": "Device",
+                        "paragraph": "means any device that accesses the Service, such as a computer, mobile phone or digital tablet."
+                      },
+                      {
+                        "strong": "Personal data",
+                        "paragraph": "is any information that relates to an identified or identifiable natural person."
+                      },
+                      {
+                        "strong": "The Service",
+                        "paragraph": "refers to the Website."
+                      },
+                      {
+                        "strong": "Service Provider",
+                        "paragraph": "means any natural or legal person who processes data on behalf of the Company. It refers to third parties or persons employed by the Company to facilitate the Service, provide the Service on behalf of the Company, perform services related to the Service, or assist the Company in analyzing how the Service is used."
+                      },
+                      {
+                        "strong": "Usage Data",
+                        "paragraph": "refers to data collected automatically or generated by the use of the Service or by the infrastructure of the Service itself (for example, the duration of a page visit)."
+                      },
+                      {
+                        "strong": "The site",
+                        "paragraph": "refers to SDM BG CONSULT, accessible from",
+                        "link": "https://sdm-bg.com"
+                      },
+                      {
+                        "strong": "You",
+                        "paragraph": "You means the individual accessing or using the Service, or the company or other legal entity on whose behalf such individual accesses or uses the Service, as applicable. "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Collection and Use of Your Personal Data - Types of Data Collected",
+            "subtitles": [
+              {
+                "title": "Personal Data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "While using our service, we may ask you to provide us with certain personal information that can be used to contact or identify you. Personal information may include, but is not limited to:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "paragraph": "Email address" },
+                      { "paragraph": "First and last name" },
+                      { "paragraph": "Phone number" },
+                      { "paragraph": "Usage Data" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Usage Data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Usage data is collected automatically when you use the Service."
+                      },
+                      {
+                        "paragrahp": "Usage Data may include information such as your device's Internet Protocol address (eg, IP address), browser type, browser version, the pages of our Service you visit, the time and date of your visit, time spent on these pages, unique device identifiers and other diagnostic data."
+                      },
+                      {
+                        "paragrahp": "When you access the Service from or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you are using, the unique identifier of your mobile device, the IP address of your mobile device, your mobile operating system, the type of mobile internet browser you use, unique device identifiers and other diagnostic data."
+                      },
+                      {
+                        "paragrahp": "We may also collect information that your browser sends each time you visit our Service or when you access the Service from or through a mobile device."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Tracking Technologies and Cookies",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "We use cookies and similar tracking technologies to track activity on our service and store certain information. The tracking technologies used are beacons, tags and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "Cookies or Browser Cookies.",
+                        "paragraph": "A cookie is a small file placed on your device. You can instruct your browser to refuse all cookies or indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some parts from our service. Unless you have adjusted your browser settings to refuse cookies, our service may use cookies."
+                      },
+                      {
+                        "strong": "Web Beacons.",
+                        "paragraph": "Certain sections of our Service and our emails may contain small electronic files known as web beacons (also called clear gifs, pixel tags, and single pixel gifs) that allow the Company, for example, to count users , who visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and checking the integrity of the system and server)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Necessary / Essential Cookies",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Cookies can be ' persistent' or 'session'. Persistent cookies remain on your PC or mobile device when you are offline, while session cookies are deleted as soon as you close your web browser."
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Session cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "These cookies are essential to provide you with services available through the website and to allow you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these cookies the services you have requested cannot be provided and we only use these cookies to provide you with these services."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cookie Policy / Notification Acceptance Cookies",
+                "termsDescriptions": [
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Persistent cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Purpose: These cookies identify whether users have accepted the use of cookies on the website."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Functionality Cookies",
+                "termsDescriptions": [
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Persistent cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Purpose: These cookies allow us to remember the choices you make when using the website, such as remembering your login details or language preferences. The purpose of these cookies is to provide you with a more personal experience and avoid the need to re-enter your preferences each time you use the website"
+                      },
+                      {
+                        "paragrahp": "For more information about the cookies we use and your choices about cookies, please visit our Cookie Policy or the Cookies section of our Privacy Policy."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Use of your personal data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "The Company may use Personal Data for the following purposes:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "To provide and maintain our Service",
+                        "paragraph": "including to monitor the use of our Service"
+                      },
+                      {
+                        "strong": "To manage your account:",
+                        "paragraph": "to manage your registration as a user of the Service. The personal data you provide may give you access to various functionalities of the Service that are available to You as a registered user."
+                      },
+                      {
+                        "strong": "To perform a contract:",
+                        "paragraph": "the development, performance and acceptance of the contract for the purchase of the products, items or services you have purchased or any other contract with Us through the Service."
+                      },
+                      {
+                        "strong": "To contact you:",
+                        "paragraph": "To contact you via email, phone calls, SMS or other equivalent forms of electronic communication, such as targeted mobile application notifications about updates or informational messages related to the functionalities, products or contracted services, including security updates when necessary or reasonable for their performance."
+                      },
+                      {
+                        "strong": "To provide you",
+                        "paragraph": "news, special offers and general information about other goods, services and events we offer that are similar to those you have already purchased or inquired about , unless you have opted out of receiving such information."
+                      },
+                      {
+                        "strong": "To manage your requests:",
+                        "paragraph": "To attend and manage your requests to us."
+                      },
+                      {
+                        "strong": "For Business Transfers:",
+                        "paragraph": "We may use your information to evaluate or conduct a merger, sale, restructuring, reorganization, liquidation or other sale or transfer of some or all of our assets, whether whether as a going concern or as part of a bankruptcy, liquidation, or similar proceeding in which Personal Data held by Us about users of Our Services is among the transferred assets."
+                      },
+                      {
+                        "strong": "For other purposes:",
+                        "paragraph": "We may use your information for other purposes, such as analyzing data, identifying usage trends, determining the effectiveness of our promotional campaigns, and to evaluate and improve of our Service, products, services, marketing and your experience."
+                      }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "We may share your personal information in the following situations:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "With service providers:",
+                        "paragraph": "We may share your personal information with service providers to monitor and analyze your use of our service to contact you."
+                      },
+                      {
+                        "strong": "For a business transfer:",
+                        "paragraph": "We may share or transfer your personal information in connection with or during negotiations for any merger, sale of company assets, financing or acquisition of all or part of our business to another company."
+                      },
+                      {
+                        "strong": "With partners:",
+                        "paragraph": "We may share your information with our partners, in which case we will require those affiliates to comply with this Privacy Policy. Affiliates include Our parent company and any other subsidiaries companies, joint venture partners or other companies that We control or that are under common control with Us."
+                      },
+                      {
+                        "strong": "With business partners:",
+                        "paragraph": "We may share your information with our business partners to offer you certain products, services or promotions."
+                      },
+                      {
+                        "strong": "With other users:",
+                        "paragraph": "when you share personal information or otherwise interact in public areas with other users, that information may be viewed by all users and may be publicly distributed externally. "
+                      },
+                      {
+                        "strong": "With your consent:",
+                        "paragraph": "We may disclose your personal information for any other purposes with your consent."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Keeping your personal data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "The Company will only retain your personal data for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies."
+                      },
+                      {
+                        "paragrahp": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when such data is used to strengthen security or improve the functionality of our service, or we are legally required to retain this data for longer periods of time."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Transfer of your personal data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps ": [
+                      {
+                        "paragrahp": "Your information, including Personal Data, is processed at the Company's operational offices and at all other locations where the parties involved in the processing are located. This means that this information may be transferred to — and maintained at — computers located outside of your state, province, country or other governmental jurisdiction where data protection laws may differ from those in your jurisdiction."
+                      },
+                      {
+                        "paragrahp": "Your acceptance of this Privacy Policy, followed by the submission of such information, constitutes your consent to this transfer."
+                      },
+                      {
+                        "paragrahp": "The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and there will be no transfer of your personal data to an organization or country unless adequate control measures are in place, including the security of your data and other personal information."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Delete your personal data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "You have the right to delete or request that we assist in the deletion of Personal Data we have collected about you."
+                      },
+                      {
+                        "paragrahp": "Our Service may give you the opportunity to delete certain information about you from the Service."
+                      },
+                      {
+                        "paragrahp": "You may update, change, or delete your information at any time by logging into your account, if you have one, and visiting the account settings section that allows you to manage your personal information. You may also contact us to request access to, correction or deletion of personal information you have provided to us."
+                      },
+                      {
+                        "paragrahp": "Please note, however, that we may need to retain certain information where we have a legal obligation or legal basis to do so."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Disclosure of your personal data",
+                "termsDescriptions": [
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "Business Transactions:",
+                        "paragraph": "If the Company is involved in a merger, acquisition, or asset sale, your personal information may be transferred. We will provide notice before your personal information is transferred and become subject to a different Privacy Policy."
+                      },
+                      {
+                        "strong": "Law enforcement authorities:",
+                        "paragraph": "Under certain circumstances, the Company may be required to disclose your personal data if required by law or in response to valid requests by public authorities ( eg a court or government agency)."
+                      },
+                      {
+                        "strong": "Other Legal Requirements",
+                        "paragraph": "The Company may disclose your Personal Data in the good faith belief that such action is necessary to:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "paragraph": "Comply with legal obligation" },
+                      {
+                        "paragraph": "Protection and Protection of Company's Rights or Property"
+                      },
+                      {
+                        "paragraph": "Preventing or investigating possible wrongdoing in connection with the Service"
+                      },
+                      {
+                        "paragraph": "Protecting the Personal Safety of Users of the Service or the Public"
+                      },
+                      { "paragraph": "Protection against legal liability" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Security of your personal data",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "The security of your personal data is important to Us, but please remember that no method of transmission over the Internet or method of electronic storage is 100% secure. Although we strive to use commercially acceptable means to protect Your personal data, we cannot guarantee its absolute security."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Children's Privacy",
+            "paragrahps": [
+              {
+                "paraItems": "Our Service does not address anyone under the age of 13. We do not knowingly collect personal information from anyone under the age of 13. If you are a parent or guardian and you know that your child has provided us with personal information, please contact us. If we learn that we have collected personal information from a person under the age of 13 without verifying parental consent, we take steps to remove that information from our servers."
+              },
+              {
+                "paraItems": "If we must rely on consent as a legal basis to process your information and your country requires parental consent, we may require your parent's consent before we collect and use that information."
+              }
+            ]
+          },
+          {
+            "title": "Links to Other Websites",
+            "paragrahps": [
+              {
+                "paraItems": "Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit."
+              },
+              {
+                "paraItems": "We have no control over and are not responsible for the content, privacy policies, or practices of third-party sites or services."
+              }
+            ]
+          },
+          {
+            "title": "Changes to this Privacy Policy",
+            "paragrahps": [
+              {
+                "paraItems": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+              },
+              {
+                "paraItems": "We will notify you via email and/or a clear notice on our Service before the change becomes effective and update the Last Updated date at the top of this Privacy Policy."
+              },
+              {
+                "paraItems": "You are advised to periodically review this Privacy Policy for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+              }
+            ]
+          },
+          {
+            "title": "Contact Us",
+            "subtitles": [
+              {
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "If you have any questions about this Privacy Policy, you can contact us:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "strong": "By email:", "link": "office@sdm-bg.com" },
+                      {
+                        "strong": "By visiting this page on our website:",
+                        "link": "https://sdm-bg.com/contacts"
+                      },
+                      { "strong": "On phone:", "paragraph": "+359 887 729 228" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "terms-conditions",
+        "descriptions": [
+          {
+            "title": "Terms and Conditions",
+            "paragrahps": [
+              { "paraItems": "Last updated: 02 Jun 2023." },
+              {
+                "paraItems": "Please read these terms and conditions carefully before using our service."
+              }
+            ]
+          },
+          {
+            "title": "Interpretation and Definitions",
+            "subtitles": [
+              {
+                "title": "Interpretation",
+                "paragrahps": [
+                  {
+                    "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
+                  }
+                ]
+              },
+              {
+                "title": "Definitions",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "For the purposes of these Terms and Conditions:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "Country",
+                        "paragraph": "applies to: Bulgaria"
+                      },
+                      {
+                        "strong": "The Company",
+                        "paragraph": "(referred to as The Company , We, Us or Our in this Agreement) refers to SDM BG CONSULT OOD, SHUMEN, PL. MANURE 17."
+                      },
+                      {
+                        "strong": "Device",
+                        "paragraph": "means any device that accesses the Service, such as a computer, mobile phone or digital tablet."
+                      },
+                      {
+                        "strong": "The Service",
+                        "paragraph": "refers to the Website."
+                      },
+                      {
+                        "strong": "Terms and Conditions",
+                        "paragraph": "(also referred to as Terms ) means these Terms and Conditions, which form the entire agreement between You and the Company regarding the use of the Service."
+                      },
+                      {
+                        "strong": "Third Party Social Media Service",
+                        "paragraph": "means any services or content (including data, information, products or services) provided by a third party that may be displayed, included or provided by The service."
+                      },
+                      {
+                        "strong": "The site",
+                        "paragraph": "refers to SDM BG CONSULT, accessible from",
+                        "link": "https://sdm-bg.com"
+                      },
+                      {
+                        "strong": "You",
+                        "paragraph": "means the individual who accesses or uses the Service, or the company or other legal entity on whose behalf such individual accesses or uses the Service, as applicable."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Recognition",
+            "paragrahps": [
+              {
+                "paraItems": "These are the Terms and Conditions governing the use of this Service and the agreement between you and the Company. These Terms and Conditions set out the rights and obligations of all users with respect to the use of the Service."
+              },
+              {
+                "paraItems": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service."
+              },
+              {
+                "paraItems": "By accessing or using the Service, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these Terms and Conditions, then you may not access the Service."
+              },
+              {
+                "paraItems": "You represent that you are over the age of 18. The Company does not permit persons under the age of 18 to use the Service."
+              },
+              {
+                "paraItems": "Your access to and use of the Service is also subject to your acceptance of and compliance with the Company's Privacy Policy. Our Privacy Policy describes our policies and procedures regarding the collection, use and disclosure of your personal information when you use the Application or the Website and tells you about your privacy rights and how the law protects you. Please read our Privacy Policy carefully before using our service."
+              }
+            ]
+          },
+          {
+            "title": "Links to Other Websites",
+            "paragrahps": [
+              {
+                "paraItems": "Our Service may contain links to third-party websites or services that are not owned or controlled by the Company."
+              },
+              {
+                "paraItems": "Company has no control over and assumes no responsibility for the content, privacy policies or practices of any third-party websites or services. You further acknowledge and agree that Company shall have no responsibility or liability, directly or indirectly, for damages or losses caused or alleged to be caused by or in connection with the use or reliance on such content, goods or services available on or through such websites or services."
+              },
+              {
+                "paraItems": "We strongly advise you to read the terms and privacy policies of any third-party websites or services you visit."
+              }
+            ]
+          },
+          {
+            "title": "Termination of contract",
+            "paragrahps": [
+              {
+                "paraItems": "We may terminate or suspend your access immediately, without prior notice or liability, for any reason, including without limitation, if you violate these Terms and Conditions."
+              },
+              {
+                "paraItems": "Upon termination, your right to use the Service will terminate immediately."
+              }
+            ]
+          },
+          {
+            "title": "Applicable Law",
+            "paragrahps": [
+              {
+                "paraItems": "The laws of the country, excluding its conflict of laws rules, will govern these Terms and your use of the Service. Your use of the Application may be subject to other local, state, national or international laws."
+              }
+            ]
+          },
+          {
+            "title": "Dispute Resolution",
+            "paragrahps": [
+              {
+                "paraItems": "If you have a concern or dispute regarding the Service, You agree to first try to resolve the dispute informally by contacting the Company."
+              }
+            ]
+          },
+          {
+            "title": "For European Union (EU) users.",
+            "paragrahps": [
+              {
+                "paraItems": "If you are a user from the European Union, you will benefit from all mandatory provisions of the law of the country in which you reside."
+              }
+            ]
+          },
+          {
+            "title": "Compliance with United States Law",
+            "paragrahps": [
+              {
+                "paraItems": "You represent and warrant that (i) you are not located in a country that is embargoed by the United States Government or that is designated by the United States Government as a terrorist supporting country, and ( ii) you are not on the United States government's list of prohibited or restricted countries."
+              }
+            ]
+          },
+          {
+            "title": "Severability and Waiver",
+            "subtitles": [
+              {
+                "title": "Separability",
+                "paragrahps": [
+                  {
+                    "paraItems": "If any provision of these Terms is held to be unenforceable or invalid, such provision shall be modified and construed to achieve the purposes of such provision to the fullest extent possible under applicable law, and the remaining provisions shall continue be in full force and effect."
+                  }
+                ]
+              },
+              {
+                "title": "Cancel",
+                "paragrahps": [
+                  {
+                    "paraItems": "Except as provided herein, failure to exercise a right or require performance of an obligation under these Terms shall not affect a party's ability to exercise such right or require such performance at any time thereafter, nor shall the waiver of a breach constitutes a waiver of any subsequent breach."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Interpretation",
+            "paragrahps": [
+              {
+                "paraItems": "These Terms and Conditions may have been translated if we have made them available to you on our Service. You agree that the original English text prevails in the event of a dispute."
+              }
+            ]
+          },
+          {
+            "title": "Changes to these Terms and Conditions",
+            "paragrahps": [
+              {
+                "paraItems": "We reserve the right, in our sole discretion, to modify or replace these Terms at any time. If the revision is material, we will use reasonable efforts to provide at least 30 days' notice before the new terms become effective. What constitutes a material change will be determined at our sole discretion."
+              },
+              {
+                "paraItems": "By continuing to access or use our Service after such revisions become effective, You agree to be bound by the revised terms. If you do not agree to the new terms, in whole or in part, please stop use the Website and the Service."
+              }
+            ]
+          },
+          {
+            "title": "Contact Us",
+            "subtitles": [
+              {
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "If you have any questions about this Privacy Policy, you can contact us:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "strong": "By email:", "link": "office@sdm-bg.com" },
+                      {
+                        "strong": "By visiting this page on our website:",
+                        "link": "https://sdm-bg.com/contacts"
+                      },
+                      { "strong": "On phone:", "paragraph": "+359 887 729 228" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cookies-policy",
+        "descriptions": [
+          {
+            "title": "Cookie Policy",
+            "paragrahps": [
+              { "paraItems": "Last updated: 02 Jun 2023." },
+              {
+                "paraItems": "This Cookie Policy explains what cookies are and how we use them. You should read this policy to understand what type of cookies we use or the information we collect using cookies and how that information is used. "
+              },
+              {
+                "paraItems": "Cookies generally do not contain any information that personally identifies the user, but the personal information we store about you may be linked to information stored in and obtained from Cookies. For more information about how we use we store and protect your personal data, see our Privacy Policy."
+              },
+              {
+                "paraItems": "We do not store sensitive personal information such as mailing addresses, account passwords, etc. in the cookies we use."
+              }
+            ]
+          },
+          {
+            "title": "Interpretation and Definitions",
+            "subtitles": [
+              {
+                "title": "Interpretation",
+                "paragrahps": [
+                  {
+                    "paraItems": "Words beginning with a capital letter have the meanings specified in the following terms. The following definitions have the same meaning whether they appear in the singular or plural."
+                  }
+                ]
+              },
+              {
+                "title": "Definitions",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      { "paragrahp": "For the purposes of this Cookie Policy:" }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "The Company",
+                        "paragraph": "(referred to as The Company , We, Us or Our in this Cookie Policy) refers to SDM BG CONSULT OOD, SHUMEN, OBORISHTE square 17."
+                      },
+                      {
+                        "strong": "Cookies",
+                        "paragraph": "means small files placed on your computer, mobile device or other device by a website containing details of your browsing history on that website among its many uses."
+                      },
+                      {
+                        "strong": "The site",
+                        "paragraph": "refers to SDM BG CONSULT, accessible from",
+                        "link": "https://sdm-bg.com"
+                      },
+                      {
+                        "strong": "You",
+                        "paragraph": "means the individual who accesses or uses the Website, or a company or any legal entity on whose behalf such person accesses or uses the Website, as applicable."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The use of cookies",
+            "subtitles": [
+              {
+                "title": "Tracking Technologies and Cookies",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "We use cookies and similar tracking technologies to track activity on our service and store certain information. The tracking technologies used are beacons, tags and scripts to collect and track information and to improve and analyze our service. The technologies we use may include:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "strong": "Cookies or Browser Cookies.",
+                        "paragraph": "A cookie is a small file placed on your device. You can instruct your browser to refuse all cookies or indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some parts from our service. Unless you have adjusted your browser settings to refuse cookies, our service may use cookies."
+                      },
+                      {
+                        "strong": "Web Beacons.",
+                        "paragraph": "Certain sections of our Service and our emails may contain small electronic files known as web beacons (also called clear gifs, pixel tags, and single pixel gifs) that allow the Company, for example, to count users , who visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and checking the integrity of the system and server)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Necessary / Essential Cookies",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Cookies can be ' persistent' or 'session'. Persistent cookies remain on your PC or mobile device when you are offline, while session cookies are deleted as soon as you close your web browser."
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Session cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "These cookies are essential to provide you with services available through the website and to allow you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these cookies the services you have requested cannot be provided and we only use these cookies to provide you with these services."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cookie Policy / Notification Acceptance Cookies",
+                "termsDescriptions": [
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Persistent cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Purpose: These cookies identify whether users have accepted the use of cookies on the website."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Functionality Cookies",
+                "termsDescriptions": [
+                  {
+                    "listparagraph": [
+                      { "strong": "Type:", "paragraph": "Persistent cookies" },
+                      { "strong": "Administered by:", "paragraph": "Us" }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "Purpose: These cookies allow us to remember the choices you make when using the website, such as remembering your login details or language preferences. The purpose of these cookies is to provide you with a more personal experience and avoid the need to re-enter your preferences each time you use the website"
+                      },
+                      {
+                        "paragrahp": "For more information about the cookies we use and your choices about cookies, please visit our Cookie Policy or the Cookies section of our Privacy Policy."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Your choices about cookies",
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "If you prefer to avoid the use of cookies on the website, you must first disable the use of cookies in your browser and then delete the cookies saved in your browser related to this website. You can use this option to prevent of the use of cookies at any time."
+                      },
+                      {
+                        "paragrahp": "If you do not accept our cookies, you may experience some inconvenience when using the website and some features may not function properly."
+                      },
+                      {
+                        "paragrahp": "If you wish to delete cookies or instruct your web browser to delete or refuse cookies, please visit your web browser's help pages."
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      {
+                        "paragraph": "For Chrome web browser, please visit this page from Google:",
+                        "link": "https://support.google.com/accounts/answer/32050"
+                      },
+                      {
+                        "paragraph": "For Internet Explorer web browser, please visit this page from Microsoft:",
+                        "link": "http://support.microsoft.com/kb/278835"
+                      },
+                      {
+                        "paragraph": "For the Firefox web browser, please visit this page from Mozilla:",
+                        "link": "https://support.mozilla.org/en-US/kb/delete-cookies-remove-info- websites-stored"
+                      },
+                      {
+                        "paragraph": "For the Safari web browser, please visit this page from Apple:",
+                        "link": "https://support.apple.com/guide/safari/manage-cookies-and-website-data- sfri11471/mac"
+                      }
+                    ]
+                  },
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "For any other web browser, please visit the official web pages of your web browser."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Contact Us",
+            "subtitles": [
+              {
+                "termsDescriptions": [
+                  {
+                    "paragrahps": [
+                      {
+                        "paragrahp": "If you have any questions about this Cookie Policy, you can contact us:"
+                      }
+                    ]
+                  },
+                  {
+                    "listparagraph": [
+                      { "strong": "By email:", "link": "office@sdm-bg.com" },
+                      {
+                        "strong": "By visiting this page on our website:",
+                        "link": "https://sdm-bg.com/contacts"
+                      },
+                      { "strong": "On phone:", "paragraph": "+359 887 729 228" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

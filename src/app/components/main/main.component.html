@@ -27,7 +27,7 @@
 <!-- slider-top end-->
 
 <!-- my works start  -->
-<section class="my-worsk" *ngIf="jsonData$ | async as jsonData">
+<section class="my-worsk" id="my-works" *ngIf="jsonData$ | async as jsonData">
   <!-- 1 -->
   <div class="work-content">
     <div class="my-offers">
@@ -42,7 +42,7 @@
                   <h3>{{items.webDesign[0]?.titlePlan}}</h3>
                 </div>
                 <div class="box-button">
-                  <a href="web-design-plans/standart">{{ items.webDesign[2]?.btnLinkOffers }}</a>
+                  <a [href]="items?.webDesign[3]?.url">{{ items.webDesign[2]?.btnLinkOffers }}</a>
                 </div>
               </div>
           </ng-container>
@@ -69,7 +69,7 @@
           <p>{{item.workDescription}}</p>
           <div class="btn-content">
             <a href="{{item.porfolioLinks}}">{{jsonData[3]?.genMenu}}</a>
-            <a href="#">{{jsonData[5]?.genMenu}}</a>
+            <a [href]="item.offersLinks">{{jsonData[5]?.genMenu}}</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
                   <h3>{{items.webDevolmpent[0]?.titlePlan}}</h3>
                 </div>
                 <div class="box-button">
-                  <a href="web-dev-plans/standart">{{ items.webDevolmpent[2]?.btnLinkOffers }}</a>
+                  <a [href]="items.webDevolmpent[3]?.url">{{ items.webDevolmpent[2]?.btnLinkOffers }}</a>
                 </div>
               </div>
           </ng-container>
@@ -101,7 +101,7 @@
 <!-- my works end  -->
 
 <!-- my goals start  -->
-<section class="goals-section" *ngIf="jsonData$ | async as jsonData">
+<section class="goals-section" id="goals" *ngIf="jsonData$ | async as jsonData">
   <article>
     <!-- logo offers start-->
     <div class="my-offers">
@@ -128,7 +128,7 @@
                   <h3 class="title">{{jsonData[15]?.planPrem}}</h3>
                 </div>
                 <div class="box-button">
-                  <a href="#">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
+                  <a href="logo-design-plans/premium">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
                 </div>
               </div>
           </ng-container>
@@ -140,7 +140,7 @@
                   <h3>{{ jsonData[15]?.planBuss }}</h3>
                 </div>
                 <div class="box-button">
-                  <a href="#">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
+                  <a href="logo-design-plans/business">{{ items.logoDesign[1]?.btnLinkOffers }}</a>
                 </div>
               </div>
           </ng-container>
@@ -193,7 +193,7 @@
                         <h3 class="title">{{jsonData[16]?.planPrem}}</h3>
                       </div>
                       <div class="box-button">
-                        <a href="#">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
+                        <a href="business-cards-plans/premium">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
                       </div>
                     </div>
                 </ng-container>
@@ -205,7 +205,7 @@
                         <h3>{{ jsonData[16]?.planBuss }}</h3>
                       </div>
                       <div class="box-button">
-                        <a href="#">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
+                        <a href="business-cards-plans/business">{{ items.cardDesign[1]?.btnLinkOffers }}</a>
                       </div>
                     </div>
                 </ng-container>
@@ -216,86 +216,3 @@
   </article>
 </section>
 <!-- my goals end -->
-
-
-<!-- courses  start -->
-<section class="course" *ngIf="jsonData$ | async as jsonData">
-    <div class="course-box"><h1>{{jsonData[17]?.offersTitle}}</h1></div>
-    <div class="course-box">
-      <!-- course cplus  -->
-      <div class="course-info">
-            <div class="info-title-box">
-              <h2>{{jsonData[17]?.cplus[0]?.title}}</h2>
-              <img [src]="jsonData[17]?.cplus[1]?.img ? '/../../assets/images/course/' + jsonData[17].cplus[1].img : ''" alt="">
-            </div>
-            <div class="course-desc-box">
-                <h3>{{jsonData[17]?.cplus[2]?.descripTitle}}</h3>
-                <p>{{jsonData[17]?.cplus[3]?.description}}</p>
-                <a href="{{jsonData[17]?.cplus[4]?.link}}">{{jsonData[17]?.cplus[4]?.btn}}</a>
-            </div>
-      </div>
-      <!-- course backend -->
-      <div class="course-info">
-        <div class="info-title-box">
-          <h2>{{jsonData[17]?.backend[0]?.title}}</h2>
-          <img [src]="jsonData[17]?.backend[1]?.img ? '/../../assets/images/course/' + jsonData[17].backend[1].img : ''" alt="">
-        </div>
-        <div class="course-desc-box">
-            <h3>{{jsonData[17]?.backend[2]?.descripTitle}}</h3>
-            <p>{{jsonData[17]?.backend[3]?.description}}</p>
-            <a href="{{jsonData[17]?.backend[4]?.link}}">{{jsonData[17]?.backend[4]?.btn}}</a>
-        </div>
-      </div>
-      <!-- course frontend -->
-      <div class="course-info">
-        <div class="info-title-box">
-          <h2>{{jsonData[17]?.frontend[0]?.title}}</h2>
-          <img [src]="jsonData[17]?.frontend[1]?.img ? '/../../assets/images/course/' + jsonData[17].frontend[1].img : ''" alt="">
-        </div>
-        <div class="course-desc-box">
-            <h3>{{jsonData[17]?.frontend[2]?.descripTitle}}</h3>
-            <p>{{jsonData[17]?.frontend[3]?.description}}</p>
-            <a href="{{jsonData[17]?.frontend[4]?.link}}">{{jsonData[17]?.frontend[4]?.btn}}</a>
-        </div>
-      </div>
-      <!-- course fullstack -->
-      <div class="course-info">
-        <div class="info-title-box">
-          <h2>{{jsonData[17]?.fullstack[0]?.title}}</h2>
-          <img [src]="jsonData[17]?.fullstack[1]?.img ? '/../../assets/images/course/' + jsonData[17].fullstack[1].img : ''" alt="">
-        </div>
-        <div class="course-desc-box">
-            <h3>{{jsonData[17]?.fullstack[2]?.descripTitle}}</h3>
-            <p>{{jsonData[17]?.fullstack[3]?.description}}</p>
-            <a href="{{jsonData[17]?.fullstack[4]?.link}}">{{jsonData[17]?.fullstack[4]?.btn}}</a>
-        </div>
-      </div>
-      <!-- course python -->
-      <div class="course-info">
-        <div class="info-title-box">
-          <h2>{{jsonData[17]?.python[0]?.title}}</h2>
-          <img [src]="jsonData[17]?.python[1]?.img ? '/../../assets/images/course/' + jsonData[17].python[1].img : ''" alt="">
-        </div>
-        <div class="course-desc-box">
-            <h3>{{jsonData[17]?.python[2]?.descripTitle}}</h3>
-            <p>{{jsonData[17]?.python[3]?.description}}</p>
-            <a href="{{jsonData[17]?.python[4]?.link}}">{{jsonData[17]?.python[4]?.btn}}</a>
-        </div>
-      </div>
-      <!-- course interdes -->
-      <div class="course-info">
-        <div class="info-title-box">
-          <h2>{{jsonData[17]?.interdes[0]?.title}}</h2>
-          <img [src]="jsonData[17]?.interdes[1]?.img ? '/../../assets/images/course/' + jsonData[17].interdes[1].img : ''" alt="">
-        </div>
-        <div class="course-desc-box">
-            <h3>{{jsonData[17]?.interdes[2]?.descripTitle}}</h3>
-            <p>{{jsonData[17]?.interdes[3]?.description}}</p>
-            <a href="{{jsonData[17]?.interdes[4]?.link}}">{{jsonData[17]?.interdes[4]?.btn}}</a>
-        </div>
-      </div>
-    </div>
-</section>
-<!-- courses  end -->
-
-

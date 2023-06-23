@@ -1,45 +1,45 @@
 [
 	{	"brandName":"SDM BG CONSULT"},
-	{	"genMenu": "HOME"	, "links":"/home"},
-	{	"genMenu": "dersler"	, "links":"/courses", "dropMenu":[
+	{	"genMenu": "home", "links":"/home"},
+	{	"genMenu": "kurslar", "links":"/courses", "dropMenu":[
 
-		{"dropMenuName": "python", "link":"/course/python" },
-		{"dropMenuName": "c+", "link":"/course/cplus" },
-		{"dropMenuName": "frond end", "link":"/course/front-end" },
-		{"dropMenuName": "back end", "link":"/course/back-end" },
-		{"dropMenuName": "full stack", "link":"/course/full-stack" },
-		{"dropMenuName": "iç mimari", "link":"/course/interior-design" }
+		{"dropMenuName": "python", "link":"/python-course" },
+		{"dropMenuName": "c+", "link":"/cplusplus-course" },
+		{"dropMenuName": "frond end", "link":"/frontend-course" },
+		{"dropMenuName": "back end", "link":"/backend-course" },
+		{"dropMenuName": "full stack", "link":"/fullstack-course" },
+		{"dropMenuName": "İç dizayn", "link":"/interiordesign-course" }
 	]},
 	{	"genMenu": "portföy"	, "links":"/portfolio"},
 	{	"genMenu": "hizmetler"	, "links":"/services", "dropMenu":[
 
-		{"dropMenuName": "Web tasarımı", "link":"/services/web-design" },
-		{"dropMenuName": "web Geliştirme", "link":"/services/web-development" },
-		{"dropMenuName": "web desteği", "link":"/services/web-support" },
-		{"dropMenuName": "logo tasarımı", "link":"/services/logo-design" },
-		{"dropMenuName": "kartvizit tasarımı", "link":"/services/business-card-design"}
+		{"dropMenuName": "Web tasarımı", "link":"/webdesign-service","porfolioLinks":"/webdesign-portfolio", "workDescription":"Harika ve motive edici bir iş fikriniz mi var? Modern yöntem ve teknolojileri kullanarak uygulama konusunda size yardımcı olabiliriz","imgName":"srv1.webp"},
+		{"dropMenuName": "web Geliştirme", "link":"/webdev-service","porfolioLinks":"/webdev-portfolio", "workDescription":"Çalışan bir işiniz var ama bir şeyler ters mi gidiyor? müşterilerinizi kontrol etmek ve onlarla etkileşimde bulunmak için modern teknolojiye ihtiyaç duyuyor, bu yüzden buradayız","imgName":"srv2.webp"},
+		{"dropMenuName": "web Destek", "link":"/websupp-service","porfolioLinks":"/websupp-portfolio", "workDescription":"Web desteği, yeni arabanızın garantisi gibidir ve uzmanlarımız ihtiyaç durumunda yanıt vermeye hazır olarak 7/24 hizmetinizdedir.","imgName":"srv3.webp"},
+		{"dropMenuName": "logo tasarımı", "link":"/logodesign-service","porfolioLinks":"/logodesign-portfolio", "workDescription":"Bir fikrin var! Etkileyici, ilk bakışta büyüleyen farklı bir şey mi istiyorsunuz? Logonuz bizim işimiz","imgName":"srv4.webp"},
+		{"dropMenuName": "kartvizit tasarımı", "link":"/businesscarddesign-service","porfolioLinks":"/businesscarddesign-portfolio", "workDescription":"İşletmeniz için daha büyük bir hedef kitle mi istiyorsunuz? Kendi işiniz var mı? Sizin için etkileyici bir şey yapmaya hazırız","imgName":"srv5.webp"}
 	]},
 	{	"genMenu": "teklifler"	, "links":"/offers"},
-	{	"genMenu": "Hakkımızda"	, "links":"/aboutus"},
+	{	"genMenu": "hakkımızda"	, "links":"/about-us"},
 	{	"genMenu": "iletişim"	, "links":"/contacts"},
 	{ "goalsTittle":"hedeflerimiz", "ourGoals":[
-		{"goals":"1. Basit Tasarım", "goalsDescription":"Dostu bir deneyim için çaba sarf ediyoruz","goalsIcon":"fa fa-users"},
-		{"goals":"2. En İyi İzlenim", "goalsDescription":"Hedefe tam isabet etmek","goalsIcon":"fa fa-bullseye"},
-		{"goals":"3. Basit Navigasyon", "goalsDescription":"Kullanıcıların arama yapmasını kolaylaştırıyoruz","goalsIcon":"fa fa-list-ul"},
-		{"goals":"4. Doğal Deneyim", "goalsDescription":"Sonsuz sayfalar, uyumlu stil","goalsIcon":"fas fa-crosshairs"},
-		{"goals":"5. Seçili Renkler", "goalsDescription":"Renkli tipografiyi takdir ediyoruz","goalsIcon":"fas fa-palette"},
-		{"goals":"6. Tepki Veren Tasarım", "goalsDescription":"Çoklu cihazlar için tek tasarım","goalsIcon":"fas fa-expand-arrows-alt"},
-		{"goals":"7. Birden Fazla Tarayıcı", "goalsDescription":"Farklı tarayıcılarda aynı kalite","goalsIcon":"fa fa-safari"},
-		{"goals":"8. Sıfır Hatalar", "goalsDescription":"Doğrulama daha yüksek bir güven formudur","goalsIcon":"fas fa-bug"},
-		{"goals":"9. Tam Kontrol Sağlama", "goalsDescription":"%100 yazar kodu yazıyoruz","goalsIcon":"far fa-file-code"},
-		{"goals":"10. Yüksek Kaliteli İçerik", "goalsDescription":"Etkileşimli içerik için çaba sarf ediyoruz","goalsIcon":"far fa-file-alt"}
+		{"goals":"1. Basit tasarım", "goalsDescription":"Keyifli bir kullanıcı deneyimi için çalışıyoruz","goalsIcon":"fa fa-users"},
+		{"goals":"2. en iyi izlenim", "goalsDescription":"Hedef, hedefe isabetli bir vuruştur","goalsIcon":"fa fa-bullseye"},
+		{"goals":"3. Basit gezinme", "goalsDescription":"Kullanıcılar için aramayı kolaylaştırıyoruz","goalsIcon":"fa fa-list-ul"},
+		{"goals":"4. Doğal deneyim", "goalsDescription":"Tutarlı bir stile sahip sonsuz sayıda sayfa","goalsIcon":"fas fa-crosshairs"},
+		{"goals":"5. Seçilen renkler", "goalsDescription":"Renkli tipografiyi takdir ediyoruz","goalsIcon":"fas fa-palette"},
+		{"goals":"6. Duyarlı tasarım", "goalsDescription":"Birçok cihaz - tek tasarım","goalsIcon":"fas fa-expand-arrows-alt"},
+		{"goals":"7. Birden çok tarayıcı", "goalsDescription":"Tarayıcılar arasında aynı kalite","goalsIcon":"fa fa-safari"},
+		{"goals":"8. Sıfır hata", "goalsDescription":"Doğrulama, daha yüksek bir güven biçimidir","goalsIcon":"fas fa-bug"},
+		{"goals":"9. garantili kontrol", "goalsDescription":"Bizim tarafımızdan yazılan %100 telif hakkıyla korunan kod","goalsIcon":"far fa-file-code"},
+		{"goals":"10. kaliteli içerik", "goalsDescription":"Etkileyici içerik için çalışıyoruz","goalsIcon":"far fa-file-alt"}
 	]},
-	{"phone":"TELEFON", "adress":"ŞUMEN, 17 OBORISHTE", "officeTitle":"OFİS", "email":"E-POSTA"},
+	{"phone":"telefon", "adress":"ŞÜMEN, 17 OBORISHTE Meydanı", "officeTitle":"ofis", "email":"e-posta"},
 	{
 		"ekoForm": "iletişim formu - Ekrem Mehmedov",
-        "seloForm": "iletişim formu - Seliha Mehmedova",
-		"firstName": "isim",
-        "surname":"Soyad",
+        "seloForm": "iletişim formu - seliha mehmedova",
+		"firstName": "İsim",
+        "surname":"Soyadı",
         "em":"e-posta",
         "mess":"mesaj",
 		"sendBtn":"Gönder"

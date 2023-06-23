@@ -1,0 +1,36 @@
+<ng-container *ngIf="product" class="web-design-plans">
+    <ng-container *ngFor="let item of product.descriptions">
+        <h1>{{item.title}}</h1> 
+        <ng-container *ngIf="!item.subtitles">
+            <p *ngFor="let paragraph of item.paragrahps">{{paragraph.paraItems}}</p>
+        </ng-container>
+        <ng-container *ngIf="item.subtitles">
+            <ng-container *ngFor="let terms of item.subtitles">
+                <ng-container *ngIf="terms.termsDescriptions">
+                    <h2>{{terms.title}}</h2>
+                    <ng-container *ngFor="let parag of terms.termsDescriptions">
+                       <p *ngFor="let items of parag.paragrahps">{{items.paragrahp}}</p> 
+                       <ng-container *ngFor="let listterms of parag.listparagraph">
+                            <ul>
+                                <ng-container *ngIf="!listterms.link">
+                                    <li><p><i class="fa-sharp fa-solid fa-star-of-life"></i> <strong>{{listterms.strong}}</strong> {{listterms.paragraph}}</p></li>
+                                </ng-container>
+                                <ng-container *ngIf="listterms.link">
+                                    <li><p><i class="fa-sharp fa-solid fa-star-of-life"></i> <strong>{{listterms.strong}}</strong> {{listterms.paragraph}} <a [href]="listterms.link">{{listterms.link}}</a> </p></li>
+                                </ng-container>
+                            </ul>
+                       </ng-container>
+                    </ng-container>
+                </ng-container>
+                <ng-container *ngIf="!terms.termsDescriptions">
+                    <h2>{{terms.title}}</h2>
+                    <p *ngFor="let paragraph of terms.paragrahps">{{paragraph.paraItems}}</p>
+                </ng-container>
+            </ng-container>
+        </ng-container>
+        
+    </ng-container> 
+</ng-container>
+<ng-container *ngIf="!product">
+    <p>Product not found.</p>
+</ng-container>

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LangTranslateService } from 'src/app/services/lang-translate.service';
 
@@ -10,7 +10,9 @@ import { LangTranslateService } from 'src/app/services/lang-translate.service';
 export class PortfolioComponent implements AfterViewInit {
 
   activeModalIndex: number = 0;
-  slideIndex: number = 1;
+  slideIndexes: { [modal: string]: number } = {};
+
+  @ViewChild('modalContainer') modalContainer!: ElementRef;
 
   constructor(private langTranslate: LangTranslateService, private elementRef: ElementRef) { }
 
@@ -25,63 +27,72 @@ export class PortfolioComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    setTimeout(() => {
-      const buttons = this.elementRef.nativeElement.getElementsByClassName('open-modal-btn');
+    const modalElements = this.modalContainer.nativeElement.getElementsByClassName('modal');
+    const modalButtons = this.elementRef.nativeElement.getElementsByClassName('open-modal-btn');
+    const thumbnails = this.elementRef.nativeElement.getElementsByClassName('thumbnail');
 
-      // Iterate over each button and attach click event handlers
-      for (let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', () => {
-          const modalId = buttons[i].dataset.modalTarget;
-          const modal = document.getElementById(modalId);
-
-          if (modal) {
-            // Show the modal
-            modal.style.display = 'block';
-
-            // Update the active modal index
-            this.activeModalIndex = i;
-          }
-        });
-      }
-
-      const closeButtons = this.elementRef.nativeElement.getElementsByClassName('close');
-
-      // Iterate over each close button and attach click event handlers
-      for (let j = 0; j < closeButtons.length; j++) {
-        closeButtons[j].addEventListener('click', () => {
-          const modal = closeButtons[j].parentElement;
-
-          // Hide the modal
-          modal.style.display = 'none';
-        });
-      }
-    }, 100)
-  }
-
-  currentSlide(n: number) {
-    this.showSlides(this.activeModalIndex, this.slideIndex = n);
-  }
-
-  showSlides(modalIndex: number, n: number) {
-    const slides = this.elementRef.nativeElement.getElementsByClassName("mySlides");
-    const thumbnails = this.elementRef.nativeElement.getElementsByClassName("thumbnail");
-
-    if (n > slides.length) {
-      this.slideIndex = 1;
-    }
-    if (n < 1) {
-      this.slideIndex = slides.length;
-    }
-
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+    for (let i = 0; i < modalButtons.length; i++) {
+      modalButtons[i].addEventListener('click', () => {
+        this.openModal(i);
+      });
     }
 
     for (let i = 0; i < thumbnails.length; i++) {
-      thumbnails[i].className = thumbnails[i].className.replace(" active", "");
+      thumbnails[i].addEventListener('click', (event: Event) => {
+        const target = event.target as HTMLElement;
+        const modalId = target.getAttribute('data-modal-id');
+        const slideIndex = parseInt(target.getAttribute('data-slide-index') || '0');
+        this.currentSlide(modalId, slideIndex);
+      });
     }
 
-    slides[this.slideIndex - 1].style.display = "block";
-    thumbnails[this.slideIndex - 1].className += " active";
+    for (let i = 0; i < modalElements.length; i++) {
+      modalElements[i].getElementsByClassName('close')[0].addEventListener('click', () => {
+        this.closeModal(i);
+      });
+    }
   }
+
+  openModal(index: number) {
+    const modalElements = this.modalContainer.nativeElement.getElementsByClassName('modal');
+    const modalId = modalElements[index].getAttribute('id');
+    this.activeModalIndex = index;
+    modalElements[index].style.display = 'block';
+    this.slideIndexes[modalId] = 1;
+    this.showSlides(modalId, this.slideIndexes[modalId]);
+  }
+
+  closeModal(index: number) {
+    const modalElements = this.modalContainer.nativeElement.getElementsByClassName('modal');
+    modalElements[index].style.display = 'none';
+  }
+  currentSlide(modalId: string | null, slideIndex: number) {
+    if (modalId !== null) {
+      this.showSlides(modalId, this.slideIndexes[modalId] = slideIndex);
+    }
+  }
+
+  showSlides(modalId: string, slideIndex: number) {
+    const modalElements = this.modalContainer.nativeElement.getElementsByClassName('modal');
+    const slides = modalElements[this.activeModalIndex].getElementsByClassName('mySlides');
+    const thumbnails = modalElements[this.activeModalIndex].getElementsByClassName('thumbnail');
+
+    if (slideIndex > slides.length) {
+      this.slideIndexes[modalId] = 1;
+    }
+
+    if (slideIndex < 1) {
+      this.slideIndexes[modalId] = slides.length;
+    }
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+
+    for(let i = 0; i < thumbnails.length; i++) {
+    thumbnails[i].classList.remove('active');
+    }slides[this.slideIndexes[modalId] - 1].style.display = 'block';
+    thumbnails[this.slideIndexes[modalId] - 1].classList.add('active');
+  }
+    
 }

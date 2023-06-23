@@ -1,133 +1,42 @@
-<!-- for web design portfolio  start -->
-<!-- <section class="my-portfolio">
+<ng-container *ngIf="jsonData$ | async as jsonData">
+  <section class="my-portfolio">
     <div class="portfolio-box">
-        <div class="box-item"><h1>УЕБ ДИЗАЙН</h1></div>
-        <div class="box-item">
-            <div class="item">
-                <div class="item-img">
-                    <img src="../../../../assets/images/portfolio/webdesign/img_1.webp" alt="">
-                </div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_1"><i class="fa-sharp fa-solid fa-eye"></i></button></div>
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_2"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_3"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_4"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_5"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_6.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_6"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_7.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_7"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_8"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
-            <div class="item">
-                <div class="item-img"><img src="../../../../assets/images/portfolio/webdesign/img_9.webp" alt=""></div>
-                <div class="item-view"><button class="open-modal-btn" data-modal-target="modal_9"><i class="fa-sharp fa-solid fa-eye"></i></button></div>                
-            </div>
+      <div class="box-item"><h1>{{jsonData[31]?.title}}</h1></div>
+      <div class="box-item">
+        <div class="item" *ngFor="let item of jsonData[31]?.portfolioWebDesign">
+          <div class="item-img"><img [src]="item.imgOptions[0].img" [alt]="item.descriptions"></div>
+          <div class="item-view"><button class="open-modal-btn" (click)="openModal(item.modal)"><i class="fa-sharp fa-solid fa-eye"></i></button></div>
         </div>
-        <div class="box-item"><a href="webdesign-portfolio">виж още</a></div>
+      </div>
+      <div class="box-item"><a [href]="jsonData[31]?.link">{{jsonData[31]?.btnName}}</a></div>
     </div>
-</section>
+  </section>
 
-<div id="modal_1" class="modal">
-    <span class="close cursor">&times;</span>
-    <div class="tittle-modal">
-        <h1>Проект #1</h1>
-    </div>
-    <div class="modal-content">
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Image 1">
+  <div #modalContainer>
+    <ng-container *ngFor="let item of jsonData[31]?.portfolioWebDesign">
+      <div id="{{item.modal}}" class="modal">
+        <span class="close cursor" (click)="closeModal(item.modal)">&times;</span>
+        <div class="tittle-modal">
+          <h1>{{item.title}}</h1>
+        </div>
+        <div class="modal-content">
+          <div class="mySlides" *ngFor="let image of item.imgOptions">
+            <img [src]="image.img" [alt]="item.descriptions">
+          </div>
+        </div>
+        <div class="thumbnail-container">
+            <ng-container *ngFor="let image of item.imgOptions; let i = index">
+              <div class="thumbnail" (click)="currentSlide(item.modal, i + 1)">
+                <img [src]="image.img" [alt]="item.descriptions">
+              </div>
+            </ng-container>
+        </div>
       </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Image 2">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Image 3">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Image 4">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Image 5">
-      </div>
-    </div>
-    <div class="thumbnail-container">
-      <div class="thumbnail" onclick="currentSlide(1)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Thumbnail 1">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(2)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Thumbnail 2">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(3)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Thumbnail 3">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(4)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Thumbnail 4">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(5)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Thumbnail 5">
-      </div>
-    </div>
-</div>
+    </ng-container>
+  </div>
+</ng-container>
 
-<div id="modal_2" class="modal">
-    <span class="close cursor">&times;</span>
-    <div class="tittle-modal">
-        <h1>Проект #1</h1>
-    </div>
-    <div class="modal-content">
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Image 1">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Image 2">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Image 3">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Image 4">
-      </div>
-      <div class="mySlides">
-        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Image 5">
-      </div>
-    </div>
-    <div class="thumbnail-container">
-      <div class="thumbnail" onclick="currentSlide(1)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_8.webp" alt="Thumbnail 1">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(2)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_2.webp" alt="Thumbnail 2">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(3)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_3.webp" alt="Thumbnail 3">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(4)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_4.webp" alt="Thumbnail 4">
-      </div>
-      <div class="thumbnail" onclick="currentSlide(5)">
-        <img src="../../../../assets/images/portfolio/webdesign/img_5.webp" alt="Thumbnail 5">
-      </div>
-    </div>
-</div> -->
-<!-- for web design portfolio end  -->
+
 
 <!-- for web design portfolio start -->
 <section class="my-portfolio">
@@ -228,42 +137,5 @@
   </div>
 </section>
 <!-- for business card design portfolio end  -->
-
-<ng-container *ngIf="jsonData$ | async as jsonData">
-  <section class="my-portfolio">
-    <div class="portfolio-box">
-      <div class="box-item"><h1>{{jsonData[26]?.title}}</h1></div>
-      <div class="box-item">
-        <div class="item" *ngFor="let item of jsonData[26]?.portfolioWebDesign">
-          <div class="item-img"><img [src]="item.imgOptions[0].img" [alt]="item.descriptions"></div>
-          <div class="item-view"><button class="open-modal-btn"  attr.data-modal-target="{{item.modal}}"><i class="fa-sharp fa-solid fa-eye"></i></button></div>
-        </div>
-      </div>
-      <div class="box-item"><a [href]="jsonData[26]?.link">{{jsonData[26]?.btnName}}</a></div>
-    </div>
-  </section>
-
-  <ng-container *ngFor="let item of jsonData[26]?.portfolioWebDesign">
-    <div id="{{item.modal}}" class="modal">
-      <span class="close cursor">&times;</span>
-      <div class="tittle-modal">
-        <h1>{{item.title}}</h1>
-      </div>
-      <div class="modal-content">
-        <div class="mySlides" *ngFor="let image of item.imgOptions">
-          <img [src]="image.img" [alt]="item.descriptions">
-        </div>
-      </div>
-      <div class="thumbnail-container">
-          <ng-container *ngFor="let image of item.imgOptions">
-            <div class="thumbnail" (click)="currentSlide(image.index)">
-              <img [src]="image.img" [alt]="item.descriptions">
-            </div>
-          </ng-container>
-      </div>
-    </div>
-  </ng-container>
-  
-</ng-container>
 
 
